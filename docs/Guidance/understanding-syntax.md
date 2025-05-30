@@ -2,7 +2,7 @@
 ## Types of Variables
 **Variables** are individual values that are stored to the player to manipulate their ingame experience. Without variables, creating any sort of story or event within the game would be impossible.
 
-There are three types of variables. They are different in function, and when they should be reset.
+There are four types of variables. They are different in function, and when they should be reset.
 
 ### Variables
 
@@ -11,6 +11,7 @@ Name | Code | Description
 **Variables** | var | Variables are reset after the game is reloaded by the user.
 **Map Variables** | mapvar | Map Variables are reset after the user switches maps.
 **Event Variables** | ev | Event Variables are stored indefinitely. Due to their permanent nature, these values are used for events and story progression.
+**Region Variables** | var/mapvar/ev | A variable controlled within region parameters, and are set at the initialisation of a region.
 
 !!! note "Note"
 
