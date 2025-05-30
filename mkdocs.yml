@@ -63,7 +63,23 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/XkGpwvE
 
-plugins:
-   - search
-   - awesome-nav
-   
+nav:
+  - Home: index.md
+  - Tilefuser:
+    - Tilefuser: introductiontotilefuser.md
+    - Creating a Tilemap: creatingatilemap.md
+  - Mapbuilder:
+    - Mapbuilder: introductiontomapbuilder.md
+    - Understanding Syntax: understanding-syntax.md
+    - Understanding Objects: understanding-objects.md
+    - Understanding Definitions: understanding-definitions.md
+    - Understanding Data Types: understanding-datatypes.md
+  - Coding Reference:
+    - Object Functions: object-functions.md
+    - Entity Properties: entity-properties.md
+    - Conditions: conditions.md
+    - Triggers: triggers.md
+    - Pokémon Generation: pokemon-generation.md
+    - Battle Properties: battle-properties.md
+  - Commonly Asked Questions:
+    - Roles and Permissons: rolesandpermissions.md
