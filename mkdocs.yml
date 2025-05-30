@@ -64,22 +64,22 @@ extra:
       link: https://discord.gg/XkGpwvE
 
 nav:
-  - Home: index.md
+  - Home: docs\index.md
   - Tilefuser:
-    - Tilefuser: introductiontotilefuser.md
-    - Creating a Tilemap: creatingatilemap.md
+    - Tilefuser: docs\Tilefuser\introductiontotilefuser.md
+    - Creating a Tilemap: docs\Tilefuser\creatingatilemap.md
   - Mapbuilder:
-    - Mapbuilder: introductiontomapbuilder.md
-    - Understanding Syntax: understanding-syntax.md
-    - Understanding Objects: understanding-objects.md
-    - Understanding Definitions: understanding-definitions.md
-    - Understanding Data Types: understanding-datatypes.md
+    - Mapbuilder: docs\Mapbuilder\introductiontomapbuilder.md
+    - Understanding Syntax: docs\Mapbuilder\understanding-syntax.md
+    - Understanding Objects: docs\Mapbuilder\understanding-objects.md
+    - Understanding Definitions: docs\Mapbuilder\understanding-objects.md
+    - Understanding Data Types: docs\Mapbuilder\understanding-datatypes.md
   - Coding Reference:
-    - Object Functions: object-functions.md
-    - Entity Properties: entity-properties.md
-    - Conditions: conditions.md
-    - Triggers: triggers.md
-    - Pokémon Generation: pokemon-generation.md
-    - Battle Properties: battle-properties.md
+    - Object Functions: docs\Coding Reference\object-functions.md
+    - Entity Properties: docs\Coding Reference\entity-properties.md
+    - Conditions: docs\Coding Reference\conditions.md
+    - Triggers: docs\Coding Reference\triggers.md
+    - Pokémon Generation: docs\Coding Reference\pokemon-generation.md
+    - Battle Properties: docs\Coding Reference\battle-properties.md
   - Commonly Asked Questions:
-    - Roles and Permissons: rolesandpermissions.md
+    - Roles and Permissons: docs\Commonly Asked Questions\rolesandpermissions.md
