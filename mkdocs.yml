@@ -62,3 +62,7 @@ extra:
       link: https://pokengine.org
     - icon: fontawesome/brands/discord
       link: https://discord.gg/XkGpwvE
+
+plugins:
+   - search
+   - awesome-nav
