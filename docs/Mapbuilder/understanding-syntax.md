@@ -13,7 +13,7 @@ Name | Code | Description
 **Event Variables** | ev | Event Variables are stored indefinitely. Due to their permanent nature, these values are used for events and story progression.
 **Region Variables** | var/mapvar/ev | A variable controlled within region parameters, and are set at the initialisation of a region.
 
-!!! note "Note"
+!!! warning "Note"
 
     Be careful when using event variables within the sandbox/debug environment. The more variables that you load onto a player, the more data that may be wasted. To be safe, we advise that when testing that you use other types of variables first, and then switch them to even variables when the map goes public.
 

@@ -106,7 +106,7 @@ prints(sprite,frames,speed,fade,directional)
 **fade (number)**
 : Time for the animation to fade in milliseconds (ms).
 
-**`directional (0/1)`** 
+**directional (0/1)** 
 : Based on direction?
 **Options**: - 0 = No
 1 = Yes
