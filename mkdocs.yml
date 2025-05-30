@@ -62,24 +62,3 @@ extra:
       link: https://pokengine.org
     - icon: fontawesome/brands/discord
       link: https://discord.gg/XkGpwvE
-
-nav:
-  - Home: docs\index.md
-  - Tilefuser:
-    - Tilefuser: docs\Tilefuser\introductiontotilefuser.md
-    - Creating a Tilemap: docs\Tilefuser\creatingatilemap.md
-  - Mapbuilder:
-    - Mapbuilder: docs\Mapbuilder\introductiontomapbuilder.md
-    - Understanding Syntax: docs\Mapbuilder\understanding-syntax.md
-    - Understanding Objects: docs\Mapbuilder\understanding-objects.md
-    - Understanding Definitions: docs\Mapbuilder\understanding-objects.md
-    - Understanding Data Types: docs\Mapbuilder\understanding-datatypes.md
-  - Coding Reference:
-    - Object Functions: docs\Coding Reference\object-functions.md
-    - Entity Properties: docs\Coding Reference\entity-properties.md
-    - Conditions: docs\Coding Reference\conditions.md
-    - Triggers: docs\Coding Reference\triggers.md
-    - Pokémon Generation: docs\Coding Reference\pokemon-generation.md
-    - Battle Properties: docs\Coding Reference\battle-properties.md
-  - Commonly Asked Questions:
-    - Roles and Permissons: docs\Commonly Asked Questions\rolesandpermissions.md
