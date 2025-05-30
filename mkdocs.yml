@@ -14,7 +14,8 @@ theme:
     - content.code.select
     - content.code.annotate
     - content.tooltips
-    - navigation.sections
+    - navigation.path
+    - navigation.top
 
   palette:
   # Dark Mode
