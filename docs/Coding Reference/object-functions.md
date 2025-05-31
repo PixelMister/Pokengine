@@ -9,21 +9,19 @@ Any object function ending with `&triggers` may have an optional string of game 
 ## XY
 Offsets the display of the object.
 
-```json title="xy" 
+```json 
 xy(x,y)
 ```
-**x (number)**
-    : Horizontal offset in pixels.
 
-**y (number)**
-    : Vertical offset in pixels.
+**xy(x,y) (number)**
+    : Setting the horizontal and vertical offset together in pixels. Can be positive or negative values.
 
 ---
 
 ## Solid
 Makes the tile solid. Give a specific direction to customize which edge of the tile is solid. Can be stacked in the same object, to provide two or more directional solids.
 
-```json title="solid" 
+```json
 solid(type)
 ```
 **type (direction)**
