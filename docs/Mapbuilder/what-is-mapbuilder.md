@@ -1,4 +1,4 @@
-## What is Mapbuilder?
+# What is Mapbuilder?
 Mapbuilder is Pokengine’s tool for programming and integrating Tilefuser maps into the game engine. Only users who have been granted access to Mapbuilder can use it to add their maps to the game. 
 
 Access to Mapbuilder is limited to those developing regions or trusted with the tool, as it provides a high level of control over the game engine.

@@ -1,4 +1,4 @@
-# **Pokengine Documentaion**
+# **Home**
 Info | Description
 ------------|-------------
 Authors | Jext, Zermonious, Fuzzy, Twitch, Kyledove, Pixelmister
@@ -13,7 +13,7 @@ Pokengine is a community-driven platform focused on creating custom content, suc
 
 At its core, Pokengine is an engine, not a game itself. The game aspect is built by the users, meaning Pokengine isn’t just one game but a collection of many, all rolled into one.
 
-The engine provides a suite of online, browser-based tools specifically designed to help users edit and build their own game worlds.
+The engine provides a suite of online, browser-based tools specifically designed to help users edit and build their own game worlds. 
 
 ## Tutorial
 New to jCoad? Never written a line of code before? This tutorial will guide you step-by-step through the basics of jCoad, helping you get started with coding in no time.
