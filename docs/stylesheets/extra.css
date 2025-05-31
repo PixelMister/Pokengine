@@ -1,20 +1,15 @@
-/* Full left sidebar (including nav container) */
-.md-sidebar--primary {
-  background-color: #ffa3a3;
+/* Ensure entire left sidebar has background colour */
+.md-sidebar--primary,
+.md-sidebar--primary .md-sidebar__scrollwrap,
+.md-sidebar--primary .md-sidebar__inner,
+.md-sidebar--primary .md-nav {
+  background-color: #ff7474 !important;
 }
 
-/* Full right sidebar (table of contents container) */
-.md-sidebar--secondary {
-  background-color: #ffa1a1;
-}
-
-/* Ensure inner nav elements also inherit the background */
-.md-nav {
-  background-color: inherit;
-}
-
-/* Optional: fix contrast if needed */
-.md-nav__item a,
-.md-nav__link {
-  color: #ff8f8f;
+/* Ensure entire right sidebar (table of contents) has background colour */
+.md-sidebar--secondary,
+.md-sidebar--secondary .md-sidebar__scrollwrap,
+.md-sidebar--secondary .md-sidebar__inner,
+.md-sidebar--secondary .md-nav {
+  background-color: #ff6c6c !important;
 }
