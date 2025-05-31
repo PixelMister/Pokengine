@@ -1,0 +1,9 @@
+/* Left Sidebar (main navigation) */
+.md-sidebar--primary {
+  background-color: #7986be; /* Change to your desired colour */
+}
+
+/* Right Sidebar (table of contents) */
+.md-sidebar--secondary {
+  background-color: #7986be; /* Change to your desired colour */
+}
