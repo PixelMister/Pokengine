@@ -1,11 +1,3 @@
-# Introduction
-## What is Pokengine?
-Pokengine is a community-driven platform focused on creating custom content, such as Regions or Dexes. It also offers a browser-based MMO that merges all the user-created content into one expansive game, though Regions can be kept separate and turned into standalone games if their creators prefer. 
-
-At its core, Pokengine is an engine, not a game itself. The game aspect is built by the users, meaning Pokengine isn’t just one game but a collection of many, all rolled into one.
-
-The engine provides a suite of online, browser-based tools specifically designed to help users edit and build their own game worlds.
-
 ## What is Mapbuilder?
 Mapbuilder is Pokengine’s tool for programming and integrating Tilefuser maps into the game engine. Only users who have been granted access to Mapbuilder can use it to add their maps to the game. 
 

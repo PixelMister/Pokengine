@@ -18,6 +18,11 @@ xy(x,y)
 **y (number)**
 : Vertical offset in pixels.
 
+Syntax | Value Type | Description
+------------|-------------|-------------
+x | number | Horizontal offset in pixels.
+y | number | Vertical offset in pixels.
+
 ---
 
 ## Solid
