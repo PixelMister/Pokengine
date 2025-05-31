@@ -1,7 +1,7 @@
 # Battle Properties
 You can set various battle properties, when you call for it to start within an objects code. This applies to both wild battles and trainer battles. The properties are listed below.
 
-# Battle Limiters
+## Battle Limiters
 ## No Running
 You cannot run from this battle. This is the default setting for trainer battles, so you only need to specify it for wild battles.
 ```json
@@ -37,7 +37,7 @@ Levels of the opposing Pokémon are hidden. Appears as ???.
 ```json 
 hiddenlevel
 ```
-# Battle Format
+## Battle Format
 ## Double Battles
 The battle will be changed to the 'double' format of Pokemon battles. This can be applied to both wild and trainer battles.
 ```json
@@ -54,7 +54,7 @@ The opposing Pokemon in this battle, will not be counted as seen in the Pokedex.
 ```json
 noseen
 ```
-# Battle Scene Alterations
+## Battle Scene Alterations
 ## Battle Environment (Scene)
 Sets the battle scene (background image) to the one specified. Only necessary for wild battles, as trainer battles have a scene property set in advance. Additional scenes are added for battles, using the scene context menu in the Mapbuilder editor.
 ```json
@@ -67,7 +67,7 @@ Sets the music playing during battle. Currently hosting on Dropbox is supported 
 theme url
 ```
 
-# Examples
+## Examples
 ## Wild Pokemon Boss
 This first example is a boss battle against a wild Pokémon. You cannot run or catch it, and the level is hidden. The Pokémon’s name is also set to hide its species.
 ```json title="Code Example" 
