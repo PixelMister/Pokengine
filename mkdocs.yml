@@ -4,8 +4,6 @@ extra_css:
   - stylesheets/extra.css
 theme:
   name: material
-  custom_dir: overrides
-
 
   font:
     text: Outfit
