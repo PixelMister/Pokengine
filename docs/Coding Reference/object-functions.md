@@ -13,15 +13,10 @@ Offsets the display of the object.
 xy(x,y)
 ```
 **x (number)**
-: Horizontal offset in pixels.
+    : Horizontal offset in pixels.
 
 **y (number)**
-: Vertical offset in pixels.
-
-Syntax | Value Type | Description
-------------|-------------|-------------
-x | number | Horizontal offset in pixels.
-y | number | Vertical offset in pixels.
+    : Vertical offset in pixels.
 
 ---
 
