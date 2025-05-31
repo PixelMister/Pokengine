@@ -10,26 +10,34 @@ The first option in the generation string should be an identification string. Th
 
 ## Unique Identifier
 Set the Pokemon’s unique identifier. This is found on their dex page.
-```json title="uid | id" 
+```json
 uid
+```
+```json
 id
 ```
 
 ## Dynamic Levelling
 Allows the Pokemon's level to scale using dynamic levelling.
-```json title="dynamic-level | d" 
+```json
 dynamic-level
+```
+```json
 d level
 ```
 
 ## Level
 Set the Pokemon’s level. Can be a single number, multiple comma-separated values, or a range of values. Use ```same``` if initiating a trade and you want the new Pokemon to be the same level as the traded Pokemon.
-```json title="level | lv | l" 
+```json
 level levels
+```
+```json
 lv levels
+```
+```json
 l levels
 ```
-```json title="Level Example" 
+```json title="Code Example" 
 00bxxu0w;level 5
 00bxxu0w;level 5,10,15
 00bxxu0w;level 5-15
@@ -37,29 +45,41 @@ l levels
 ```
 ## Nickname
 Set the Pokemon’s nickname.
-```json title="nickname | nick | name | n" 
+```json
 nickname name
+```
+```json
 nick name
+```
+```json
 name name
+```
+```json
 n name
 ```
 ## Genders
 Set the Pokemon's gender to Male.
-```json title="male | m" 
+```json
 male
+```
+```json
 m
 ```
 
 Set the Pokemon's gender to Female.
-```json title="female | f" 
+```json
 female
+```
+```json
 f
 ```
 
 ## Status Effects
 Set the Pokemon’s status. A Pokemon's status is determined by stating the affliction, after the word 'status'.
-```json title="status | q" 
+```json
 status
+```
+```json
 q
 ```
 ```json title="Code Examples" 
@@ -85,8 +105,10 @@ q paralyzed
 
 ## Current HP
 Set the Pokemon's current HP value. This is not Max HP or the HP stat.
-```json title="hp | h" 
+```json
 hp hp
+```
+```json
 h hp
 ```
 ```json title="Code Examples" 
@@ -95,8 +117,10 @@ h 20
 ```
 ## Pokemon Ability
 Set the Pokemon's Ability Slot. Omit code, for a random ability from the Pokemon's dex page.
-```json title="ability | a" 
+```json
 ability ability
+```
+```json
 a ability
 ```
 ```json title="Code Examples" 
@@ -115,8 +139,10 @@ a 1
 
 ## Pokemon Nature
 Set the Pokemon's Nature to one of twenty four possible options. Omit the code, for a random nature.
-```json title="nature | p" 
+```json
 nature nature
+```
+```json
 p nature
 ```
 ```json title="Code Examples" 
@@ -156,8 +182,10 @@ Quirky | 25 | Sp.Def | Sp.Def
 
 ## Pokemon Moves
 Set the Pokemon's moveset by referencing the move id.
-```json title="moves | o" 
+```json
 moves moveid1,moveid2,moveid3,moveid4
+```
+```json
 o moveid1,moveid2,moveid3,moveid4
 ```
 ```json title="Code Examples" 
@@ -167,8 +195,10 @@ o 077lfqoy (This would place Absorb in Move Slot 1)
 
 ## Pokemon Held Item
 Set the Pokemon’s held item, through referencing the Item Id.
-```json title="item | b" 
+```json
 item itemid
+```
+```json
 b itemid
 ```
 ```json title="Code Examples" 
@@ -178,9 +208,13 @@ b 06a1u97i (This would give the Pokemon a potion.)
 
 ## Pokemon Happiness/Friendship Value
 Set the Pokemon’s happiness/friendship value. Should be between 0 and 255, inclusive.
-```json title="happiness | friendship | w" 
+```json
 happiness value
+```
+```json
 friendship value
+```
+```json
 w value
 ```
 ```json title="Code Examples" 
@@ -191,8 +225,10 @@ w 120 (This would set the happiness/friendship value at 120)
 ## Pokemon Eggs
 Set the Pokemon as an egg with the given number of steps required to hatch. Each egg cycle, corresponds to 255 steps.
 
-```json title="happiness | friendship | w" 
+```json
 egg steps
+```
+```json
 y steps
 ```
 ```json title="Code Examples" 
@@ -203,8 +239,10 @@ y 255 (This Pokemon will be generated as an egg and require 255 steps to hatch.)
 ## Pokemon Individual Values (IVs)
 Set the Pokemon’s IV Values, for each one of its six stats.
 
-```json title="ivs | i" 
+```json
 ivs iv_values
+```
+```json
 i iv_values
 ```
 ```json title="Code Examples" 
@@ -215,8 +253,10 @@ i 31,0,31,31,31,31 (This would give the Pokemon, 31 IVs in its HP, Def, Sp.Atk, 
 ## Pokemon Effort Values (EVs)
 Set the Pokemon’s EV Values. Each Pokemon is limited to 508 effort points in total. 252 are required to maximise a stat.
 
-```json title="evs | e" 
+```json
 evs ev_values
+```
+```json
 e ev_values
 ```
 ```json title="Code Examples" 
@@ -226,8 +266,10 @@ e 252,0,0,0,4,252 (This would give the Pokemon, 252 EVs in its HP and Spd stats,
 ## Shiny Pokemon
 Set the Pokemon as shiny or not. Use ? for a random chance of shiny. Use no or 0 for shiny locked.
 
-```json title="shiny | s" 
+```json
 shiny value
+```
+```json
 s value
 ```
 ```json title="Code Examples" 
@@ -246,8 +288,10 @@ Value| Function |
 ## Pokemon Caught Data
 Set the Pokemon’s caught data. Caught strings are another type of string that must be formatted. Every option must appear continuously.
 
-```json title="caught | c" 
+```json
 caught caught_string
+```
+```json
 c caught_string
 ```
 ```json title="Code Limiters" 

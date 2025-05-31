@@ -4,66 +4,66 @@ You can set various battle properties, when you call for it to start within an o
 # Battle Limiters
 ## No Running
 You cannot run from this battle. This is the default setting for trainer battles, so you only need to specify it for wild battles.
-```json title="norun" 
+```json
 norun
 ```
 ## No Catching
 You cannot catch the opposing Pokemon. This is the default setting for trainer battles, so you only need to specify it for wild battles.
-```json title="nocatch" 
+```json
 nocatch
 ```
 ## No Money
 You will not earn money from this battle. This is the default setting for wild battles, so you only need to specify it for trainer battles.
-```json title="nomoney" 
+```json 
 nomoney
 ```
 ## No Experience Points
 Your Pokemon will not gain any experience points from this battle.
-```json title="noexp" 
+```json
 noexp
 ```
 ## No Item Use
 You will not be able to use items from the bag widget during battle. For example, Poke Balls or Potions.
-```json title="noitems" 
+```json 
 noitems
 ```
 ## Fixed Pokemon Level
 Forces all Pokémon in battle to the specified level. Uses their true stats (IVs, EVs) but calculates the actual stat value (attack, etc) based on the new set level. This works identically to fixed level battles such as the Battle Tower in the mainline games.
-```json title="fixedlevel" 
+```json
 fixedlevel level
 ```
 ## Hidden Opposing Pokemon Level
 Levels of the opposing Pokémon are hidden. Appears as ???.
-```json title="hiddenlevel" 
+```json 
 hiddenlevel
 ```
 # Battle Format
 ## Double Battles
 The battle will be changed to the 'double' format of Pokemon battles. This can be applied to both wild and trainer battles.
-```json title="double" 
+```json
 double
 ```
 ## Triple Battles
 The battle will be changed to the 'triple' format of Pokemon battles. This can be applied to both wild and trainer battles.
-```json title="triple" 
+```json 
 triple
 ```
 # Pokedex Registration
 ## Not Seen in Pokedex
 The opposing Pokemon in this battle, will not be counted as seen in the Pokedex.
-```json title="noseen" 
+```json
 noseen
 ```
 # Battle Scene Alterations
 ## Battle Environment (Scene)
 Sets the battle scene (background image) to the one specified. Only necessary for wild battles, as trainer battles have a scene property set in advance. Additional scenes are added for battles, using the scene context menu in the Mapbuilder editor.
-```json title="scene" 
+```json
 scene id
 ```
 
 ## Battle Theme (needs updating)
 Sets the music playing during battle. Currently hosting on Dropbox is supported only. The format is db: for host, then a modified URL which cuts out the https://www.dropbox.com/ part. theme db:s/fo7smcp2luvrikc/BattleTowerSWSHRemix.mp3 — Sets the theme according to this Dropbox shared URL.
-```json title="theme" 
+```json
 theme url
 ```
 
