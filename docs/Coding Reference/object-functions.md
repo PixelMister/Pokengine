@@ -1,4 +1,4 @@
-## Object Functions
+# Object Functions
 If you are unsure how to use these object functions, check out the objects tab.
 
 Any object function ending with `&triggers` may have an optional string of game triggers appended to them to execute alongside the function. See Triggers for more information.
