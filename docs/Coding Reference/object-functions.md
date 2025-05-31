@@ -445,7 +445,7 @@ ripple(animation,frames,speed,overlay_sprite,loop)&triggers
 
 ---
 
-## Execute
+### Execute
 Executes game triggers immediately when the map loads. To make the triggers tile specific, use `if ontile` before this code. See `ontile`.
 
 See the Triggers reference list for a list of triggers to use.
