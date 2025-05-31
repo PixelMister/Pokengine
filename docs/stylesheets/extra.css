@@ -1,9 +1,20 @@
-/* Left Sidebar (main navigation) */
+/* Full left sidebar (including nav container) */
 .md-sidebar--primary {
-  background-color: #7986be; /* Change to your desired colour */
+  background-color: #ffa3a3;
 }
 
-/* Right Sidebar (table of contents) */
+/* Full right sidebar (table of contents container) */
 .md-sidebar--secondary {
-  background-color: #7986be; /* Change to your desired colour */
+  background-color: #ffa1a1;
+}
+
+/* Ensure inner nav elements also inherit the background */
+.md-nav {
+  background-color: inherit;
+}
+
+/* Optional: fix contrast if needed */
+.md-nav__item a,
+.md-nav__link {
+  color: #ff8f8f;
 }
