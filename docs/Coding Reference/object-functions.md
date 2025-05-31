@@ -34,7 +34,7 @@ solid(type)
 ## Messages
 Displays a textbox message after interacting with the tile.
 
-```json title="msg" 
+```json
 name.msg(text)&triggers
 ```
 **name (string)**
@@ -49,9 +49,13 @@ name.msg(text)&triggers
 ## Answers
 Defines the response to specified answers. Use this code after specifying answer options with the &answers trigger.
 
-```json title="answer" 
+```json
 answername=answer(text)
+```
+```json
 answer#n=answer(text)
+```
+```
 answer.name=answer()
 ```
 **answername (string)**
