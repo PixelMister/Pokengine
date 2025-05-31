@@ -6,7 +6,7 @@ Any object function ending with `&triggers` may have an optional string of game 
 ## Basic Functions
 
 ---
-## XY
+### XY
 Offsets the display of the object.
 
 ```json 
@@ -23,7 +23,7 @@ xy(x,y)
 
 ---
 
-## Solid
+### Solid
 Makes the tile solid. Give a specific direction to customize which edge of the tile is solid. Can be stacked in the same object, to provide two or more directional solids.
 
 ```json
@@ -36,7 +36,7 @@ solid(type)
 
 ---
 
-## Non Player Characters (NPCs)
+### Non Player Characters (NPCs)
 Spawns an NPC on the tile.
 
 ```json
@@ -56,7 +56,7 @@ name=npc(skin,direction,path)
 
 ---
 
-## Messages
+### Messages
 Displays a textbox message after interacting with the tile.
 
 ```json
@@ -71,7 +71,7 @@ name.msg(text)&triggers
 
 ---
 
-## Answers
+### Answers
 Defines the response to specified answers. Use this code after specifying answer options with the &answers trigger.
 
 ```json
@@ -95,7 +95,7 @@ answername=name.answer()
 
 ---
 
-## Dynamic Answers (add section)
+### Dynamic Answers (add section)
 Information
 
 ```json title="codename" 
@@ -115,7 +115,7 @@ answer.name=answer()
 
 ---
 
-## Footprints
+### Footprints
 Draws a sprite footprint, when the player walks offtile.
 
 ```json
@@ -140,7 +140,7 @@ prints(sprite,frames,speed,fade,directional)
 
 ---
 
-## Ledge
+### Ledge
 Creates a ledge that can be hopped over in one direction.
 
 ```json
@@ -160,7 +160,7 @@ ledge(direction,jump_height,distance)
 
 ---
 
-## Item
+### Item
 Spawns an overworld item or Pokémon. If a Pokémon is spawned, it will be given to the player, not battled.
 
 ```json
@@ -181,7 +181,7 @@ item(id,amount,sprite)
 ## Map Transfers and Movement
 
 ---
-## Spawn
+### Spawn
 Creates a spawn point. Use on entrances, exits or other spawn points.
 
 ```json
@@ -213,7 +213,7 @@ spawn(fly)
 : Time for the animation to fade in milliseconds (ms).
 
 ---
-## Warp
+### Warp
 Warps the player to a spawn point.
 
 ```json
@@ -227,7 +227,7 @@ warp(map,spawn)&triggers
 
 ---
 
-## Door
+### Door
 Creates a door object, that animates when the user walks through it.
 
 ```json
@@ -244,7 +244,7 @@ door(sprite,map,spawn)&triggers
 
 ---
 
-## Moveto
+### Moveto
 Moves the player to the given coordinates by taking the straight-line path.
 
 ```json
@@ -266,7 +266,7 @@ moveto(x,y,direction)
 
 ---
 
-## Cut
+### Cut
 Creates a tree with an image that can be cut down with the move “Cut”.
 
 ```json
@@ -281,7 +281,7 @@ cut(encounter_list,sprite)[&triggers]
 
 ---
 
-## Rock Smash
+### Rock Smash
 Creates a rock or object with an image that can be cut down with the move “Rock Smash”.
 
 ```json
@@ -296,7 +296,7 @@ rocksmash(encounter_list,sprite)[&triggers]
 
 ---
 
-## Surf
+### Surf
 Allows the player to begin surfing across the specified tile area, using the move "Surf".
 
 ```json
@@ -308,7 +308,7 @@ surf(direction)
 
 ---
 
-## Strength
+### Strength
 Creates a heavy object that can be pushed with the move “Strength.”
 
 ```json
@@ -328,7 +328,7 @@ strength(sprite,slide)[&triggers]
 
 ---
 
-## Glow
+### Glow
 Creates a circular glow effect around the tile.
 
 ```json
@@ -348,7 +348,7 @@ name=glow(radius,color,flicker)
 
 ---
 
-## Slide
+### Slide
 Causes the player to slide in the direction indicated until they hit a solid wall or warp.
 
 ```json
@@ -360,7 +360,7 @@ slide(direction)
 
 ---
 
-## Spin
+### Spin
 Causes the player to spin in the direction indicated until they hit a solid wall or warp.
 
 ```json
@@ -372,7 +372,7 @@ spin(direction)
 
 ---
 
-## Height
+### Height
 Creates an invisible wall with the specified height. If short enough, the wall can be jumped over.
 
 ```json
@@ -387,7 +387,7 @@ height(height)
 
 ---
 
-## Encounter
+### Encounters
 Allows encounters of the given type to pop up on this tile. Encounters are created and named for each map.
 
 ```json
@@ -398,7 +398,7 @@ encounter(type)
 
 ---
 
-## Grass
+### Grass
 Creates an animation and overlay over the player while they are on the tile.
 
 ```json
@@ -421,7 +421,7 @@ grass(image,frames,speed,overlay_sprite,loop)&triggers
 
 ---
 
-## Ripple
+### Ripple
 Creates an animation and overlay over the player while they are on the tile.
 
 ```json
@@ -464,7 +464,7 @@ execute(triggers)&triggers
 
 ---
 
-## Heal
+### Heal
 Heals the player’s party and creates a healing animation like the one used in a Pokémon Center.
 
 ```json
