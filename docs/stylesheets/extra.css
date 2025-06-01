@@ -59,34 +59,3 @@
 [data-md-color-scheme="slate"] .md-tabs__item--active > .md-tabs__link {
   color: #ff9800; /* a warm orange tone, or any colour you like */
 }
-.md-typeset__table {
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.md-typeset table {
-  width: 100% !important;
-  table-layout: fixed !important;
-  border-collapse: collapse;
-}
-
-.md-typeset table th,
-.md-typeset table td {
-  text-align: center !important;
-  vertical-align: middle !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  padding: 0.75em 1em !important;
-}
-
-/* Centre content inside cells even if wrapped in other elements */
-.md-typeset table th > *,
-.md-typeset table td > * {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  display: block;
-}
-
-
