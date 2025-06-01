@@ -5,35 +5,39 @@
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Built-in%20Utilities%20%26%20Resources/tips-and-tricks/</loc>
+         <loc>https://pokengine-new.readthedocs.io/About/commonly-asked-questions/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/Object-Functions/</loc>
+         <loc>https://pokengine-new.readthedocs.io/About/request-a-feature/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/battle-properties/</loc>
+         <loc>https://pokengine-new.readthedocs.io/About/rolesandpermissions/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/building-objects/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Code_Library/battle-properties/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/conditions/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Code_Library/conditions/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/entity-properties/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Code_Library/entities/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/pokemon-generation/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Code_Library/objects/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Code%20Library/triggers/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Code_Library/pokemon-generation/</loc>
+         <lastmod>2025-06-01</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Code_Library/triggers/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
@@ -41,19 +45,11 @@
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
+         <loc>https://pokengine-new.readthedocs.io/Feature%20Guides/regional-weather-schedule/</loc>
+         <lastmod>2025-06-01</lastmod>
+    </url>
+    <url>
          <loc>https://pokengine-new.readthedocs.io/Feature%20Guides/trainer-battle-ai/</loc>
-         <lastmod>2025-06-01</lastmod>
-    </url>
-    <url>
-         <loc>https://pokengine-new.readthedocs.io/General%20Info/commonly-asked-questions/</loc>
-         <lastmod>2025-06-01</lastmod>
-    </url>
-    <url>
-         <loc>https://pokengine-new.readthedocs.io/General%20Info/request-a-feature/</loc>
-         <lastmod>2025-06-01</lastmod>
-    </url>
-    <url>
-         <loc>https://pokengine-new.readthedocs.io/General%20Info/rolesandpermissions/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
@@ -73,7 +69,7 @@
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Mapbuilder/understanding-syntax/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Mapbuilder/understanding-variables/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
@@ -89,15 +85,7 @@
          <lastmod>2025-06-01</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/documentwritingguidance/admonitions/</loc>
-         <lastmod>2025-06-01</lastmod>
-    </url>
-    <url>
-         <loc>https://pokengine-new.readthedocs.io/documentwritingguidance/code-examples/</loc>
-         <lastmod>2025-06-01</lastmod>
-    </url>
-    <url>
-         <loc>https://pokengine-new.readthedocs.io/documentwritingguidance/content-tabs/</loc>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/tips-and-tricks/</loc>
          <lastmod>2025-06-01</lastmod>
     </url>
 </urlset>

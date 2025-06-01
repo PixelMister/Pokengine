@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://pokengine-new.readthedocs.io/Mapbuilder/understanding-definitions/">
+        <link rel="canonical" href="https://pokengine-new.readthedocs.io/About/commonly-asked-questions/">
       
       
+        <link rel="prev" href="../../Feature%20Guides/regional-weather-schedule/">
+      
+      
+        <link rel="next" href="../rolesandpermissions/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Understanding Definitions - Pokengine Documentation</title>
+        <title>Commonly Asked Questions - Pokengine Documentation</title>
       
     
     
@@ -72,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#understanding-definitions" class="md-skip">
+        <a href="#commonly-asked-questions" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Understanding Definitions
+              Commonly Asked Questions
             
           </span>
         </div>
@@ -221,7 +225,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../understanding-guide.md" class="md-tabs__link">
+        <a href="../../Mapbuilder/understanding-guide.md" class="md-tabs__link">
           
   
   
@@ -297,11 +301,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../About/commonly-asked-questions/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -425,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-guide.md" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-guide.md" class="md-nav__link">
         
   
   
@@ -448,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-objects.md" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-objects.md" class="md-nav__link">
         
   
   
@@ -471,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-variables/" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-variables/" class="md-nav__link">
         
   
   
@@ -494,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-datatypes/" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-datatypes/" class="md-nav__link">
         
   
   
@@ -924,26 +930,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -956,7 +967,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             About
@@ -967,10 +978,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../About/commonly-asked-questions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -981,6 +1001,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -993,7 +1014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../About/rolesandpermissions/" class="md-nav__link">
+      <a href="../rolesandpermissions/" class="md-nav__link">
         
   
   
@@ -1016,7 +1037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../About/request-a-feature/" class="md-nav__link">
+      <a href="../request-a-feature/" class="md-nav__link">
         
   
   
@@ -1055,30 +1076,7 @@
 
 
 
-<h1 id="understanding-definitions">Understanding Definitions</h1>
-<p>This guide will focus on several definitions for using jCoad functions, properties and triggers.
-Anything in parenthesis (represented by <code>( )</code>) is a <strong>parameter.</strong> Parameters are separated by commas with no spaces between them.</p>
-<p>Any parameter that is then enclosed in brackets (<code>[,example]</code>) is an <strong>optional parameter</strong>. These are not required and may not be needed when you are using the object code.</p>
-<p>Any sets of brackets may be removed and your jCoad will still work properly, but you must be careful to remove the correct set of brackets and optional parameters.</p>
-<p>Take the following jCoad as an example on how to identify which optional parameters can be taken out at once.</p>
-<p>animation(image[,depth[,x,y,width,height[,frames[,speed[,loop]]]]])</p>
-<p>This piece of jCoad can be used in any of the following ways depending on what you may or may not need to include.</p>
-<div class="language-json highlight"><span class="filename">Example with Optional Parameter Signifier</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image)</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">]</span><span class="err">)</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">]]</span><span class="err">)</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">]]]</span><span class="err">)</span><span class="w"> </span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">[,</span><span class="err">speed</span><span class="p">]]]]</span><span class="err">)</span><span class="w"> </span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">[,</span><span class="err">speed</span><span class="p">[,</span><span class="err">loop</span><span class="p">]]]]]</span><span class="err">)</span>
-</span></code></pre></div>
-<p>Now, we only need to remove the brackets to show what we would type into Mapbuilder.</p>
-<div class="language-json highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h)</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="err">)</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes)</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">,</span><span class="err">speed)</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">,</span><span class="err">speed</span><span class="p">,</span><span class="err">loop)</span>
-</span></code></pre></div>
-<p>The parameter names are only used for documentation. These names will be replaced with <strong>arguments</strong> that you swap in. Arguments may be a string of characters, a number, a boolean value, or some other format. All data types are documented alongside the parameter lists later in this guide.</p>
+<h1 id="commonly-asked-questions">Commonly Asked Questions</h1>
 
 
 
@@ -1109,6 +1107,44 @@ Anything in parenthesis (represented by <code>( )</code>) is a <strong>parameter
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../Feature%20Guides/regional-weather-schedule/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Regional Weather Schedules">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Regional Weather Schedules
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../rolesandpermissions/" class="md-footer__link md-footer__link--next" aria-label="Next: Roles and Permissions">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Roles and Permissions
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">

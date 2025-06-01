@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://pokengine-new.readthedocs.io/Mapbuilder/understanding-definitions/">
+        <link rel="canonical" href="https://pokengine-new.readthedocs.io/Code_Library/triggers/">
       
       
+        <link rel="prev" href="../entities/">
+      
+      
+        <link rel="next" href="../battle-properties/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Understanding Definitions - Pokengine Documentation</title>
+        <title>Triggers - Pokengine Documentation</title>
       
     
     
@@ -72,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#understanding-definitions" class="md-skip">
+        <a href="#triggers" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Understanding Definitions
+              Triggers
             
           </span>
         </div>
@@ -221,7 +225,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../understanding-guide.md" class="md-tabs__link">
+        <a href="../../Mapbuilder/understanding-guide.md" class="md-tabs__link">
           
   
   
@@ -257,11 +261,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../Code_Library/objects/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../objects/" class="md-tabs__link">
           
   
   
@@ -425,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-guide.md" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-guide.md" class="md-nav__link">
         
   
   
@@ -448,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-objects.md" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-objects.md" class="md-nav__link">
         
   
   
@@ -471,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-variables/" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-variables/" class="md-nav__link">
         
   
   
@@ -494,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-datatypes/" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-datatypes/" class="md-nav__link">
         
   
   
@@ -640,26 +646,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -672,7 +683,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Code Library
@@ -686,7 +697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/objects/" class="md-nav__link">
+      <a href="../objects/" class="md-nav__link">
         
   
   
@@ -709,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/entities/" class="md-nav__link">
+      <a href="../entities/" class="md-nav__link">
         
   
   
@@ -729,10 +740,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Code_Library/triggers/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Triggers
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -743,6 +776,236 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programming
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Programming">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pause" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pause
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with" class="md-nav__link">
+    <span class="md-ellipsis">
+      With
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Map Variable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Event Variable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entity-manipulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entity Manipulation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entity Manipulation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#freeze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Freeze
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unfreeze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unfreeze
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#destroy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destroy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jump
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path" class="md-nav__link">
+    <span class="md-ellipsis">
+      Path
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icon-bubbles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Icon Bubbles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xy-coordinates" class="md-nav__link">
+    <span class="md-ellipsis">
+      XY Coordinates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moveto-coordinates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moveto Coordinates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Follow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#behind-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      Behind Player
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outfit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outfit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skin-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skin Color
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -755,7 +1018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/battle-properties/" class="md-nav__link">
+      <a href="../battle-properties/" class="md-nav__link">
         
   
   
@@ -778,7 +1041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/pokemon-generation/" class="md-nav__link">
+      <a href="../pokemon-generation/" class="md-nav__link">
         
   
   
@@ -1055,30 +1318,389 @@
 
 
 
-<h1 id="understanding-definitions">Understanding Definitions</h1>
-<p>This guide will focus on several definitions for using jCoad functions, properties and triggers.
-Anything in parenthesis (represented by <code>( )</code>) is a <strong>parameter.</strong> Parameters are separated by commas with no spaces between them.</p>
-<p>Any parameter that is then enclosed in brackets (<code>[,example]</code>) is an <strong>optional parameter</strong>. These are not required and may not be needed when you are using the object code.</p>
-<p>Any sets of brackets may be removed and your jCoad will still work properly, but you must be careful to remove the correct set of brackets and optional parameters.</p>
-<p>Take the following jCoad as an example on how to identify which optional parameters can be taken out at once.</p>
-<p>animation(image[,depth[,x,y,width,height[,frames[,speed[,loop]]]]])</p>
-<p>This piece of jCoad can be used in any of the following ways depending on what you may or may not need to include.</p>
-<div class="language-json highlight"><span class="filename">Example with Optional Parameter Signifier</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image)</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">]</span><span class="err">)</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">]]</span><span class="err">)</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">]]]</span><span class="err">)</span><span class="w"> </span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">[,</span><span class="err">speed</span><span class="p">]]]]</span><span class="err">)</span><span class="w"> </span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">[,</span><span class="err">speed</span><span class="p">[,</span><span class="err">loop</span><span class="p">]]]]]</span><span class="err">)</span>
+<h1 id="triggers">Triggers</h1>
+<h2 id="programming">Programming</h2>
+<h3 id="pause">Pause</h3>
+<p>Pauses trigger execution for a given amount of time.
+<div class="language-json highlight"><span class="filename">&pause</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="err">&amp;pause=ms</span>
 </span></code></pre></div>
-<p>Now, we only need to remove the brackets to show what we would type into Mapbuilder.</p>
-<div class="language-json highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h)</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="err">)</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes)</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">,</span><span class="err">speed)</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">,</span><span class="err">speed</span><span class="p">,</span><span class="err">loop)</span>
+<strong>ms</strong><em>(number)</em>
+: Time in milliseconds to wait before preceding.</p>
+<h3 id="with">With</h3>
+<p>Targets the following triggers on the given entity.
+<div class="language-json highlight"><span class="filename">&with</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="err">&amp;wi</span><span class="kc">t</span><span class="err">h=</span><span class="kc">tar</span><span class="err">ge</span><span class="kc">tna</span><span class="err">me</span>
 </span></code></pre></div>
-<p>The parameter names are only used for documentation. These names will be replaced with <strong>arguments</strong> that you swap in. Arguments may be a string of characters, a number, a boolean value, or some other format. All data types are documented alongside the parameter lists later in this guide.</p>
+<strong>targetname</strong><em>(string)</em>
+: New target name.
+<strong>Default</strong>: Re-targets the player.</p>
+<h3 id="variable">Variable</h3>
+<p>Updates the variable.
+<div class="language-json highlight"><span class="filename">&var</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="err">&amp;var</span><span class="p">[</span><span class="kc">na</span><span class="err">me</span><span class="p">]</span><span class="err">=value</span>
+</span></code></pre></div>
+<strong>name</strong><em>(string)</em>
+: <strong>REQUIRED</strong>: Name of the variable.</p>
+<p><strong>value</strong><em>(string)</em>
+: New value of the variable.</p>
+<h3 id="map-variable">Map Variable</h3>
+<p>Updates the map variable.
+<div class="language-json highlight"><span class="filename">&mapvar</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="err">&amp;mapvar</span><span class="p">[</span><span class="kc">na</span><span class="err">me</span><span class="p">]</span><span class="err">=value</span>
+</span></code></pre></div>
+<strong>name</strong><em>(string)</em>
+: <strong>REQUIRED</strong>: Name of the map variable.</p>
+<p><strong>value</strong><em>(string)</em>
+: New value of the map variable.</p>
+<h3 id="event-variable">Event Variable</h3>
+<p>Updates the event variable.
+<div class="language-json highlight"><span class="filename">&ev</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="err">&amp;ev</span><span class="p">[</span><span class="kc">na</span><span class="err">me</span><span class="p">]</span><span class="err">=value</span>
+</span></code></pre></div>
+<strong>name</strong><em>(string)</em>
+: <strong>REQUIRED</strong>: Name of the event variable.</p>
+<p><strong>value</strong><em>(string)</em>
+: New value of the event variable.</p>
+<h2 id="entity-manipulation">Entity Manipulation</h2>
+<h3 id="freeze">Freeze</h3>
+<p>Freezes the target and prevents player input.
+<div class="language-json highlight"><span class="filename">&freeze</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="err">&amp;</span><span class="kc">free</span><span class="err">ze=</span><span class="kc">tar</span><span class="err">ge</span><span class="kc">t</span>
+</span></code></pre></div>
+<strong>target</strong><em>(string)</em>
+: Target to freeze.
+<strong>Default</strong>: Player</p>
+<h3 id="unfreeze">Unfreeze</h3>
+<p>Unfreezes the target and allows player input.
+<div class="language-json highlight"><span class="filename">&unfreeze</span><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="err">&amp;u</span><span class="kc">nfree</span><span class="err">ze=</span><span class="kc">tar</span><span class="err">ge</span><span class="kc">t</span>
+</span></code></pre></div>
+<strong>target</strong><em>(string)</em>
+: Target to unfreeze.
+<strong>Default</strong>: Player</p>
+<h3 id="destroy">Destroy</h3>
+<p>Unfreezes the target and allows player input.
+<div class="language-json highlight"><span class="filename">&destroy</span><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="err">&amp;des</span><span class="kc">tr</span><span class="err">oy=</span><span class="kc">tar</span><span class="err">ge</span><span class="kc">t</span>
+</span></code></pre></div>
+<strong>target</strong><em>(string)</em>
+: Target to destroy.
+<strong>Default</strong>: The current target.</p>
+<h3 id="jump">Jump</h3>
+<p>Causes the target to jump.
+<div class="language-json highlight"><span class="filename">&jump</span><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="err">&amp;jump=heigh</span><span class="kc">t</span>
+</span></code></pre></div>
+<strong>height</strong><em>(number)</em>
+: Number of pixels the target will jump by.
+<strong>Default</strong>: 8 pixels.</p>
+<h3 id="direction">Direction</h3>
+<p>Causes the target to face the given direction.
+<div class="language-json highlight"><span class="filename">&direction</span><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=u</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=up</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=d</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=dow</span><span class="kc">n</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=l</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=le</span><span class="kc">ft</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=r</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">&amp;direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">=righ</span><span class="kc">t</span>
+</span></code></pre></div>
+<strong>direction</strong><em>(string)</em>
+: The name of the direction the target will face.</p>
+<h3 id="path">Path</h3>
+<p>Moves the target along the given path.
+<div class="language-json highlight"><span class="filename">&path</span><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="err">&amp;pa</span><span class="kc">t</span><span class="err">h=pa</span><span class="kc">t</span><span class="err">h</span>
+</span></code></pre></div>
+<strong>path</strong><em>(path)</em>
+: Path for the target to follow.
+<strong>Default</strong>: Unsets the current path.</p>
+<h3 id="speed">Speed</h3>
+<p>Sets the targets speed. Can be used on the player.
+<div class="language-json highlight"><span class="filename">&speed</span><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="err">&amp;speed=perce</span><span class="kc">nta</span><span class="err">ge</span>
+</span></code></pre></div>
+<strong>percentage</strong><em>(percentage)</em>
+: Percentage of normal speed. Use <code>50</code> for half speed or <code>200</code> for double speed.
+<strong>Default</strong>: 100</p>
+<h3 id="icon-bubbles">Icon Bubbles</h3>
+<p>Places an animated icon bubble above the targets head. Can be used on the player.
+<div class="language-json highlight"><span class="filename">&icon</span><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="err">&amp;ico</span><span class="kc">n</span><span class="err">=id</span>
+</span></code></pre></div>
+<strong>id</strong><em>(number)</em>
+: Icon ID to display.</p>
+<p><strong>Default</strong>: Removes any icon.</p>
+<table>
+<thead>
+<tr>
+<th>Icon Name</th>
+<th>ID</th>
+<th>Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exclamation</td>
+<td>1</td>
+<td><img alt="alt text" src="../image.png" /></td>
+</tr>
+<tr>
+<td>Ellipses</td>
+<td>2</td>
+<td><img alt="alt text" src="../image-1.png" /></td>
+</tr>
+<tr>
+<td>Smiley Face</td>
+<td>3</td>
+<td>:)</td>
+</tr>
+<tr>
+<td>Music Note</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>5</td>
+<td>,</td>
+</tr>
+<tr>
+<td>Joyful Face</td>
+<td>6</td>
+<td><sup>_</sup></td>
+</tr>
+<tr>
+<td>Heart</td>
+<td>7</td>
+<td>&lt;3</td>
+</tr>
+<tr>
+<td>Sad Face</td>
+<td>8</td>
+<td>:[</td>
+</tr>
+<tr>
+<td>Smiling Face with Open Mouth</td>
+<td>9</td>
+<td>:D</td>
+</tr>
+<tr>
+<td>Fish Icon</td>
+<td>10</td>
+<td>&lt;&gt;&lt;</td>
+</tr>
+<tr>
+<td>Angry Face</td>
+<td>11</td>
+<td>&gt;:(</td>
+</tr>
+<tr>
+<td>Battle</td>
+<td>12</td>
+<td>Battle Icon</td>
+</tr>
+<tr>
+<td>Haha</td>
+<td>13</td>
+<td>Ha Ha</td>
+</tr>
+<tr>
+<td>No. 1</td>
+<td>14</td>
+<td>1</td>
+</tr>
+<tr>
+<td>No. 2</td>
+<td>15</td>
+<td>2</td>
+</tr>
+<tr>
+<td>No. 3</td>
+<td>16</td>
+<td>3</td>
+</tr>
+<tr>
+<td>No. 4</td>
+<td>17</td>
+<td>4</td>
+</tr>
+<tr>
+<td>No. 5</td>
+<td>18</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Poisoned</td>
+<td>19</td>
+<td></td>
+</tr>
+<tr>
+<td>Surprised Face</td>
+<td>20</td>
+<td>o_o</td>
+</tr>
+<tr>
+<td>Shaking Head</td>
+<td>21</td>
+<td></td>
+</tr>
+<tr>
+<td>Question Mark</td>
+<td>22</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Asleep</td>
+<td>23</td>
+<td>Zzz</td>
+</tr>
+<tr>
+<td>Sweat Drop</td>
+<td>24</td>
+<td></td>
+</tr>
+<tr>
+<td>Skull (Dead)</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr>
+<td>Big Red Exclamation Mark</td>
+<td>26</td>
+<td></td>
+</tr>
+<tr>
+<td>Spectating Eye</td>
+<td>27</td>
+<td>Eye</td>
+</tr>
+<tr>
+<td>Crying/Screaming</td>
+<td>28</td>
+<td></td>
+</tr>
+<tr>
+<td>Egg</td>
+<td>29</td>
+<td>Egg</td>
+</tr>
+<tr>
+<td>Flight Icon</td>
+<td>30</td>
+<td>White Wing on Blue Bg</td>
+</tr>
+<tr>
+<td>Spanish Flag</td>
+<td>31</td>
+<td>Spanish Flag</td>
+</tr>
+<tr>
+<td>Star No 1</td>
+<td>32</td>
+<td>Number 1 with star on grey bg</td>
+</tr>
+<tr>
+<td>Star No 2</td>
+<td>33</td>
+<td>Number 2 with star on grey bg</td>
+</tr>
+<tr>
+<td>Star No 3</td>
+<td>34</td>
+<td>Number 3 with star on grey bg</td>
+</tr>
+<tr>
+<td>Star No 4</td>
+<td>35</td>
+<td>Number 4 with star on grey bg</td>
+</tr>
+<tr>
+<td>Star No 5</td>
+<td>36</td>
+<td>Number 5 with star on grey bg</td>
+</tr>
+<tr>
+<td>Quest (Not Started)</td>
+<td>37</td>
+<td>Quest ?</td>
+</tr>
+<tr>
+<td>Quest (In Progress)</td>
+<td>38</td>
+<td>Quest ...</td>
+</tr>
+<tr>
+<td>Quest (Completed)</td>
+<td>39</td>
+<td>Quest !</td>
+</tr>
+<tr>
+<td>Healer</td>
+<td>40</td>
+<td>+ Symbol</td>
+</tr>
+<tr>
+<td>Shop</td>
+<td>41</td>
+<td></td>
+</tr>
+<tr>
+<td>TM</td>
+<td>42</td>
+<td></td>
+</tr>
+<tr>
+<td>French Flag</td>
+<td>43</td>
+<td>French Flag</td>
+</tr>
+<tr>
+<td>Gift</td>
+<td>44</td>
+<td></td>
+</tr>
+<tr>
+<td>Quest Star</td>
+<td>45</td>
+<td>Quest Star</td>
+</tr>
+</tbody>
+</table>
+<h3 id="xy-coordinates">XY Coordinates</h3>
+<p>Instantly warps the target to the specified coordinates on the current map.
+<div class="language-json highlight"><span class="filename">&xy</span><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="err">&amp;xy=x</span><span class="p">,</span><span class="err">y</span>
+</span></code></pre></div>
+<strong>x</strong><em>(number)</em>
+: X-coordinate to warp to.</p>
+<p><strong>y</strong><em>(number)</em>
+: Y-coordinate to warp to.</p>
+<h3 id="moveto-coordinates">Moveto Coordinates</h3>
+<p>Moves the target to the specified coordinates on the current map by taking the straight-line path.
+<div class="language-json highlight"><span class="filename">&moveto</span><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="err">&amp;move</span><span class="kc">t</span><span class="err">o=x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">direc</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span>
+</span></code></pre></div>
+<strong>x</strong><em>(number)</em>
+: X-coordinate to move to.</p>
+<p><strong>y</strong><em>(number)</em>
+: Y-coordinate to move to.</p>
+<p><strong>direction</strong><em>(string)</em>
+: Direction to face while moving.</p>
+<p><strong>Default</strong>: Current Direction</p>
+<h3 id="follow">Follow</h3>
+<p>Forces the current target to follow another target.
+<div class="language-json highlight"><span class="filename">&follow</span><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="err">&amp;</span><span class="kc">f</span><span class="err">ollow=</span><span class="kc">tar</span><span class="err">ge</span><span class="kc">t</span>
+</span></code></pre></div>
+<strong>target</strong><em>(string)</em>
+: Specify the target to follow.</p>
+<p><strong>Default</strong>: Unfollows.</p>
+<h3 id="behind-player">Behind Player</h3>
+<p>Puts the current target behind the player.
+<div class="language-json highlight"><span class="filename">&behindplayer</span><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="err">&amp;behi</span><span class="kc">n</span><span class="err">dplayer</span>
+</span></code></pre></div></p>
+<h3 id="outfit">Outfit</h3>
+<p>Sets the target’s skin.
+<div class="language-json highlight"><span class="filename">&outfit</span><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="err">&amp;ou</span><span class="kc">tf</span><span class="err">i</span><span class="kc">t</span><span class="err">=ski</span><span class="kc">n</span>
+</span></code></pre></div>
+<strong>skin</strong><em>(skinid)</em>
+: Specify the skin ID for the target to change to.</p>
+<h3 id="texture">Texture</h3>
+<p>Sets the target’s texture.
+<div class="language-json highlight"><span class="filename">&texture</span><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="err">&amp;</span><span class="kc">te</span><span class="err">x</span><span class="kc">ture</span><span class="err">=spri</span><span class="kc">te</span>
+</span></code></pre></div>
+<strong>texture</strong><em>(sprite sheet)</em>
+: Texture sprite to change to.</p>
+<h3 id="skin-color">Skin Color</h3>
+<p>Sets the target’s skin color.
+<div class="language-json highlight"><span class="filename">&skincolor</span><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="err">&amp;ski</span><span class="kc">n</span><span class="err">color=id</span>
+</span></code></pre></div>
+<strong>id</strong><em>(number)</em>
+: Skin color ID to change to.</p>
+<p><strong>Default</strong>: 0</p>
 
 
 
@@ -1109,6 +1731,44 @@ Anything in parenthesis (represented by <code>( )</code>) is a <strong>parameter
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../entities/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Entities">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Entities
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../battle-properties/" class="md-footer__link md-footer__link--next" aria-label="Next: Battle Properties">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Battle Properties
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">

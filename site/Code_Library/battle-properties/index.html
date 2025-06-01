@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://pokengine-new.readthedocs.io/Mapbuilder/understanding-definitions/">
+        <link rel="canonical" href="https://pokengine-new.readthedocs.io/Code_Library/battle-properties/">
       
       
+        <link rel="prev" href="../triggers/">
+      
+      
+        <link rel="next" href="../pokemon-generation/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Understanding Definitions - Pokengine Documentation</title>
+        <title>Battle Properties - Pokengine Documentation</title>
       
     
     
@@ -72,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#understanding-definitions" class="md-skip">
+        <a href="#battle-properties" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Understanding Definitions
+              Battle Properties
             
           </span>
         </div>
@@ -221,7 +225,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../understanding-guide.md" class="md-tabs__link">
+        <a href="../../Mapbuilder/understanding-guide.md" class="md-tabs__link">
           
   
   
@@ -257,11 +261,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../Code_Library/objects/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../objects/" class="md-tabs__link">
           
   
   
@@ -425,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-guide.md" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-guide.md" class="md-nav__link">
         
   
   
@@ -448,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-objects.md" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-objects.md" class="md-nav__link">
         
   
   
@@ -471,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-variables/" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-variables/" class="md-nav__link">
         
   
   
@@ -494,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../understanding-datatypes/" class="md-nav__link">
+      <a href="../../Mapbuilder/understanding-datatypes/" class="md-nav__link">
         
   
   
@@ -640,26 +646,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -672,7 +683,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Code Library
@@ -686,7 +697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/objects/" class="md-nav__link">
+      <a href="../objects/" class="md-nav__link">
         
   
   
@@ -709,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/entities/" class="md-nav__link">
+      <a href="../entities/" class="md-nav__link">
         
   
   
@@ -732,7 +743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/triggers/" class="md-nav__link">
+      <a href="../triggers/" class="md-nav__link">
         
   
   
@@ -752,10 +763,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Code_Library/battle-properties/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Battle Properties
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -766,6 +799,137 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#battle-limiters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Battle Limiters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Battle Limiters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#no-running" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Running
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-catching" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Catching
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-money" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Money
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-experience-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Experience Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-item-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      No Item Use
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed-pokemon-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fixed Pokemon Level
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hidden-opposing-pokemon-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hidden Opposing Pokemon Level
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Battle Format
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Battle Format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#double-battles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Double Battles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#triple-battles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Triple Battles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -778,7 +942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Code_Library/pokemon-generation/" class="md-nav__link">
+      <a href="../pokemon-generation/" class="md-nav__link">
         
   
   
@@ -1055,30 +1219,70 @@
 
 
 
-<h1 id="understanding-definitions">Understanding Definitions</h1>
-<p>This guide will focus on several definitions for using jCoad functions, properties and triggers.
-Anything in parenthesis (represented by <code>( )</code>) is a <strong>parameter.</strong> Parameters are separated by commas with no spaces between them.</p>
-<p>Any parameter that is then enclosed in brackets (<code>[,example]</code>) is an <strong>optional parameter</strong>. These are not required and may not be needed when you are using the object code.</p>
-<p>Any sets of brackets may be removed and your jCoad will still work properly, but you must be careful to remove the correct set of brackets and optional parameters.</p>
-<p>Take the following jCoad as an example on how to identify which optional parameters can be taken out at once.</p>
-<p>animation(image[,depth[,x,y,width,height[,frames[,speed[,loop]]]]])</p>
-<p>This piece of jCoad can be used in any of the following ways depending on what you may or may not need to include.</p>
-<div class="language-json highlight"><span class="filename">Example with Optional Parameter Signifier</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image)</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">]</span><span class="err">)</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">]]</span><span class="err">)</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">]]]</span><span class="err">)</span><span class="w"> </span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">[,</span><span class="err">speed</span><span class="p">]]]]</span><span class="err">)</span><span class="w"> </span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">[,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">[,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">[,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">[,</span><span class="err">speed</span><span class="p">[,</span><span class="err">loop</span><span class="p">]]]]]</span><span class="err">)</span>
-</span></code></pre></div>
-<p>Now, we only need to remove the brackets to show what we would type into Mapbuilder.</p>
-<div class="language-json highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h)</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="err">)</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes)</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">,</span><span class="err">speed)</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="err">a</span><span class="kc">n</span><span class="err">ima</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">(image</span><span class="p">,</span><span class="err">dep</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">x</span><span class="p">,</span><span class="err">y</span><span class="p">,</span><span class="err">wid</span><span class="kc">t</span><span class="err">h</span><span class="p">,</span><span class="err">heigh</span><span class="kc">t</span><span class="p">,</span><span class="kc">fra</span><span class="err">mes</span><span class="p">,</span><span class="err">speed</span><span class="p">,</span><span class="err">loop)</span>
-</span></code></pre></div>
-<p>The parameter names are only used for documentation. These names will be replaced with <strong>arguments</strong> that you swap in. Arguments may be a string of characters, a number, a boolean value, or some other format. All data types are documented alongside the parameter lists later in this guide.</p>
+<h1 id="battle-properties">Battle Properties</h1>
+<p>You can set various battle properties, when you call for it to start within an objects code. This applies to both wild battles and trainer battles. The properties are listed below.</p>
+<h2 id="battle-limiters">Battle Limiters</h2>
+<h3 id="no-running">No Running</h3>
+<p>You cannot run from this battle. This is the default setting for trainer battles, so you only need to specify it for wild battles.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kc">n</span><span class="err">oru</span><span class="kc">n</span>
+</span></code></pre></div></p>
+<h3 id="no-catching">No Catching</h3>
+<p>You cannot catch the opposing Pokemon. This is the default setting for trainer battles, so you only need to specify it for wild battles.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kc">n</span><span class="err">oca</span><span class="kc">t</span><span class="err">ch</span>
+</span></code></pre></div></p>
+<h3 id="no-money">No Money</h3>
+<p>You will not earn money from this battle. This is the default setting for wild battles, so you only need to specify it for trainer battles.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kc">n</span><span class="err">omo</span><span class="kc">ne</span><span class="err">y</span>
+</span></code></pre></div></p>
+<h3 id="no-experience-points">No Experience Points</h3>
+<p>Your Pokemon will not gain any experience points from this battle.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kc">n</span><span class="err">oexp</span>
+</span></code></pre></div></p>
+<h3 id="no-item-use">No Item Use</h3>
+<p>You will not be able to use items from the bag widget during battle. For example, Poke Balls or Potions.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kc">n</span><span class="err">oi</span><span class="kc">te</span><span class="err">ms</span>
+</span></code></pre></div></p>
+<h3 id="fixed-pokemon-level">Fixed Pokemon Level</h3>
+<p>Forces all Pokémon in battle to the specified level. Uses their true stats (IVs, EVs) but calculates the actual stat value (attack, etc) based on the new set level. This works identically to fixed level battles such as the Battle Tower in the mainline games.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kc">f</span><span class="err">ixedlevel</span><span class="w"> </span><span class="err">level</span>
+</span></code></pre></div></p>
+<h3 id="hidden-opposing-pokemon-level">Hidden Opposing Pokemon Level</h3>
+<p>Levels of the opposing Pokémon are hidden. Appears as ???.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="err">hidde</span><span class="kc">nle</span><span class="err">vel</span>
+</span></code></pre></div></p>
+<h2 id="battle-format">Battle Format</h2>
+<h3 id="double-battles">Double Battles</h3>
+<p>The battle will be changed to the 'double' format of Pokemon battles. This can be applied to both wild and trainer battles.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="err">double</span>
+</span></code></pre></div></p>
+<h3 id="triple-battles">Triple Battles</h3>
+<p>The battle will be changed to the 'triple' format of Pokemon battles. This can be applied to both wild and trainer battles.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kc">tr</span><span class="err">iple</span>
+</span></code></pre></div></p>
+<h1 id="pokedex-registration">Pokedex Registration</h1>
+<h3 id="not-seen-in-pokedex">Not Seen in Pokedex</h3>
+<p>The opposing Pokemon in this battle, will not be counted as seen in the Pokedex.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kc">n</span><span class="err">osee</span><span class="kc">n</span>
+</span></code></pre></div></p>
+<h2 id="battle-scene-alterations">Battle Scene Alterations</h2>
+<h3 id="battle-environment-scene">Battle Environment (Scene)</h3>
+<p>Sets the battle scene (background image) to the one specified. Only necessary for wild battles, as trainer battles have a scene property set in advance. Additional scenes are added for battles, using the scene context menu in the Mapbuilder editor.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="err">sce</span><span class="kc">ne</span><span class="w"> </span><span class="err">id</span>
+</span></code></pre></div></p>
+<h3 id="battle-theme-needs-updating">Battle Theme (needs updating)</h3>
+<p>Sets the music playing during battle. Currently hosting on Dropbox is supported only. The format is db: for host, then a modified URL which cuts out the https://www.dropbox.com/ part. theme db:s/fo7smcp2luvrikc/BattleTowerSWSHRemix.mp3 — Sets the theme according to this Dropbox shared URL.
+<div class="language-json highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kc">t</span><span class="err">heme</span><span class="w"> </span><span class="err">url</span>
+</span></code></pre></div></p>
+<h2 id="examples">Examples</h2>
+<h3 id="wild-pokemon-boss">Wild Pokemon Boss</h3>
+<p>This first example is a boss battle against a wild Pokémon. You cannot run or catch it, and the level is hidden. The Pokémon’s name is also set to hide its species.
+<div class="language-json highlight"><span class="filename">Code Example</span><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="err">msg(Groouuugoooough!!)&amp;!cry=</span><span class="mi">00</span><span class="err">bxxu</span><span class="mi">0</span><span class="err">w&amp;ba</span><span class="kc">ttle</span><span class="err">=</span><span class="mi">00</span><span class="err">bxxu</span><span class="mi">0</span><span class="err">w;level</span><span class="w"> </span><span class="mi">80</span><span class="err">;</span><span class="kc">na</span><span class="err">me</span><span class="w"> </span><span class="err">???;sce</span><span class="kc">ne</span><span class="w"> </span><span class="mi">51</span><span class="err">;hidde</span><span class="kc">nle</span><span class="err">vel;</span><span class="kc">n</span><span class="err">omo</span><span class="kc">ne</span><span class="err">y;</span><span class="kc">n</span><span class="err">oca</span><span class="kc">t</span><span class="err">ch;</span><span class="kc">n</span><span class="err">oru</span><span class="kc">n</span>
+</span></code></pre></div></p>
+<h3 id="battle-tower">Battle Tower</h3>
+<p>Battle Tower This example is from the HUB Battle Tower. The dialogue in the <code>msg()</code> block and the trainer battle ID are both controlled by a list. The variable <code>var[noblackout]=1</code> is set so that the player will not teleport away if they lose the battle.</p>
+<p>Similar to the mainline games’ Battle Tower, this battle gives no exp or money, but instead I manually give the player BP if they win (not shown). Items are not allowed, and all participating Pokémon are set to level 50 for the duration of the battle.
+<div class="language-json highlight"><span class="filename">Code Example</span><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="err">msg(%lis</span><span class="kc">t</span><span class="p">[</span><span class="kc">tra</span><span class="err">i</span><span class="kc">ners</span><span class="p">][</span><span class="kc">n</span><span class="p">]</span><span class="err">.speech%)&amp;var</span><span class="p">[</span><span class="kc">n</span><span class="err">oblackou</span><span class="kc">t</span><span class="p">]</span><span class="err">=</span><span class="mi">1</span><span class="err">&amp;mapvar</span><span class="p">[</span><span class="err">ba</span><span class="kc">ttle</span><span class="p">]</span><span class="err">=</span><span class="mi">3</span><span class="err">&amp;ba</span><span class="kc">ttle</span><span class="err">=%lis</span><span class="kc">t</span><span class="p">[</span><span class="kc">tra</span><span class="err">i</span><span class="kc">ners</span><span class="p">][</span><span class="kc">n</span><span class="p">]</span><span class="err">.ba</span><span class="kc">ttle</span><span class="err">id%;</span><span class="kc">n</span><span class="err">oexp;</span><span class="kc">n</span><span class="err">omo</span><span class="kc">ne</span><span class="err">y;</span><span class="kc">n</span><span class="err">osee</span><span class="kc">n</span><span class="err">;</span><span class="kc">n</span><span class="err">oi</span><span class="kc">te</span><span class="err">ms;</span><span class="kc">f</span><span class="err">ixedlevel</span><span class="w"> </span><span class="mi">50</span><span class="err">;</span><span class="kc">t</span><span class="err">heme</span><span class="w"> </span><span class="err">db</span><span class="p">:</span><span class="err">s/</span><span class="kc">f</span><span class="err">o</span><span class="mi">7</span><span class="err">smcp</span><span class="mi">2</span><span class="err">luvrikc/Ba</span><span class="kc">ttle</span><span class="err">TowerSWSHRemix.mp</span><span class="mi">3</span>
+</span></code></pre></div></p>
 
 
 
@@ -1109,6 +1313,44 @@ Anything in parenthesis (represented by <code>( )</code>) is a <strong>parameter
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../triggers/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Triggers">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Triggers
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../pokemon-generation/" class="md-footer__link md-footer__link--next" aria-label="Next: Pokemon Generation">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Pokemon Generation
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
