@@ -24,7 +24,7 @@ nav:
       - Region TM Tutors: Feature_Guides/region-tm-tutors.md
       - Regional Weather Schedules: Feature_Guides/regional-weather-schedule.md
       - Trainer Battle AI: Feature_Guides/trainer-battle-ai.md
-  - About:
+  - General Info:
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
       - Request A Feature: About/request-a-feature.md
@@ -51,7 +51,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - toc.integrate
+    - navigation.expand
+    - navigation.prune
 
   palette:
   # Dark Mode
