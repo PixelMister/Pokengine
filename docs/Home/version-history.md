@@ -16,5 +16,5 @@ This page will be updated at every *major* update, smaller tweaks can be highlig
 ## Version Log
 Version | Date | Description
 ------------|-------------|-------------
-Version | 1.1 | June 2025 | Initial public release; added full structure, utilities, how-tos, and reference.
-Version | 1.0 | May 2025 | Internal deraft created; base layout, code library started.
+Version | 1.1 | June 2025 | PixelMister migrated to current platform with a complete restructure. Removed outdated or incorrect information and added coverage for new functions.
+Version | 1.0 | Jan 26, 2021 | Zermonious published pokengine-jcoad-docs
