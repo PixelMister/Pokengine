@@ -28,6 +28,7 @@ nav:
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
       - Request A Feature: About/request-a-feature.md
+      - Current Limitations: About/current-limitations.md
 
 extra_css:
   - stylesheets/extra.css
@@ -108,4 +109,11 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-
+      
+plugins:
+  - search
+  - auto-refresh-build-pages:
+      update_message: "The page has been updated. Do you want to reload?"
+      yes_button_text: "Yes"
+      no_button_text: "No"
+      check_interval_seconds: 60

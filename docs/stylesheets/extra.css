@@ -45,8 +45,17 @@
   font-weight: 600;
   border-radius: 4px;
 }
-
-/* Bold titles for nested nav items (applies to both modes) */
-.md-nav__item--nested > .md-nav__link {
+/* Base: make active tab bold */
+.md-tabs__item--active > .md-tabs__link {
   font-weight: bold;
+}
+
+/* Light mode */
+[data-md-color-scheme="default"] .md-tabs__item--active > .md-tabs__link {
+  color: #222; /* or use a CSS variable like var(--md-primary-fg-color) */
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] .md-tabs__item--active > .md-tabs__link {
+  color: #ff9800; /* a warm orange tone, or any colour you like */
 }
