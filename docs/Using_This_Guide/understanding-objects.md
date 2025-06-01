@@ -29,14 +29,14 @@ solid()
 ### **Instance code** 
 Instance code is exclusive code to the single tile the object resides on. This code is written on a single object instance on a single map. Instance code is best for creating a unique event, such as NPC dialogue, that never needs to be repeated.
 
+Objects can have both root code and instance code. Think of a sign. All signs are solid, but most signs hold a unique message. Therefore, a sign object would probably have the following jCoad:
+
 ```json title="Instance Code"
 msg(I am a unique sign. Only I hold this message!)
 ```
 
 ### **Comment code**
 Comment codes won’t be read as code within the coded block. This is useful to comment on how the code below or above the statement will function.
-
-Objects can have both root code and instance code. Think of a sign. All signs are solid, but most signs hold a unique message. Therefore, a sign object would probably have the following jCoad:
 
 ```json title="Comment Code"
 //This code demonstrates how a comment works.
