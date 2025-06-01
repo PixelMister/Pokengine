@@ -20,9 +20,3 @@ Before diving into programming, here are a few helpful tips to get you started w
 ### What is jCoad?
 
 
-### Document Version Information
-Info | Description
-------------|-------------
-Authors | Jext, Zermonious, Fuzzy, Twitch, Kyledove, Pixelmister
-Version | 1.1
-Last Updated | June 2025

@@ -1,7 +1,9 @@
 site_name: Pokengine Documentation
 site_url: https://pokengine-new.readthedocs.io
 nav:
-  - Home: index.md
+  - Home: 
+      - About: index.md
+      - Version History: Home/version-history.md
   - Using This Guide:
       - Using This Guide: Using_This_Guide/understanding-guide.md
       - Objects: Using_This_Guide/understanding-objects.md
