@@ -1,5 +1,5 @@
 site_name: Pokengine Documentation
-site_url: https://sitename.example
+site_url: https://pokengine-new.readthedocs.io/
 extra_css:
   - stylesheets/extra.css
 theme:
@@ -18,6 +18,11 @@ theme:
     - content.tooltips
     - navigation.path
     - navigation.top
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
 
   palette:
   # Dark Mode

@@ -5,29 +5,21 @@ Authors | Jext, Zermonious, Fuzzy, Twitch, Kyledove, Pixelmister
 Version | 1.1
 Last Updated | 29/05/2025
 
-This document serves as the definitive guide to region development on Pokengine. This guide covers everything you need to understand regarding Pokengine’s custom programming language **jCoad.** as well as information regarding Tilefuser and Mapbuilder usage.
-
 # Introduction
 ## What is Pokengine?
 Pokengine is a community-driven platform focused on creating custom content, such as Regions or Dexes. It also offers a browser-based MMO that merges all the user-created content into one expansive game, though Regions can be kept separate and turned into standalone games if their creators prefer. 
 
 At its core, Pokengine is an engine, not a game itself. The game aspect is built by the users, meaning Pokengine isn’t just one game but a collection of many, all rolled into one.
 
-The engine provides a suite of online, browser-based tools specifically designed to help users edit and build their own game worlds. 
+The engine provides a suite of online, browser-based tools specifically designed to help users edit and build their own game worlds.  
 
-## Tutorial
-New to jCoad? Never written a line of code before? This tutorial will guide you step-by-step through the basics of jCoad, helping you get started with coding in no time.
+## What is Mapbuilder?
+Mapbuilder is Pokengine’s tool for programming and integrating Tilefuser maps into the game engine. Only users who have been granted access to Mapbuilder can use it to add their maps to the game. 
 
-## Reference Links
-Already understand how to use jCoad and looking for documentation? Use the sidebar links, or the quick navigation links below to find what you are looking for!
+Access to Mapbuilder is limited to those developing regions or trusted with the tool, as it provides a high level of control over the game engine.
 
-- [Understanding Definitions](understanding-definitions.md)
-- [Understanding Syntax](understanding-syntax.md)
-- [Objects](objects.md)
-- [Object Functions](object-functions.md)
-- [Entity Properties](entity-properties.md)
-- [Triggers](triggers.md)
-- [Conditions](conditions.md)
-- [Pokemon Generation](pokemon-generation.md)
-- [Additional Codes](additional-codes.md)
-- [Additional Objects](additional-objects.md)
+Mapbuilder operates by using your Tilefuser map as a base, allowing you to add objects, NPCs, sprites, animations, and more to bring your map to life in the game. All map elements are implemented using Pokengine’s custom programming language, jCoad, which is the focus of this guide.
+
+Before diving into programming, here are a few helpful tips to get you started with Mapbuilder.
+
+## What is jCoad?
