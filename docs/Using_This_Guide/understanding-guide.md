@@ -11,7 +11,6 @@ Whether you're:
 - :white_check_mark: An experienced Pokengine dev exploring new functionality, tools, and tips
 
 !!! info "Check and Refresh the Guide"
-
     This guide is updated regularly as new functionality is added, so it’s worth checking back often.
 
    
