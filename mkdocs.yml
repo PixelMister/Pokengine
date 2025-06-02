@@ -15,11 +15,11 @@ nav:
       - Tips & Tricks: Utilities/tips-and-tricks.md
       - Cheat Sheet: Utilities/cheat-sheet.md
       - Common Pitfalls: Utilities/common-pitfalls.md
+      - Variables: Utilities/variables.md
   - Code Library:
       - Objects: Code_Library/objects.md
       - Entities: Code_Library/entities.md
       - Triggers: Code_Library/triggers.md
-      - Variables: Code_Library/variables.md
       - Conditions: Code_Library/conditions.md
       - Battle Properties: Code_Library/battle-properties.md
       - Pokemon Generation: Code_Library/pokemon-generation.md

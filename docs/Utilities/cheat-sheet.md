@@ -1,10 +1,11 @@
 # Developer Cheat Sheet
 
-Over the years, developers have compiled a handy collection of code to speed up workflows. This quick reference page provides code snippets, that you can copy and paste directly into an object. If you're looking for detailed explanations, please refer to the more detailed **How-To Guides**. A basic understanding of jCoad is assumed.
+Over the years, Kyledove has compiled a handy collection of code to speed up your region creation workflows. This quick reference page provides code snippets, that you can copy and paste directly into an object. If you're looking for detailed explanations, please refer to the more detailed **How-To Guides**. A basic understanding of jCoad is assumed.
 
 ## Non Player Characters
+
 ### Quick NPC
-```json" 
+```json
 %random%=npc()
 %random%.msg()
 ```

@@ -1,4 +1,4 @@
-# Variables
+# Variable Library
 
 These variables can be used in **textboxes, dialogue** or other string-based fields to dynamically insert game data. Think of them as simple shortcuts to personalise your in-game text.
 
@@ -7,11 +7,11 @@ These variables can be used in **textboxes, dialogue** or other string-based fie
 %player%
 ```
 
-## Player's Username in All Caps (Retro Regions)
+## Player's Username in All Caps (Retro Regions, for example %KYLEDOVE%)
 ```json
 %PLAYER%
 ```
-## Rival's Name (if you're given the player the option to name them.)
+## Rival’s Name (if you’re giving the player the option to name them)
 ```json
 %rival%
 ```
