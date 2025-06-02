@@ -23,9 +23,16 @@ nav:
       - Battle Properties: Code_Library/battle-properties.md
       - Pokemon Generation: Code_Library/pokemon-generation.md
   - How-To Guides:
-      - Region TM Tutors: Feature_Guides/region-tm-tutors.md
-      - Regional Weather Schedules: Feature_Guides/regional-weather-schedule.md
-      - Trainer Battle AI: Feature_Guides/trainer-battle-ai.md
+      - Root Objects: HowTo_Guides/root-objects.md
+      - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
+      - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
+      - Smart Answers: HowTo_Guides/smart-answers.md
+      - Region Vars: HowTo_Guides/region-vars.md
+      - Respawnable Ground Sparkle: HowTo_Guides/respawnable-groundsparkle.md
+      - Horde Battles: HowTo_Guides/horde-battles.md
+      - 
+      - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
+      - Trainer Battle AI: HowTo_Guides/trainer-battle-ai.md
   - General Info:
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
