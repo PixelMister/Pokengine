@@ -5,10 +5,15 @@ This page will be updated at every *major* update, smaller tweaks can be highlig
 <div class="grid cards" markdown>
 
 - :octicons-feed-person-16: __Jext__ Insert Title Here
+
 - :octicons-feed-person-16: __Zermonious__ Insert Title Here
+
 - :octicons-feed-person-16: __Fuzzy__ Insert Title Here
+
 - :octicons-feed-person-16: __Twitch__ ... Insert Title Here
+
 - :octicons-feed-person-16: __Kyledove__ ... Insert Title Here
+
 - :octicons-feed-person-16: __PixelMister__ ... Insert Title Here
 
 </div>
