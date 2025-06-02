@@ -10,7 +10,7 @@ Over the years, developers have compiled a handy collection of code to speed up 
 ```
 
 ### Trainer Battle NPC
-```json" 
+```json
 %random%=npc()
 if !beaten
 %random%.spot(3)
@@ -20,43 +20,43 @@ else
 ```
 
 ### NPC with a Question
-```json" 
+```json 
 %random%.msg(?)&answers=Yes,No
 Yes=%random%.answer()
 No=%random%.answer()
 ```
 
 ### Move Tutor NPC
-```json" 
+```json 
 %random%.msg()&answers=Yes,No
 Yes=%random%.answer(All right, pick which Pokemon I should teach it to.)&movelearner=moves:07a4uh4j
 No=%random%.answer(Well, that's fine, too.)
 ```
 
 ### NPC Path - Alternate Between Two Directions
-```json" 
+```json
 %random%.path(0d,pause300,0r,pause300*)
 ```
 
 ### NPC Path - Alternate Between Two Directions
-```json" 
+```json
 %random%.path(0r,pause300,0d,pause300,0l,pause300,0u,pause300*)
 ```
 
 ### NPC Path - Return to Original Direction After Speech
-```json" 
+```json
 &with=%random%&direction=d
 ```
 
 ### Pokemon NPC - Register as Seen and Plays Cry SFX
-```json" 
+```json 
 %random%.npc(006ii7ud,right,0x0)
 %random%.msg(SKITTY: Miyaaaan?)&!cry=00cz496x&show=00cz496x
 ```
 
 ## Signs
 ### Automatic Sign Interaction (Ontouch)
-```json"
+```json
 msg()
 if direction=up and ontouch
 msg()
@@ -64,7 +64,7 @@ msg()
 
 ## Icons
 ### Permanent Icon Above NPC
-```json"
+```json
 %random%.icon(37,1)
 ```
 !!! tip "NPC Overworld Log"
@@ -73,14 +73,24 @@ msg()
 
 Here's an example list from a developer project:
 **Johto**
-`01ih0r1l` youngster
-`01ll2v4i` schoolboy
-`01cgzbbj` bug catcher
-`01zdunzm` lass
-`01bj2c1x` ace trainer man
-`01q8oh6a` ace woman
-`01hl0ytt` aroma lady
-`0137s72e` blonde pigtail battle girl
-`01hrk1do` blonde squinty rocker guy
-`017505nk` camper boy
-`011szhnf` camper girl
+- `01ih0r1l` youngster
+
+- `01ll2v4i` schoolboy
+
+- `01cgzbbj` bug catcher
+
+- `01zdunzm` lass
+
+- `01bj2c1x` ace trainer man
+
+- `01q8oh6a` ace woman
+
+- `01hl0ytt` aroma lady
+
+- `0137s72e` blonde pigtail battle girl
+
+- `01hrk1do` blonde squinty rocker guy
+
+- `017505nk` camper boy
+
+- `011szhnf` camper girl
