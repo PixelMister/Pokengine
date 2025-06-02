@@ -1,4 +1,4 @@
-# Developer Cheat Sheet
+# Kyledove's jCoad Cheat Sheet
 
 Over the years, Kyledove has compiled a handy collection of code to speed up your region creation workflows. This quick reference page provides code snippets, that you can copy and paste directly into an object. If you're looking for detailed explanations, please refer to the more detailed **How-To Guides**. A basic understanding of jCoad is assumed.
 
