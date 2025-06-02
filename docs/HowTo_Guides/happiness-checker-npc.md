@@ -1,7 +1,7 @@
 # Happiness Checker NPC
 The example below shows an NPC based on the one from Retro Hoenn’s Verdanturf Town. She checks the happiness of the first Pokémon in your party.
 
-```json
+```json 
 %random%=npc(01972z5l,down)
 if happiness[1]>255
 %random%.msg(Let me see your POKEMON.#I'll check to see how much it likes you.|It adores you. It can't possibly love you any more. I even feel happy seeing it.)

@@ -2,7 +2,7 @@
 You can conditionally show answer options based on whether the player has met certain criteria.
 This is extremely useful!
 
-```json "Code Example"
+```json title="Code Example"
 %random%=npc(01vwqqxp,up)
 %random%.msg(Ahoy, there!#Where do you want to sail?)&answers=if[ev[KnotIsland_Traveled]=1]Knot Island,if[ev[BoonIsland_Traveled]=1]Boon Island,Cancel
 
