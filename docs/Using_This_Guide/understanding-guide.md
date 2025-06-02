@@ -10,8 +10,10 @@ Whether you're:
 
 - :white_check_mark: An experienced Pokengine dev exploring new functionality, tools, and tips
 
-This guide is updated regularly as new functionality is added, so it’s worth checking back often.
+!!! info "Guide Updates"
 
+   This guide is updated regularly as new functionality is added, so it’s worth checking back often.
+   
 Here’s a quick overview of how the guide is organized:
 
 **Intro**
