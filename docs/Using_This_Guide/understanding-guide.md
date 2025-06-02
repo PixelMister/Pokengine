@@ -10,7 +10,7 @@ Whether you're:
 
 - :white_check_mark: An experienced Pokengine dev exploring new functionality, tools, and tips
 
-!!! info "We're a Non-Profit Project"
+!!! info "Check and Refresh the Guide"
 
     This guide is updated regularly as new functionality is added, so it’s worth checking back often.
 
