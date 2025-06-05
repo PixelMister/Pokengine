@@ -3,7 +3,7 @@
 
 ### Pause
 Pauses trigger execution for a given amount of time.
-```json title="&pause" 
+```json
 &pause=ms
 ```
 **ms***(number)*
@@ -11,7 +11,7 @@ Pauses trigger execution for a given amount of time.
 
 ### With
 Targets the following triggers on the given entity.
-```json title="&with" 
+```json
 &with=targetname
 ```
 **targetname***(string)*
@@ -20,7 +20,7 @@ Targets the following triggers on the given entity.
 
 ### Variable
 Updates the variable.
-```json title="&var" 
+```json 
 &var[name]=value
 ```
 **name***(string)*
@@ -31,7 +31,7 @@ Updates the variable.
 
 ### Map Variable
 Updates the map variable.
-```json title="&mapvar" 
+```json
 &mapvar[name]=value
 ```
 **name***(string)*
@@ -42,7 +42,7 @@ Updates the map variable.
 
 ### Event Variable
 Updates the event variable.
-```json title="&ev" 
+```json
 &ev[name]=value
 ```
 **name***(string)*
@@ -54,7 +54,7 @@ Updates the event variable.
 ## Entity Manipulation
 ### Freeze
 Freezes the target and prevents player input.
-```json title="&freeze" 
+```json
 &freeze=target
 ```
 **target***(string)*
@@ -63,7 +63,7 @@ Freezes the target and prevents player input.
 
 ### Unfreeze
 Unfreezes the target and allows player input.
-```json title="&unfreeze" 
+```json
 &unfreeze=target
 ```
 **target***(string)*
@@ -72,7 +72,7 @@ Unfreezes the target and allows player input.
 
 ### Destroy
 Unfreezes the target and allows player input.
-```json title="&destroy" 
+```json 
 &destroy=target
 ```
 **target***(string)*
@@ -81,7 +81,7 @@ Unfreezes the target and allows player input.
 
 ### Jump
 Causes the target to jump.
-```json title="&jump" 
+```json
 &jump=height
 ```
 **height***(number)*
@@ -101,7 +101,7 @@ Causes the target to face the given direction.
 
 ### Path
 Moves the target along the given path.
-```json title="&path" 
+```json
 &path=path
 ```
 **path***(path)*
@@ -110,7 +110,7 @@ Moves the target along the given path.
 
 ### Speed
 Sets the targets speed. Can be used on the player.
-```json title="&speed" 
+```json
 &speed=percentage
 ```
 **percentage***(percentage)*
@@ -119,7 +119,7 @@ Sets the targets speed. Can be used on the player.
 
 ### Icon Bubbles
 Places an animated icon bubble above the targets head. Can be used on the player.
-```json title="&icon" 
+```json 
 &icon=id
 ```
 **id***(number)*
@@ -177,7 +177,7 @@ Quest Star | 45 | Quest Star
 
 ### XY Coordinates
 Instantly warps the target to the specified coordinates on the current map.
-```json title="&xy" 
+```json
 &xy=x,y
 ```
 **x***(number)*
@@ -188,7 +188,7 @@ Instantly warps the target to the specified coordinates on the current map.
 
 ### Moveto Coordinates
 Moves the target to the specified coordinates on the current map by taking the straight-line path.
-```json title="&moveto" 
+```json
 &moveto=x,y,direction
 ```
 **x***(number)*
@@ -204,7 +204,7 @@ Moves the target to the specified coordinates on the current map by taking the s
 
 ### Follow
 Forces the current target to follow another target.
-```json title="&follow" 
+```json 
 &follow=target
 ```
 **target***(string)*
@@ -214,12 +214,12 @@ Forces the current target to follow another target.
 
 ### Behind Player
 Puts the current target behind the player.
-```json title="&behindplayer" 
+```json
 &behindplayer
 ```
 ### Outfit
 Sets the target’s skin.
-```json title="&outfit" 
+```json
 &outfit=skin
 ```
 **skin***(skinid)*
@@ -227,7 +227,7 @@ Sets the target’s skin.
 
 ### Texture
 Sets the target’s texture.
-```json title="&texture" 
+```json
 &texture=sprite
 ```
 **texture***(sprite sheet)*
@@ -235,7 +235,7 @@ Sets the target’s texture.
 
 ### Skin Color
 Sets the target’s skin color.
-```json title="&skincolor" 
+```json
 &skincolor=id
 ```
 **id***(number)*

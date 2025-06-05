@@ -4,6 +4,7 @@ nav:
   - Home: 
       - About: index.md
       - Version History: Home/version-history.md
+
   - Using This Guide:
       - Using This Guide: Using_This_Guide/understanding-guide.md
       - Objects: Using_This_Guide/understanding-objects.md
@@ -11,11 +12,16 @@ nav:
       - Variables: Using_This_Guide/understanding-variables.md
       - Data Types: Using_This_Guide/understanding-datatypes.md
       - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
+
   - Utilities:
       - Tips & Tricks: Utilities/tips-and-tricks.md
       - Cheat Sheet: Utilities/cheat-sheet.md
       - Common Pitfalls: Utilities/common-pitfalls.md
       - Variables: Utilities/variables.md
+      - Obedience System: Utilities/obedience-system.md
+      - Region Map Setup: Utilities/region-map-setup.md
+      - Region Vars: Utilities/region-variables.md
+
   - Code Library:
       - Objects: Code_Library/objects.md
       - Entities: Code_Library/entities.md
@@ -23,21 +29,37 @@ nav:
       - Conditions: Code_Library/conditions.md
       - Battle Properties: Code_Library/battle-properties.md
       - Pokemon Generation: Code_Library/pokemon-generation.md
+
   - How-To Guides:
       - Root Objects: HowTo_Guides/root-objects.md
       - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
       - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
       - Smart Answers: HowTo_Guides/smart-answers.md
       - Region Vars: HowTo_Guides/region-vars.md
-      - Respawnable Ground Sparkle: HowTo_Guides/respawnable-groundsparkle.md
+      - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
       - Horde Battles: HowTo_Guides/horde-battles.md
       - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
       - Trainer Battle AI: HowTo_Guides/trainer-battle-ai.md
+      - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
+      - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
+      - Step Counter: HowTo_Guides/step-counter.md
+      - Test:
+          - Root Objects: HowTo_Guides/test/root-objects.md
+          - Happiness Checker NPC: HowTo_Guides/test/happiness-checker-npc.md
+          - Region TM Tutors: HowTo_Guides/test/region-tm-tutors.md
+          - Smart Answers: HowTo_Guides/test/smart-answers.md
+          - Region Vars: HowTo_Guides/test/region-vars.md
+          - Respawnable Ground Sparkle: HowTo_Guides/test/respawnable-groundsparkle.md
+          - Horde Battles: HowTo_Guides/test/horde-battles.md
+          - Regional Weather Schedules: HowTo_Guides/test/regional-weather-schedule.md
+          - Trainer Battle AI: HowTo_Guides/test/trainer-battle-ai.md
+
   - General Info:
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
       - Request A Feature: About/request-a-feature.md
       - Current Limitations: About/current-limitations.md
+
 
 extra_css:
   - stylesheets/extra.css
@@ -60,9 +82,9 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.expand
-    - navigation.prune
+    - navigation.sections
+    - navigation.tracking
 
   palette:
   # Dark Mode
