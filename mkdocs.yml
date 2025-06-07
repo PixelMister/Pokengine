@@ -32,6 +32,7 @@ nav:
       - Music Settings: HowTo_Guides/music-settings.md
       - Uploading Music: HowTo_Guides/uploading-music.md
       - NPC Trades: HowTo_Guides/npc-trades.md
+      - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
       - Publishing a Region: HowTo_Guides/publishing-a-region.md
       - Test:
           - Additional Items: About/current-limitations.md
@@ -44,6 +45,8 @@ nav:
       - Region Map Setup: Utilities/region-map-setup.md
       - Region Vars: Utilities/region-variables.md
       - Battle AI: Utilities/battle-ai.md
+      - Buddy System: Utilities/buddy-system.md
+      - Fishing System: Utilities/fishing-system.md
   - General Info:
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md

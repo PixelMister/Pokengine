@@ -10,13 +10,13 @@
 
 [data-md-color-scheme="default"] .md-nav__item > a:hover,
 [data-md-color-scheme="default"] .md-nav__item > a:focus {
-  background-color: #868686;
+  background-color: #2a3b4d;
   color: orange;
   text-decoration: underline;
 }
 
 [data-md-color-scheme="default"] .md-nav__item > a.md-nav__link--active {
-  background-color: #868686;
+  background-color: #2a3b4d;
   color: orange;
   font-weight: 600;
   border-radius: 4px;
@@ -28,7 +28,7 @@
   text-decoration: none;
   display: block;
   padding: 0.5em 1em;
-  background-color: #1e1e1e;
+  background-color: #2a3b4d;
   border-radius: 4px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-nav__item > a.md-nav__link--active {
-  background-color: #345171;
+  background-color: #2a3b4d;
   color: orange;
   font-weight: 600;
   border-radius: 4px;
@@ -52,7 +52,7 @@
 
 /* Light mode */
 [data-md-color-scheme="default"] .md-tabs__item--active > .md-tabs__link {
-  color: #222; /* or use a CSS variable like var(--md-primary-fg-color) */
+  color: #ff9800; /* or use a CSS variable like var(--md-primary-fg-color) */
 }
 
 /* Dark mode */

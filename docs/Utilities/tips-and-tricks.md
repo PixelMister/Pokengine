@@ -42,3 +42,6 @@ This works with Trainers, Items, Moves, everything, and search queries are the s
 ![alt text](assets/filtermonone.png)
 
 ![alt text](assets/filtermontwo.png)
+
+!!! tips "Kyledove's Tip"
+    Pasting in the exact UID saves you hassle every time. This works for Pokémon, Trainers, Items, Moves, and more.
