@@ -25,7 +25,7 @@ In addition to Pokémon, the engine includes default functionality that allows p
 
 This system was designed to offer alternate ways to earn money in an MMO environment, especially where trainer battles do not reset. Fishing for items adds variety and helps support economic balance by giving players repeatable, non-combat ways to profit.
 
-There is a 6% chance to fish up an item every time you successfully reel in.
+There is a 1/6 chance (16.67%) to fish up an item every time you successfully reel in.
 
 The list is as follows, but you can also search via the following search term:  
 `items #fishing+chance`

@@ -28,6 +28,4 @@ ev[stepcounter_active]=0
 
     This can cause issues with step-based visual effects like footprints or sand trails. Because the step event constantly triggers, it repeatedly resets the trail effect—making it behave incorrectly. 
 
-!!! quote "Credit"
-
-    This system was developed by Skur.
+> 💡 **Credit**: The Move Relearner system was developed by **Skur**.

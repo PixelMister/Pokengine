@@ -4,6 +4,10 @@
 
 Since Pokengine is an MMO, players naturally spend much more time in-game than in a typical Pokémon title. To support this, I’ve developed a regenerating ground item system, inspired by the item spawns in Scarlet/Violet.
 
+**In Game Appearance**
+[text](item-sparkle-system.md)
+
+## Why Use the System
 This system serves multiple important purposes:
 - Rewards long-term play by providing players with small, randomized pickups across maps.
 
@@ -96,3 +100,5 @@ This is my go-to setup, but feel free to customize it. You can even swap the spa
 !!! tip "Additional Uses"
 
     Use this system on surf routes to break up the monotony and keep the journey engaging! I created a separate item list for this purpose, featuring items like Muscle Feather, Resist Feather, etc.
+
+> 💡 **Credit**: The Item Sparkle system was developed by **Kyledove**.

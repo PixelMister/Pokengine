@@ -41,12 +41,12 @@ Players can **click the move name** or the **map location** to jump directly to 
 
     Pokengine doesn’t currently differentiate between TMs and HMs - so moves like Surf will still be shown as TMs here and in-game.
 
-!!! tip "Kyledove's Tip"
+!!! tips "Kyledove's Tip"
 
     Personally, I recommend listing your TMs in the order they’re likely to be obtained. 
     As a player, I find it helpful to see the green tick gradually move down the list - it gives a sense of progress and makes it easier to track what I’ve missed. It also helps indicate how early or late in the game a TM becomes available.
 
-!!! tip "Kyledove's Tip"
+!!! tips "Kyledove's Tip"
 
     Currently, users need to check each region’s page to see which TMs or Tutors are available. In the future, we’d like to improve this by showing a list of regions directly on each move’s page - similar to how Pokémon pages let you check which maps they appear on.
 

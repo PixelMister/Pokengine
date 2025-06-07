@@ -4,6 +4,8 @@
 
 As you might know, Pokengine allows you to set weather per map using the following input format:
 
+![alt text](assets/weathersystem.png)
+
 ```
 clear:40 snow:50 blizzard:10
 ```
@@ -130,3 +132,4 @@ In this system, each in-game day is divided into **4-hour intervals**, which Kyl
 ---
 
 This results in the following weather forecast:
+![alt text](assets/weathertimetable.png)
