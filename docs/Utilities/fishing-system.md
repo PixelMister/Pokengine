@@ -13,6 +13,8 @@ To set this up:
 
 - In Mapbuilder, create an encounter list named exactly after the rod (e.g., oldrod).  
 
+![alt text](assets/fishingencounters.png)
+
 - The system will use this list when the rod is used. 
 
 -  You can also create custom rods by assigning them unique names and building separate encounter lists to match. 

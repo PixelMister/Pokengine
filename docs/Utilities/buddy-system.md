@@ -3,10 +3,14 @@
 Pokengine uses a combination of the walking systems from **HGSS** and **LGPE**. This system serves several purposes:
 
 - By allowing players to bring their Pokémon out of their Poké Balls and interact with them in the overworld, it enhances immersion and connection with their party.
+
 - It provides the most effective method for raising a Pokémon’s happiness.
+
 - It offers an alternative way to earn money via selling what they find.
 
 Your buddy will find a new item every **300 steps**!
+
+![alt text](assets/holdingitem.png)
 
 !!! note
     Due to an engine oversight (also present in official Pokémon games), if you walk 300 steps and then switch your buddy, the new buddy will produce the item.

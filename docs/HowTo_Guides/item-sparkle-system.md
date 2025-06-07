@@ -5,7 +5,8 @@
 Since Pokengine is an MMO, players naturally spend much more time in-game than in a typical Pokémon title. To support this, I’ve developed a regenerating ground item system, inspired by the item spawns in Scarlet/Violet.
 
 **In Game Appearance**
-[text](item-sparkle-system.md)
+
+![alt text](assets/groundsparklee.gif)
 
 ## Why Use the System
 This system serves multiple important purposes:
