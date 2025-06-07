@@ -1,1 +1,0 @@
-# Trainer Battle AI
