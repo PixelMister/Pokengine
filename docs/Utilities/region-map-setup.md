@@ -19,7 +19,7 @@ Here’s what each button in the Townmap section does:
 
 Begin by uploading a background image for your region map. Here’s an example using the Kanto region.
 
-![alt text](regionmapsetupkanto-1.png)
+![alt text](assets/kantoregionmap.png)
 
 **Recommended Dimensions:**
 260 x 228 pixels is the suggested size for your region map image. However, this is not a strict rule - you can choose to make it smaller or larger depending on your design.
@@ -43,11 +43,11 @@ Begin by uploading a background image for your region map. Here’s an example u
 
     Also, be sure not to make your clickable areas (hit boxes) too small - they need to be visible and easy to click, or players might get frustrated trying to select locations!
 
-[INSERT IMAGE HERE]
+![alt text](assets/kantoregionmapgrid.png)
 
 The grid overlay is actually super useful for pulling out exact coordinates! If you save this image and open it in a photo editing tool, you can hover over locations to get their pixel coordinates. For example, I opened it in MS Paint, hovered over the top-left corner of Pallet Town, and it showed the coordinates 55,142.
 
-[INSERT IMAGE HERE]
+![alt text](assets/kantoregionmapzoom.png)
 
 ## Locations Setup
 
@@ -97,7 +97,7 @@ For the player, none of this complexity is visible - they just see one seamless 
 
 This part is completely up to you, but feel free to use some of our existing assets.
 
-[Insert Image Here (Region Icons)]
+![alt text](assets/locationselector.png)![alt text](assets/locationlock.png)
 
 The selector we provide is specifically designed for 8x8 tiles.
 For the player indicator, it’s crucial that it’s clearly visible to players — a small icon can easily get lost on a colorful, busy map image.

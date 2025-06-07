@@ -30,8 +30,10 @@ nav:
       - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
       - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
       - Step Counter: HowTo_Guides/step-counter.md
-      - Music Settings & Upload: HowTo_Guides/music-settings-and-upload.md
+      - Music Settings: HowTo_Guides/music-settings.md
+      - Uploading Music: HowTo_Guides/uploading-music.md
       - NPC Trades: HowTo_Guides/npc-trades.md
+      - Publishing a Region: HowTo_Guides/publishing-a-region.md
       - Test:
           - Additional Items: About/current-limitations.md
   - Utilities:

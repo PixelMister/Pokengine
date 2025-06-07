@@ -44,7 +44,7 @@ msg()&item=list[hidden_items]&var[%random%]=%time%
 
     Players can exploit this system by pressing F5 to force new sparkles to generate.
 
-!!! note "Map Connections"
+!!! info "Map Connections"
 
     Sparkles on sidemaps may disappear when crossing the boundary to the next map.
 
