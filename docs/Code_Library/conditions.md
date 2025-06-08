@@ -78,8 +78,502 @@ direction
 The direction the player is currently facing. Works with `msg()` and `execute()`.
 
 ### Ontouch
-The value of an event variable.
+Condition for if the Player is standing on the tile.
 ```json
-direction
+ontouch
 ```
-The direction the player is currently facing. Works with `msg()` and `execute()`.
+True when the player is touching the tile.  Works with `msg()` and `execute()`.
+
+### Ontile
+Condition for if the Player is standing on the tile.
+```json
+ontile
+```
+True when the player is standing on the tile. Works with `msg()` and `execute()`.
+
+### Offtile
+Binary controller for is the Player is standing on the tile.
+```json
+offtile
+```
+True when the player is not standing on the tile. Works with `msg()` and `execute()`.
+
+## Time Conditions
+
+### Minute
+An integer between 0 and 59 representing the current in-game minute.
+```json
+minute
+```
+
+### Hour
+An integer between 0 and 23 representing the current in-game hour.
+```json
+hour
+```
+
+### Month
+An integer between 0 and 11 representing the current month.
+```json
+month
+```
+
+### Year
+An integer representing the current year.
+```json
+year
+```
+
+### Day
+An integer that yields true when it is day time in-game (12:00 - 17:59)
+```json
+day
+```
+If used with a comparison against a number, yields the day of the year. If used with a comparison against a string, yields the lowercase day of the week (`monday to sunday`).
+
+### Night
+True when it is night time (20:00-05:59) in-game.
+```json
+year
+```
+
+### Dusk
+True when it is dusk time (18:00-19:59) in-game.
+```json
+dusk
+```
+
+### Dawn
+True when it is dawn time (06:00-11:59) in-game.
+```json
+dawn
+```
+
+### Season
+The current season.
+
+```json 
+season
+```
+
+**Options** - winter, spring, summer, fall
+
+## Player Conditions
+
+### Item
+How much of an item the player owns.
+
+```json 
+name.xy(x,y)
+```
+**name|id***(name|id)*
+: Item name or ID number.
+
+### Party
+The number of Pokémon in the player’s party.
+
+```json 
+party
+```
+### Specific Party
+1 if player has a specified Pokémon in their party. 0 otherwise.
+
+```json 
+party[id]
+```
+**name|id***(id)*
+: Pokemon ID Number
+
+### Party Has
+Additional Party Conditions for advanced party control.
+
+```json 
+partyHas[searchFor|collections|copyright|eggGroups|evolutions|slot|species|tags|types|mon]
+```
+
+1 if the condition is true, 0 otherwise.
+
+This only accepts 1 param, a string containing multiple sub parameters.
+
+The conditional string accepts a wide array of potential values.
+
+Each condition is separated by &, and is treated as an “and” conditionally.
+
+Most/all conditions can be used multiple times (just not “searchFor”)
+
+Spacing is allowed if it helps legibility, though avoid using it in the value for the “mon” condition.
+
+`if partyHas[searchfor=any & evolutions = 1 & slot = 1]`
+
+Is a valid value, and translates to “Any mon in the party that has an immediate evo and is in the first slot.”
+
+Below is documentation for each sub parameter/conditional capable of being used.
+
+**searchFor**
+Accepts “any” or “all” as valid values.
+
+Defaults to “any” if not specified at all.
+
+Preferably the first condition, this specifies how the condition should behave.
+
+“any” - Find if there is ANY mon in the party that meets ALL the conditions in this check.
+
+“all” - Check to see that ALL mons in the party meet ALL the conditions in this check.
+
+`if partyHas[searchfor=all&type=bug]`
+
+Would be ‘true’ if the player’s party is entirely pokemon that are at least bug type.
+
+**collections**
+Accepts any number of UIDs of collections the mon/mons may be from, separated by commas.
+
+If specified, no matter how many acceptable collections are provided, the mon/mons must belong to AT LEAST ONE of them.
+
+`if partyHas[collections=10f6gxci,10hvquu7]`
+
+Would be “Any mon that is in the HUB OR Rica collections”
+
+**copyright**
+Whether or not the mon/mons should be copyright.
+
+Often used to identify Nintendo mons.
+
+`if partyHas[copyright=1]`
+
+Would mean “if the player’s party has ANY copyright mon”
+
+**eggGroups**
+Accepts names of egg groups separated by commas.
+
+The egg groups you want the mon/mons to belong to.
+
+`if partyHas[eggGroups=mineral,water 2,field]`
+
+Would be “Any mon that belongs to AT LEAST ONE of the egg groups: mineral, water 2, or field”
+
+**evolutions**
+Accepts whole numbers or whole numbers that are preceeded by `>,>=,<,<=`
+
+The number of IMMEDIATE evolutions the mon/mons should have.
+
+`if partyHas[evolutions=>=1]`
+
+Would be “Any mon that has one or more possible immediate evolutions
+
+**slot**
+Accepts whole numbers (1 to 6) or whole numbers (1 to 6) that are preceeded by `>,>=,<,<=`
+
+The slot the mon should be in.
+
+Do not attempt to use this with searchfor=all as it will not work.
+
+`if partyHas[slot=>=4]`
+
+Would be “any mon exists in the 4th, 5th and 6th slots.”
+
+`if partyHas[slot=4&type=ground]`
+
+Would be “If the player has a ground type in their 4th slot”
+
+**tags**
+Accepts any string values separated by commas.
+
+The tags the mon should have in the pokengine database site.
+
+If specified, no matter how many tags are provided, the mon/mons must belong to AT LEAST ONE of them, not ALL of them.
+
+Tags ARE case sensitive here.
+
+`if partyHas[tags=King,knight]`
+
+Would be "If the party has any mon that has the tag ‘King’ OR ‘knight’"
+
+**types**
+Accepts any number of types by name separated by commas.
+
+If specified, no matter how many types are provided, the mon/mons must belong to AT LEAST ONE of them, not ALL of them.
+
+`if partyHas[types=bug]`
+
+Would be “any mon that has the type bug”
+
+`if partyHas[types=bug,ground]`
+
+Would be “any mon that has the type bug OR ground”
+
+`if partyHas[types=bug&type=ground]`
+
+Would be “any mon that has the type bug AND ground”
+
+`if partyHas[searchfor=all&types=bug,ground]`
+
+Would be “All mons in party are at least bug OR at least ground”
+
+`if partyHas[searchfor=all&types=bug&types=ground]`
+
+Would be “All mons in party are at least bug AND ground”
+
+**mon**
+Accepts a value very similar to a mon generation string, with a few slight variances.
+
+Each of these sub-conditions are separated by ; and their sub-sub-condition values are separated by commas (see the ivs in the examples below)
+
+| Key(s)                        | Description                                                                                  | Accepted Values                                  |
+|------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------|
+| `level` / `lv` / `l`         | The mon’s level                                                                              | Whole numbers, `>`, `>=`, `<=`, `<`             |
+| `nickname` / `name` / `n`    | The mon’s name or nickname                                                                   | Text                                             |
+| `male` / `m`                 | The mon’s gender being male                                                                  | No value required                                |
+| `female` / `f`               | The mon’s gender being female                                                                | No value required                                |
+| `status` / `q`               | The mon’s status                                                                             | Status like `"poison"`, `"paralyze"`, etc.      |
+| `hp` / `h`                   | The mon’s current HP                                                                         | Whole numbers, `>`, `>=`, `<=`, `<`             |
+| `ability` / `a`              | The ability UID the mon should have                                                          | Ability UID                                      |
+| `nature` / `p`               | The nature the mon should have                                                               | Nature name in full (e.g., `"hardy"`)           |
+| `moves` / `o`                | Moves the mon should have **at least one of**                                                | Move UIDs, separated by commas                   |
+| `item` / `b`                 | The item the mon should have                                                                 | Item UID                                         |
+| `happiness` / `friendship` / `w` | The happiness value the mon should have                                                 | Whole numbers, `>`, `>=`, `<=`, `<`             |
+| `egg` / `y`                  | Number of egg steps remaining till hatch                                                     | Whole numbers, `>`, `>=`, `<=`, `<`             |
+| `IVs` / `ivs` / `i`          | IVs the mon should have                                                                      | Whole numbers, `>`, `>=`, `<=`, `<`, or `#`     |
+| `EVs` / `evs` / `e`          | EVs the mon should have                                                                      | Whole numbers, `>`, `>=`, `<=`, `<`, or `#`     |
+| `baseStats`                  | Base stats the mon’s species should have                                                     | Whole numbers, `>`, `>=`, `<=`, `<`, or `#`     |
+| `rainbow`                   | If the mon should be rainbow                                                                 | Just `"rainbow"`                                |
+| `golden`                    | If the mon should be golden                                                                  | Just `"golden"`                                 |
+| `shiny`                     | If the mon should be shiny                                                                   | Just `"shiny"`                                  |
+| `steps`                     | Number of steps the mon should have                                                          | Whole numbers, `>`, `>=`, `<=`, `<`             |
+| `uid` / `u`                 | The UID of the species the mon should be (used if no key comes before)                       | Species UID                                      |
+
+`if partyHas[searchFor=any&mon=male;status poison;IVs 31,>=15,#,#,#,0]`
+
+Would be “any male mon that is poisoned, has exactly 31 HP iv and at least 15 attack iv, exactly 0 iv, with any other ivs.” Similar syntax would be used for specifying evs.
+
+### Seen Pokedex/Pokemon
+If a Dex ID is given, yields the number of Pokémon seen in that Dex. If given a Pokémon, yields 1 if the player has seen that Pokémon.
+
+```json 
+seen[pokemonid]
+```
+**pokemon***(id)*
+: Pokemon ID Number
+
+### Caught Pokemon
+If a Dex ID is given, yields the number of Pokémon caught in that Dex. If given a Pokémon, yields 1 if the player has caught that Pokémon.
+
+```json 
+seen[pokemonid]
+```
+**pokemon***(id)*
+: Pokemon ID Number
+
+## Trainer Conditions
+
+### Beaten
+The number of times the player has beaten a trainer. Saves to the specific tile.
+
+```json 
+beaten
+```
+
+### Beaten [x,y]
+Checks the beaten value at designated x,y coordinates.
+
+```json 
+beaten[x,y]
+```
+
+### Battle Won
+Value is the battle ID of the last battle the player won, either a trainer’s battle ID or a Pokémon name. 0 if player has not battled.
+
+```json 
+battlewon
+```
+**Example**
+```json 
+if battlewon=350 and ontile=natalie
+msg(Congrats, you have earned the Wilds Badge!)
+```
+
+### Battle Lost
+Value is the battle ID of the last battle the player lost, either a trainer’s battle ID or a Pokémon name. 0 if player has not battled.
+
+```json 
+battlelost
+```
+
+### Caught
+Value is the battle ID of the last battle in which the player captured a Pokémon, either a trainer’s battle ID or a Pokémon name. 0 if player has not captured anything.
+
+```json 
+caught
+```
+**Example**
+```json 
+if !ev[mewtwo]
+mewtwo=npc(543,down)
+mewtwo.msg(Mew!)&battle=mewtwo;level 70;moves 129,112,94,105;scene 42
+if ontile=mewtwo and caught=mewtwo
+execute(ev[mewtwo]=1)
+```
+
+### Battled
+Value is the battle ID of the last battle the player participated in regardless of outcome, either a trainer’s battle ID or a Pokémon name. 0 if player has not battled.
+
+```json 
+battled
+```
+
+## Other Conditions
+
+### Starter
+The Dex number of the player’s starter Pokémon. 0 if no starter has been received. See `&starter` trigger.
+
+```json 
+battled
+```
+
+### Fainted
+No description given
+
+```json 
+fainted
+```
+
+### Badge Collected
+1 if the player has collected a specified badge. 0 otherwise.
+
+```json 
+badge[name|id]
+```
+
+**name|id***(string|number)*
+: Badge name or ID number.
+
+### Badges Obtained
+The number of badges collected in the current region.
+
+```json 
+badges
+```
+
+### Traded
+1 if the player has traded. 0 otherwise.
+
+```json 
+traded
+```
+
+### Gaveaway
+1 if the player has just given away a Pokemon with &giveaway. 0 otherwise.
+
+```json 
+gaveaway
+```
+
+### Achievements
+The current state of the given achievement. See `&achievement` trigger.
+
+```json 
+achievement[id]
+```
+
+**id***(number)*
+: Achievement ID number.
+
+### Replayed
+No description given.
+
+```json 
+replayed
+```
+
+### Spectated
+No description given.
+
+```json 
+spectated
+```
+
+### Rival
+The rival’s name. See `&rival` trigger.
+
+```json 
+rival
+```
+
+### Money
+The amount of money in the player’s wallet.
+
+```json 
+money
+```
+
+### Coins
+The number of coins the player has in their coin case.
+
+```json 
+coins
+```
+
+### Surfing
+1 if the player is surfing. 0 otherwise.
+
+```json 
+surfing
+```
+
+### Cycling
+1 if the player is cycling. 0 otherwise.
+
+```json 
+cycling
+```
+
+### Safari
+1 if the player is in the Safari Zone state. 0 otherwise.
+
+```json 
+safari
+```
+
+### Repel
+1 if repel is active. 0 otherwise.
+
+```json 
+repel
+```
+
+### Champion
+1 if the player has beat the champion. 0 otherwise.
+
+```json 
+champion
+```
+
+### Weather
+The current in-game weather condition.
+
+```json 
+weather
+```
+
+### Happiness
+The happiness value, between 0 and 255, for a Pokémon in the player’s party.
+
+```json 
+happiness[slot]
+```
+
+**slot***(number)*
+: Integer between 1 and 6 for the party slot to check.
+
+### Onload
+1 if map has just loaded, 0 otherwise.
+
+```json 
+onload
+```
+
+### Refreshed
+1 if player has just refreshed, 0 otherwise.
+
+```json 
+refreshed
+```
