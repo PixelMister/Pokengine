@@ -6,9 +6,9 @@ nav:
       - Version History: Home/version-history.md
   - Using This Guide:
       - Using This Guide: Using_This_Guide/understanding-guide.md
-      - Objects: Using_This_Guide/understanding-objects.md
-      - Definitions: Using_This_Guide/understanding-definitions.md
-      - Variables: Using_This_Guide/understanding-variables.md
+      - Object Syntax: Using_This_Guide/understanding-objects.md
+      - Definition Syntax: Using_This_Guide/understanding-definitions.md
+      - Variable Syntax: Using_This_Guide/understanding-variables.md
       - Data Types: Using_This_Guide/understanding-datatypes.md
       - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
   - Code Library:
@@ -40,7 +40,7 @@ nav:
       - Tips & Tricks: Utilities/tips-and-tricks.md
       - Cheat Sheet: Utilities/cheat-sheet.md
       - Common Pitfalls: Utilities/common-pitfalls.md
-      - Variables: Utilities/variables.md
+      - Variable Library: Utilities/variables.md
       - Obedience System: Utilities/obedience-system.md
       - Region Map Setup: Utilities/region-map-setup.md
       - Region Vars: Utilities/region-variables.md
