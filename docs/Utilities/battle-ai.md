@@ -113,8 +113,7 @@ This also applies when routines are defined through personas (behaviors):
 
  routines = "beginner, failedMove-5, noob" → the failedMove-3 from noob will override failedMove-5, since noob comes later and also includes failedMove.
  
- !!! warning "Default Behaviour"
-
+!!! warning "Default Behaviour"
     This override behavior does not apply to routines written as "no-[routine]". These exclusions are always respected, regardless of their position in the list.
  
 For example: `routines = "failedMove-3,failedMove-5,failedMove-1",` only failedMove-1 will be counted when scoring

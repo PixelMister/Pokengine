@@ -29,4 +29,4 @@ disobedience={20: map-08kz3tmv|badge-1&map-03fz21mf, 30: badge-2, 40: ev-EVislan
     If you want a condition not present yet just ping me and ask for it to be implemented, same if there is any questions about how to use it!
 
 
-> 💡 **Credit**: The Move Relearner system was developed by **Demonyc**.
+> 💡 **Credit**: The Obedience system was developed by **Demonyc**.
