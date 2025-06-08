@@ -93,6 +93,7 @@ In this example, it generates what seemingly looks like a regular item (make sur
 
 In this example from Fall Festival, interacting with a specific object triggers a one-time Pokémon encounter. To prevent infinite repeats, the encounter resets only once per in-game day.
 
+**Example Code**
 ```json
 solid()
 if ev[confectious]=2 and night
