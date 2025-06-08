@@ -9,29 +9,6 @@ Jext is the original creator of Pokengine, leads the technical side of Pokengine
 ### **Kyledove - Creative Director**
 Kyledove shapes the vision of Pokengine, overseeing the game's aesthetic direction, world design, and narrative. As Creative Director, they define the visual style, tone, and atmosphere, ensuring a cohesive and immersive experience. Kyledove also manages content creation, including character design, region development, game features and user experience (UX), maintaining high quality and consistency across all elements.
 
-## Site Roles
-
-### Staff Members
-
-- **0verL0rd**
-- **Azria**
-- **Coonae**
-- **Demonyc**
-- **Fuzzy**
-- **Ginzuishou**
-- **hyo**
-- **Jext**
-- **KingTapir**
-- **kyledove**
-- **Marshlands**
-- **mattgcn**
-- **Red**
-- **Roughknight**
-- **skur**
-- **stormbringer15**
-- **Twitch**
-- **Zermonious**
-
 ## Discord Roles
 
 ### **Admin -**

@@ -22,41 +22,41 @@ nav:
       - Pokemon Generation: Code_Library/pokemon-generation.md
   - How-To Guides:
       - Root Objects: HowTo_Guides/root-objects.md
-      - NPC Guides:
+      - Folder Grouping 1:
         - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
         - Smart Answers: HowTo_Guides/smart-answers.md
         - NPC Trades: HowTo_Guides/npc-trades.md
         - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
         - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
         - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
-      - Region Guides:
+      - Folder Grouping 2:
         - Music Settings: HowTo_Guides/music-settings.md
         - Uploading Music: HowTo_Guides/uploading-music.md
         - Step Counter: HowTo_Guides/step-counter.md
         - Publishing a Region: HowTo_Guides/publishing-a-region.md
-      - Overworld Guides:
+      - Folder Grouping 3:
         - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
         - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
         - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
-      - Battle and Encounter Guides:
+      - Folder Grouping 4:
         - Horde Battles: HowTo_Guides/horde-battles.md
         - Grass Encounters: HowTo_Guides/grass-encounters.md
         - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
   - Utilities:
-      - Code Snippets:
+      - Folder Grouping 5:
         - Tips & Tricks: Utilities/tips-and-tricks.md
         - Cheat Sheet: Utilities/cheat-sheet.md
-      - Coded Systems:
+      - Folder Grouping 6:
         - Buddy System: Utilities/buddy-system.md
         - Fishing System: Utilities/fishing-system.md
         - Version System: Utilities/version-system.md
         - Obedience System: Utilities/obedience-system.md
-      - Region Code:
+      - Folding Grouping 7:
         - Region Map Setup: Utilities/region-map-setup.md
         - Region Vars: Utilities/region-variables.md
-      - Trainer Development:
+      - Folder Grouping 8:
         - Battle AI: Utilities/battle-ai.md
-      - Other:
+      - Folder Grouping 9:
         - Common Pitfalls: Utilities/common-pitfalls.md
         - Variable Library: Utilities/variables.md
   - General Info:
