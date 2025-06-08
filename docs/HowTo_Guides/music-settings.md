@@ -22,7 +22,7 @@ If you want a specific map to use a different track:
 
     You can optionally set a night version of your track. Most places don’t use this, but it can help add atmosphere in key areas.
 
-!!! note "Night Time Ambience"
+!!! note "Continued Sound Track"
 
     For interiors within a town (e.g. houses), you should usually use the same music as the town itself - unless it’s a unique location.
 

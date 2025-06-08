@@ -23,19 +23,21 @@ nav:
       - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
       - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
       - Smart Answers: HowTo_Guides/smart-answers.md
-      - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
-      - Horde Battles: HowTo_Guides/horde-battles.md
-      - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
       - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
-      - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
       - Step Counter: HowTo_Guides/step-counter.md
       - Music Settings: HowTo_Guides/music-settings.md
       - Uploading Music: HowTo_Guides/uploading-music.md
       - NPC Trades: HowTo_Guides/npc-trades.md
       - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
       - Publishing a Region: HowTo_Guides/publishing-a-region.md
-      - Test:
-          - Additional Items: About/current-limitations.md
+      - Overworld Guides:
+        - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
+        - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
+        - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
+      - Battle and Encounter Guides:
+        - Horde Battles: HowTo_Guides/horde-battles.md
+        - Grass Encounters: HowTo_Guides/grass-encounters.md
+        - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
   - Utilities:
       - Tips & Tricks: Utilities/tips-and-tricks.md
       - Cheat Sheet: Utilities/cheat-sheet.md
@@ -47,6 +49,7 @@ nav:
       - Battle AI: Utilities/battle-ai.md
       - Buddy System: Utilities/buddy-system.md
       - Fishing System: Utilities/fishing-system.md
+      - Version System: Utilities/version-system.md
   - General Info:
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md

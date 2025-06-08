@@ -28,13 +28,11 @@ random - A random party Pokémon.
 If omitted, it defaults to first.
 ```
 
-!!! tip "Healing"
+!!! tips "Healing"
 
     Healing: Use a negative damage value to heal Pokémon. This works for both flat numbers and percentages, and will even revive fainted Pokémon.
 
-!!! quote "Credit"
-
-    This system was developed by Skur.
+> 💡 **Credit**: The Move Relearner system was developed by **Skur**.
 
 
 ## Status Affliction Trigger

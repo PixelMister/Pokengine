@@ -124,7 +124,9 @@ In this system, each in-game day is divided into **4-hour intervals**, which Kyl
 
     This can be used to:
     - Adjust wild encounters based on the current weather
+
     - Add weather-specific NPCs (e.g. a parasol lady who only appears in rain)
+    
     - Make routes feel more alive and variable across playthroughs
 
     Used well, it creates a more immersive and replayable experience for players – where there’s always something new to discover.

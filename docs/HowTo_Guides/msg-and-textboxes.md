@@ -29,7 +29,7 @@ Unfortunately, the engine doesn’t currently support showing images with nameta
 
     Choose colors carefully to ensure good readability and accessibility for all players.
 
-!!! tip "Accessibility"
+!!! tip "Nametags"
 
     Always use nametags for important characters, especially during cutscenes with multiple speakers! Pick a unique color for recurring characters like rivals to help players keep track.
 
