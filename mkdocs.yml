@@ -6,11 +6,13 @@ nav:
       - Version History: Home/version-history.md
   - Using This Guide:
       - Using This Guide: Using_This_Guide/understanding-guide.md
-      - Object Syntax: Using_This_Guide/understanding-objects.md
-      - Definition Syntax: Using_This_Guide/understanding-definitions.md
-      - Variable Syntax: Using_This_Guide/understanding-variables.md
-      - Data Types: Using_This_Guide/understanding-datatypes.md
       - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
+      - About Tilefuser: Using_This_Guide/what-is-tilefuser.md
+      - Syntax Guidelines:
+        - Object Syntax: Using_This_Guide/understanding-objects.md
+        - Definition Syntax: Using_This_Guide/understanding-definitions.md
+        - Variable Syntax: Using_This_Guide/understanding-variables.md
+        - Data Types: Using_This_Guide/understanding-datatypes.md
   - Code Library:
       - Objects: Code_Library/objects.md
       - Entities: Code_Library/entities.md
@@ -20,16 +22,18 @@ nav:
       - Pokemon Generation: Code_Library/pokemon-generation.md
   - How-To Guides:
       - Root Objects: HowTo_Guides/root-objects.md
-      - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
-      - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
-      - Smart Answers: HowTo_Guides/smart-answers.md
-      - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
-      - Step Counter: HowTo_Guides/step-counter.md
-      - Music Settings: HowTo_Guides/music-settings.md
-      - Uploading Music: HowTo_Guides/uploading-music.md
-      - NPC Trades: HowTo_Guides/npc-trades.md
-      - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
-      - Publishing a Region: HowTo_Guides/publishing-a-region.md
+      - NPC Guides:
+        - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
+        - Smart Answers: HowTo_Guides/smart-answers.md
+        - NPC Trades: HowTo_Guides/npc-trades.md
+        - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
+        - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
+        - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
+      - Region Guides:
+        - Music Settings: HowTo_Guides/music-settings.md
+        - Uploading Music: HowTo_Guides/uploading-music.md
+        - Step Counter: HowTo_Guides/step-counter.md
+        - Publishing a Region: HowTo_Guides/publishing-a-region.md
       - Overworld Guides:
         - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
         - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
@@ -39,18 +43,24 @@ nav:
         - Grass Encounters: HowTo_Guides/grass-encounters.md
         - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
   - Utilities:
-      - Tips & Tricks: Utilities/tips-and-tricks.md
-      - Cheat Sheet: Utilities/cheat-sheet.md
-      - Common Pitfalls: Utilities/common-pitfalls.md
-      - Variable Library: Utilities/variables.md
-      - Obedience System: Utilities/obedience-system.md
-      - Region Map Setup: Utilities/region-map-setup.md
-      - Region Vars: Utilities/region-variables.md
-      - Battle AI: Utilities/battle-ai.md
-      - Buddy System: Utilities/buddy-system.md
-      - Fishing System: Utilities/fishing-system.md
-      - Version System: Utilities/version-system.md
+      - Code Snippets:
+        - Tips & Tricks: Utilities/tips-and-tricks.md
+        - Cheat Sheet: Utilities/cheat-sheet.md
+      - Coded Systems:
+        - Buddy System: Utilities/buddy-system.md
+        - Fishing System: Utilities/fishing-system.md
+        - Version System: Utilities/version-system.md
+        - Obedience System: Utilities/obedience-system.md
+      - Region Code:
+        - Region Map Setup: Utilities/region-map-setup.md
+        - Region Vars: Utilities/region-variables.md
+      - Trainer Development:
+        - Battle AI: Utilities/battle-ai.md
+      - Other:
+        - Common Pitfalls: Utilities/common-pitfalls.md
+        - Variable Library: Utilities/variables.md
   - General Info:
+      - FAQ: About/faq.md
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
       - Request A Feature: About/request-a-feature.md
