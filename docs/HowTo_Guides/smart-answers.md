@@ -2,7 +2,7 @@
 You can conditionally show answer options based on whether the player has met certain criteria.
 This is extremely useful!
 
-```json title="Code Example"
+```json title="Code Example - EV"
 %random%=npc(01vwqqxp,up)
 %random%.msg(Ahoy, there!#Where do you want to sail?)&answers=if[ev[KnotIsland_Traveled]=1]Knot Island,if[ev[BoonIsland_Traveled]=1]Boon Island,Cancel
 
@@ -10,43 +10,48 @@ Knot Island=%random%.answer(All right!#All aboard the Seagallop Hi-Speed 2!)&war
 Boon Island=%random%.answer(All right!#All aboard the Seagallop Hi-Speed 2!)&warp=08ju24jj,0
 ```
 
-In this example, the sailor only shows the option to travel to an island if you have the corresponding ev set. 
+In the example above, the sailor only shows the option to travel to an island if you have the corresponding ev set. 
 
-You can use all the following
-- [random[]]
+```json title="Code Example - Money"
+if !item[06q3svbf]
+msg(You don't have a COIN CASE!)
+else
+msg(Welcome to ROCKET GAME CORNER!|Need some game coins?|Choose an amount:)&!with=enabler&!direction=d||&answers=if[money>=1000]50 - $1000,if[money>=5000]250 - $5000,if[money>=10000]500 - $10000,Cancel
 
-- [minute[]]
+500 - $10000=answer(Thanks! Here are 500 coins!)&coins=500&money=-10000
+250 - $5000=answer(Thanks! Here are 250 coins!)&coins=250&money=-5000
+50 - $1000=answer(Thanks! Here are 50 coins!)&coins=50&money=-1000
 
-- [hour[]]
+Cancel=answer(No? Please come play sometime!)
+```
 
-- [date[]]
+In the example above, the Game Corner clerk only shows certain options available to you, dependent on the amount of money you have.
 
-- [month[]]
+You can use all the following:
 
-- [year[]]
-
-- [time[]]
-
-- [player.x[]]
-
-- [player.y[]]
-
-- [map[]]
+- [ev[]]
 
 - [mapvar[]]
 
 - [var[]]
 
-- [ev[]]
+- [skin[]]
 
-- [list[]]
+- [achievement[]]
+
+- [item[]]
 
 - [outfit[]]
 
-- [skin[]]
+- [money[]]
+
+- [badge[]]
+
+- [badges[]]
 
 - [mon[]]
 
+- [egg[]]
 
 !!! warning "Too Many Options, So Little Time."
 

@@ -129,51 +129,51 @@ Places an animated icon bubble above the targets head. Can be used on the player
 
 Icon Name | ID | Symbol
 ------------|-------------|-------------
-Exclamation | 1 | ![alt text](image.png)
-Ellipses | 2 | ![alt text](image-1.png)
-Smiley Face | 3 | :)
-Music Note | 4 |
-Comma | 5 | ,
-Joyful Face | 6 | ^_^
-Heart | 7 | <3
-Sad Face| 8 | :[
-Smiling Face with Open Mouth | 9 | :D
-Fish Icon | 10 | <><
-Angry Face | 11 | >:(
-Battle | 12 | Battle Icon
-Haha | 13 | Ha Ha
-No. 1 | 14 | 1
-No. 2 | 15 | 2
-No. 3 | 16 | 3
-No. 4 | 17 | 4
-No. 5 | 18 | 5
-Poisoned | 19 | 
-Surprised Face | 20 | o_o
-Shaking Head | 21 |
-Question Mark | 22 | ?
-Asleep | 23 | Zzz
-Sweat Drop | 24 | 
-Skull (Dead) | 25 | 
-Big Red Exclamation Mark | 26 |
-Spectating Eye | 27 | Eye
-Crying/Screaming | 28 | 
-Egg | 29 | Egg
-Flight Icon | 30 | White Wing on Blue Bg
-Spanish Flag | 31 | Spanish Flag
-Star No 1 | 32 | Number 1 with star on grey bg
-Star No 2 | 33 | Number 2 with star on grey bg
-Star No 3 | 34 | Number 3 with star on grey bg
-Star No 4 | 35 | Number 4 with star on grey bg
-Star No 5 | 36 | Number 5 with star on grey bg
-Quest (Not Started) | 37 | Quest ?
-Quest (In Progress) | 38 | Quest ...
-Quest (Completed) | 39 | Quest !
-Healer | 40 | + Symbol
-Shop | 41 |
-TM | 42 |
-French Flag | 43 | French Flag
-Gift | 44 | 
-Quest Star | 45 | Quest Star
+Exclamation | 1 | ![alt text](../assets/emoticons/exclamationicon.png)
+Ellipses | 2 | ![alt text](../assets/emoticons/ellipsesicon.png)
+Smiley Face | 3 | ![alt text](../assets/emoticons/smileyfaceicon.png)
+Music Note | 4 | ![alt text](../assets/emoticons/musicnoteicon.png)
+Comma | 5 | ![alt text](../assets/emoticons/commaicon.png)
+Joyful Face | 6 | ![alt text](../assets/emoticons/joyfulfaceicon.png)
+Heart | 7 | ![alt text](../assets/emoticons/hearticon.png)
+Sad Face| 8 | ![alt text](../assets/emoticons/sadfaceicon.png)
+Smiling Face with Open Mouth | 9 | ![alt text](../assets/emoticons/smileopenicon.png)
+Fish Icon | 10 | ![alt text](../assets/emoticons/fishicon.png)
+Angry Face | 11 | ![alt text](../assets/emoticons/angryfaceicon.png)
+Battle | 12 | ![alt text](../assets/emoticons/battleicon.png)
+Haha | 13 | ![alt text](../assets/emoticons/hahaicon.png)
+No. 1 | 14 | ![alt text](../assets/emoticons/1icon.png)
+No. 2 | 15 | ![alt text](../assets/emoticons/2icon.png)
+No. 3 | 16 | ![alt text](../assets/emoticons/3icon.png)
+No. 4 | 17 | ![alt text](../assets/emoticons/4icon.png)
+No. 5 | 18 | ![alt text](../assets/emoticons/5icon.png)
+Poisoned | 19 | ![alt text](../assets/emoticons/poisonedicon.png)
+Surprised Face | 20 | ![alt text](../assets/emoticons/surpriseicon.png)
+Shaking Head | 21 |![alt text](../assets/emoticons/shakingheadicon.png)
+Question Mark | 22 |![alt text](../assets/emoticons/questionmarkicon.png)
+Asleep | 23 | ![alt text](../assets/emoticons/asleepicon.png)
+Sweat Drop | 24 | ![alt text](../assets/emoticons/sweaticon.png)
+Skull (Dead) | 25 | ![alt text](../assets/emoticons/skullicon.png)
+Big Red Exclamation Mark | 26 | ![alt text](../assets/emoticons/redexclaimicon.png)
+Spectating Eye | 27 | ![alt text](../assets/emoticons/spectateicon.png)
+Crying/Screaming | 28 | ![alt text](../assets/emoticons/cryicon.png)
+Egg | 29 | ![alt text](../assets/emoticons/eggicon.png)
+Flight Icon | 30 | ![alt text](../assets/emoticons/flighticon.png)
+Spanish Flag | 31 | ![alt text](../assets/emoticons/spanishflagicon.png)
+Star No 1 | 32 | ![alt text](../assets/emoticons/star1icon.png)
+Star No 2 | 33 | ![alt text](../assets/emoticons/star2icon.png)
+Star No 3 | 34 | ![alt text](../assets/emoticons/star3icon.png)
+Star No 4 | 35 | ![alt text](../assets/emoticons/star4icon.png)
+Star No 5 | 36 | ![alt text](../assets/emoticons/star5icon.png)
+Quest (Not Started) | 37 | ![alt text](../assets/emoticons/questnotstartedicon.png)
+Quest (In Progress) | 38 | ![alt text](../assets/emoticons/questinprogressicon.png)
+Quest (Completed) | 39 | ![alt text](../assets/emoticons/questcompletedicon.png)
+Healer | 40 | ![alt text](../assets/emoticons/healericon.png)
+Shop | 41 | ![alt text](../assets/emoticons/shopicon.png)
+TM | 42 | ![alt text](../assets/emoticons/tmicon.png)
+French Flag | 43 | ![alt text](../assets/emoticons/frenchflagicon.png)
+Gift | 44 | ![alt text](../assets/emoticons/gifticon.png)
+Quest Star | 45 | ![alt text](../assets/emoticons/queststaricon.png)
 
 ### XY Coordinates
 Instantly warps the target to the specified coordinates on the current map.

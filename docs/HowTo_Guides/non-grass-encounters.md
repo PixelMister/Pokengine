@@ -26,7 +26,7 @@ To place a pokemon in the overworld that you can interact with to start a battle
 
 ## Cave Encounters (Map-Wide)
 
-[insert image here]
+![alt text](assets/caveencounters.png)
 
 Create an encounter list and assign its name here to have the entire map treated as a potential wild encounter area. Although this is labeled “Cave,” it can be used for forests, deserts, or any environment you choose.
 
@@ -39,7 +39,7 @@ Create an encounter list and assign its name here to have the entire map treated
 
 Likewise, create an encounter list for surf and assign its name here to have surf encounters generate whenever the player is surfing.
 
-[insert image]
+![alt text](assets/surfencounters.png)
 
 ---
 

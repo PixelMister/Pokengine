@@ -29,17 +29,20 @@ nav:
         - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
         - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
         - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
+        - Outfit System: HowTo_Guides/outfit-system.md
+        - Shop System: HowTo_Guides/shop-system.md
+        - PC System: HowTo_Guides/pc-system.md
       - Folder Grouping 2:
         - Music Settings: HowTo_Guides/music-settings.md
         - Uploading Music: HowTo_Guides/uploading-music.md
         - Step Counter: HowTo_Guides/step-counter.md
-        - Publishing a Region: HowTo_Guides/publishing-a-region.md
       - Folder Grouping 3:
         - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
         - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
         - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
-      - Folder Grouping 4:
-        - Horde Battles: HowTo_Guides/horde-battles.md
+      - Battles and Encounters:
+        - Trainer Battles: HowTo_Guides/trainer-battles.md
+        - Horde Encounters: HowTo_Guides/horde-battles.md
         - Grass Encounters: HowTo_Guides/grass-encounters.md
         - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
   - Utilities:
@@ -54,6 +57,7 @@ nav:
       - Folding Grouping 7:
         - Region Map Setup: Utilities/region-map-setup.md
         - Region Vars: Utilities/region-variables.md
+        - Publishing a Region: Utilities/publishing-a-region.md
       - Folder Grouping 8:
         - Battle AI: Utilities/battle-ai.md
       - Folder Grouping 9:

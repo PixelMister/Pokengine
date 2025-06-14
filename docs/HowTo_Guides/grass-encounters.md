@@ -34,7 +34,7 @@ execute(sfx=grasswalk.ogg)
 Navigate to the "Wild Battles" tab within MapBuilder.  
 Click the top-left icon (it looks like a piece of paper). This button creates a new encounter list.
 
-[insert image here]
+![alt text](assets/wildbattlesgrass.png)
 
 !!! note
     It may be hard to see, but this icon always creates a new entry.
@@ -52,7 +52,7 @@ Click the top-left icon (it looks like a piece of paper). This button creates a 
 Click **Add a New Time** and set its period (e.g. day, night, dawn, dusk, or specific ranges like 09:00–10:00).  
 We recommend using just day and night for simplicity.
 
-[insert image here]
+![alt text](assets/grassencounters.png)
 
 !!! note
     It’s not mandatory, but building your encounter chances to total 100% makes managing and understanding rarity much easier.  
@@ -77,7 +77,7 @@ In the pop-up, specify only the essentials:
 !!! tips "Kyledove's Tip"
     Avoid dynamic levelling—it completely ruins balancing and leads to odd scenarios (e.g. a high-level Caterpie).
 
-[insert image here]
+![alt text](assets/encountermon.png)
 
 - **Encounter Chance**: Set the encounter weight carefully so all your chances sum up to 100%.
 
@@ -92,7 +92,7 @@ Anything you leave blank will be randomised to fit the specified levels when the
 
 Though it may not seem useful at first, trust me—it’s extremely time-saving when building things like fishing encounters.  
 
-[insert image here]
+![alt text](assets/loadencounters.png)
 
 By clicking **Load**, you can export the entire encounter as a single string. 
 

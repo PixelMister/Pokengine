@@ -62,7 +62,7 @@ Below is a non-exhaustive list of creative ways to use Versions:
 
 **Example:**
 
-[insert image here]
+![alt text](assets/versionsystem.png)
 
 Use the green buttons or arrows to upload images:
 
@@ -185,7 +185,7 @@ Example:
 
 - …etc
 
-[insert image here]
+![alt text](assets/versionencounters.png)
 
 ### Conditional Logic Method
 
