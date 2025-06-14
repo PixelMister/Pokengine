@@ -8,7 +8,7 @@ nav:
       - Using This Guide: Using_This_Guide/understanding-guide.md
       - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
       - About Tilefuser: Using_This_Guide/what-is-tilefuser.md
-      - Syntax Guidelines:
+      - Mapbuilder Syntax Guidelines:
         - Object Syntax: Using_This_Guide/understanding-objects.md
         - Definition Syntax: Using_This_Guide/understanding-definitions.md
         - Variable Syntax: Using_This_Guide/understanding-variables.md
@@ -36,16 +36,16 @@ nav:
         - Step Counter: HowTo_Guides/step-counter.md
         - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
         - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
-      - Battles and Encounters:
-        - Grass Encounters: HowTo_Guides/grass-encounters.md
-        - Trainer Battles: HowTo_Guides/trainer-battles.md
-        - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
-        - Horde Encounters: HowTo_Guides/horde-battles.md
       - Region:
         - Uploading Music: HowTo_Guides/uploading-music.md
         - Music Settings: HowTo_Guides/music-settings.md
         - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
         - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
+      - Battles and Encounters:
+        - Grass Encounters: HowTo_Guides/grass-encounters.md
+        - Trainer Battles: HowTo_Guides/trainer-battles.md
+        - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
+        - Horde Encounters: HowTo_Guides/horde-battles.md
   - Utilities:
       - Developer Resources:
         - Tips & Tricks: Utilities/tips-and-tricks.md
@@ -66,6 +66,7 @@ nav:
       - FAQ: About/faq.md
       - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
+      - Creating a Tilemap: About/tilefuserquickguide.md
       - Request A Feature: About/request-a-feature.md
       - Current Limitations: About/current-limitations.md
 
@@ -130,6 +131,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.smartsymbols
   - abbr
   - pymdownx.tasklist:
       custom_checkbox: true
