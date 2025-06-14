@@ -345,7 +345,7 @@ Trainer AI will attempt to use healing items **only** if the following condition
 2. **Healing Threshold:**
     * For example, if the item heals 50 HP, the Pokémon must have lost **at least 50 HP** for the item to be considered
 
-!!! warning "Phasellus posuere in sem ut cursus"
+!!! warning "Current Support"
 
     **Only healing items are currently supported.**
     Items like **X Attack, X Defend**, or other stat boosters are **not functional** at this time.
