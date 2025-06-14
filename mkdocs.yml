@@ -21,48 +21,47 @@ nav:
       - Battle Properties: Code_Library/battle-properties.md
       - Pokemon Generation: Code_Library/pokemon-generation.md
   - How-To Guides:
-      - Root Objects: HowTo_Guides/root-objects.md
-      - Folder Grouping 1:
+      - Objects:
+        - Root Objects: HowTo_Guides/root-objects.md
+      - jCoad:
         - Messages and Textboxes: HowTo_Guides/msg-and-textboxes.md
+        - Shop System: HowTo_Guides/shop-system.md
+        - PC System: HowTo_Guides/pc-system.md
+        - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
+        - Outfit System: HowTo_Guides/outfit-system.md
+      - jCoad - Advanced:
         - Smart Answers: HowTo_Guides/smart-answers.md
         - NPC Trades: HowTo_Guides/npc-trades.md
         - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
-        - Move Relearner & Tutor: HowTo_Guides/move-relearner-tutor.md
-        - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
-        - Outfit System: HowTo_Guides/outfit-system.md
-        - Shop System: HowTo_Guides/shop-system.md
-        - PC System: HowTo_Guides/pc-system.md
-      - Folder Grouping 2:
-        - Music Settings: HowTo_Guides/music-settings.md
-        - Uploading Music: HowTo_Guides/uploading-music.md
         - Step Counter: HowTo_Guides/step-counter.md
-      - Folder Grouping 3:
         - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
         - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
+      - Region:
+        - Uploading Music: HowTo_Guides/uploading-music.md
+        - Music Settings: HowTo_Guides/music-settings.md
+        - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
         - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
       - Battles and Encounters:
-        - Trainer Battles: HowTo_Guides/trainer-battles.md
-        - Horde Encounters: HowTo_Guides/horde-battles.md
         - Grass Encounters: HowTo_Guides/grass-encounters.md
+        - Trainer Battles: HowTo_Guides/trainer-battles.md
         - Non-Grass Encounters: HowTo_Guides/non-grass-encounters.md
+        - Horde Encounters: HowTo_Guides/horde-battles.md
   - Utilities:
-      - Folder Grouping 5:
+      - Developer Resources:
         - Tips & Tricks: Utilities/tips-and-tricks.md
         - Cheat Sheet: Utilities/cheat-sheet.md
-      - Folder Grouping 6:
+        - Common Pitfalls: Utilities/common-pitfalls.md
+        - Variable Library: Utilities/variables.md
+      - Region & World Setup:
+        - Region Map Setup: Utilities/region-map-setup.md
+        - Region Vars: Utilities/region-variables.md
+        - Publishing a Region: Utilities/publishing-a-region.md
+      - Gameplay Systems:
         - Buddy System: Utilities/buddy-system.md
         - Fishing System: Utilities/fishing-system.md
         - Version System: Utilities/version-system.md
         - Obedience System: Utilities/obedience-system.md
-      - Folding Grouping 7:
-        - Region Map Setup: Utilities/region-map-setup.md
-        - Region Vars: Utilities/region-variables.md
-        - Publishing a Region: Utilities/publishing-a-region.md
-      - Folder Grouping 8:
         - Battle AI: Utilities/battle-ai.md
-      - Folder Grouping 9:
-        - Common Pitfalls: Utilities/common-pitfalls.md
-        - Variable Library: Utilities/variables.md
   - General Info:
       - FAQ: About/faq.md
       - Commonly Asked Questions: About/commonly-asked-questions.md
