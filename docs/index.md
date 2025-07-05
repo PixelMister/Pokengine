@@ -17,6 +17,3 @@ Mapbuilder operates by using your Tilefuser map as a base, allowing you to add o
 
 Before diving into programming, here are a few helpful tips to get you started with Mapbuilder.
 
-### What is jCoad?
-
-
