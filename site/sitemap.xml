@@ -2,90 +2,222 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://pokengine-new.readthedocs.io/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/About/commonly-asked-questions/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/About/current-limitations/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/About/faq/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/About/request-a-feature/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/About/rolesandpermissions/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/About/tilefuserquickguide/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Code_Library/battle-properties/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Code_Library/conditions/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Code_Library/entities/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Code_Library/objects/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Code_Library/pokemon-generation/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Code_Library/triggers/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Feature%20Guides/region-tm-tutors/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/Home/version-history/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Feature%20Guides/regional-weather-schedule/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/grass-encounters/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Feature%20Guides/trainer-battle-ai/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/happiness/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/How%20To%20Use%20This%20Guide/understanding-guide/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/horde-battles/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/How%20To%20Use%20This%20Guide/understanding-objects/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/item-sparkle-system/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Mapbuilder/understanding-datatypes/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/move-relearner-tutor/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Mapbuilder/understanding-definitions/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/msg-and-textboxes/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Mapbuilder/understanding-variables/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/music-settings/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Mapbuilder/what-is-mapbuilder/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/non-grass-encounters/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Tilefuser/creatingatilemap/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/npc-trades/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
-         <loc>https://pokengine-new.readthedocs.io/Tilefuser/introductiontotilefuser/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/outfit-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/overworld-damage-status-effects/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/pc-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/quest-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/region-tm-tutors/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/region-travel/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/regional-weather-schedule/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/root-objects/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/shop-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/smart-answers/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/step-counter/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/trainer-battles/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/HowTo_Guides/uploading-music/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/understanding-datatypes/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/understanding-definitions/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/understanding-guide/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/understanding-objects/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/understanding-variables/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/what-is-mapbuilder/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Using_This_Guide/what-is-tilefuser/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/battle-ai/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/buddy-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/cheat-sheet/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/common-pitfalls/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/fishing-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/obedience-system/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/publishing-a-region/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/region-map-setup/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/region-variables/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
     <url>
          <loc>https://pokengine-new.readthedocs.io/Utilities/tips-and-tricks/</loc>
-         <lastmod>2025-06-01</lastmod>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/variables/</loc>
+         <lastmod>2025-07-05</lastmod>
+    </url>
+    <url>
+         <loc>https://pokengine-new.readthedocs.io/Utilities/version-system/</loc>
+         <lastmod>2025-07-05</lastmod>
     </url>
 </urlset>

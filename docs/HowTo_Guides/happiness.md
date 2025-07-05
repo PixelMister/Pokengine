@@ -135,6 +135,7 @@ else if ontile and mapvar[massage]=6 and mapvar[massageRNG]>=61
 msg()unfreeze&fadein&happiness[6]=30&mapvar[massage]=0&ev[massageDay]=1&textbox=There. All done!#The massage has made %mon[6].name% much more friendly to you!
 ```
 
+## Happiness Checker NPC
 
 The example below shows an NPC based on the one from Retro Hoenn’s Verdanturf Town. She checks the happiness of the first Pokémon in your party.
 

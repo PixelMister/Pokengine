@@ -32,15 +32,17 @@ nav:
       - jCoad - Advanced:
         - Smart Answers: HowTo_Guides/smart-answers.md
         - NPC Trades: HowTo_Guides/npc-trades.md
-        - Happiness Checker NPC: HowTo_Guides/happiness-checker-npc.md
+        - Happiness: HowTo_Guides/happiness.md
         - Step Counter: HowTo_Guides/step-counter.md
         - Overworld Damage and Status Effects: HowTo_Guides/overworld-damage-status-effects.md
         - Kyledove's Item Sparkle System: HowTo_Guides/item-sparkle-system.md
       - Region:
+        - Quest System: HowTo_Guides/quest-system.md
         - Uploading Music: HowTo_Guides/uploading-music.md
         - Music Settings: HowTo_Guides/music-settings.md
         - Region TM Tutors: HowTo_Guides/region-tm-tutors.md
         - Regional Weather Schedules: HowTo_Guides/regional-weather-schedule.md
+        - Region Travel: HowTo_Guides/region-travel.md
       - Battles and Encounters:
         - Grass Encounters: HowTo_Guides/grass-encounters.md
         - Trainer Battles: HowTo_Guides/trainer-battles.md

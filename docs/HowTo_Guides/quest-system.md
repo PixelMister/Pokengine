@@ -140,19 +140,19 @@ To clearly communicate quest status to players, we recommend using intuitive ico
 
 Here's the format we suggest:
 
-- **Star Icon** ![alt text](queststaricon.png) OR **Question Icon** ![alt text](questnotstartedicon.png) – A new quest is available at this location.
+- **Star Icon** ![alt text](assets/queststaricon.png) OR **Question Icon** ![text](assets/questnotstartedicon.png) – A new quest is available at this location.
 
 
-- **Ellipsis Icon** ![alt text](questinprogressicon.png) – A quest is in progress, but there's no new update.
+- **Ellipsis Icon** ![alt text](assets/questinprogressicon.png) – A quest is in progress, but there's no new update.
 
 
 - We suggest having the NPC provide a helpful prompt or reminder about the current objective when in this state.
 
 
-- **Exclamation Icon** ![alt text](questcompletedicon.png) – The quest has been updated. Speak to the NPC for the next step!
+- **Exclamation Icon** ![alt text](assets/questcompletedicon.png) – The quest has been updated. Speak to the NPC for the next step!
 
 
 This icon can also indicate that the quest is ready to be completed.
 
 
-> 💡 **Credit**: The Quest system was invisaged by **Kyledove** and designed and spearheaded by **Gav**
+> 💡 **Credit**: The Quest system was envisaged by **Kyledove** and designed and spearheaded by **Gav**
