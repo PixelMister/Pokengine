@@ -55,7 +55,7 @@
   color: #ff9800; /* or use a CSS variable like var(--md-primary-fg-color) */
 }
 
-/* Dark mode */
+/* Dark mode TESTING BY KYLE*/
 [data-md-color-scheme="slate"] .md-tabs__item--active > .md-tabs__link {
   color: #ff9800; /* a warm orange tone, or any colour you like */
 }
