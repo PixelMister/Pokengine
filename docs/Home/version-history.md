@@ -21,7 +21,8 @@ This page will be updated at every *major* update, smaller tweaks can be highlig
 </div>
 
 ## Version Log
-| Version | Date        | Description                                                                                                         |
-|---------|-------------|---------------------------------------------------------------------------------------------------------------------|
-| 1.1     | June 2025   | PixelMister migrated to current platform with a complete restructure. Removed outdated or incorrect information and added coverage for new functions. |
-| 1.0     | Jan 26, 2021| Zermonious published pokengine-jcoad-docs.                                                                         |
+| Version | Date    | Description                                                                                                         |
+|---------|---------|---------------------------------------------------------------------------------------------------------------------|
+| 1.2     | Aug 2025| Editing permissions created and shared repository with Pokengine Creative Director. |
+| 1.1     | Jun 2025| PixelMister migrated to current platform with a complete restructure. Removed outdated or incorrect information and added coverage for new functions. |
+| 1.0     | Jan 2021| Zermonious published pokengine-jcoad-docs.                                                                         |
