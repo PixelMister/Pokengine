@@ -63,5 +63,7 @@
 /* Should make code blocks wrap instead of one line that extends horizontally via scrollbar */
 code {
     overflow: visible !important;
-    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: break-all !important;
+    white-space: pre-wrap !important;
 }
