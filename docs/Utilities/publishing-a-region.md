@@ -20,14 +20,12 @@ To officially publish your region, follow the steps below:
 
  ![](assets/publishingregion.png)
 
- ## Region Description for the Airport Terminal
- We also ask for a slightly longer blurb for the Airport Terminal notice board. This should be about four sentences long and give players a fuller sense of what to expect.
+## Region Description for the Airport Terminal
+We also ask for a slightly longer blurb for the Airport Terminal notice board. This should be about four sentences long and give players a fuller sense of what to expect.
 
 ```json
 Rica=answer(Rica is a tropical region with an emphasis on exploration and features over 200 Pokemon, both new and old!|Prove your strength by defeating four gym leaders. Their badges allow you to explore deeper into the dangerous wilderness to uncover the source of the vicious wild Pokemon.|Trainers prefer double battles here, and the dungeons can be challenging, so come prepared!|Rica is complete through Rosewood Town, about halfway through the story. You can unlock the Global PC after defeating the second gym leader. The third gym will be releasing very soon!|Read about additional regions by selecting a category.)
 ```
-
-Test
 
 !!! note "Notify, Notify, Notify!"
 
