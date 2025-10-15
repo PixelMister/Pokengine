@@ -20,7 +20,7 @@ If you found a song you like on SoundCloud, you can use [KlickAud](https://www.k
 
 3. **Paste this link into Pokengine - refer to Music Settings page**
 
-We have a [central music repository](https://docs.google.com/spreadsheets/d/1Xyfc4jBWfXcuyLiJx3uErtb6lZyAsQ5ypMVCUBDzTt4/edit?usp=sharing) that anyone is welcome to take from or contribute to.
+We have a [central music repository]() that anyone is welcome to take from or contribute to.
 
 !!! warning "Broken Links"
 
