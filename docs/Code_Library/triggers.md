@@ -883,12 +883,35 @@ Sets the dimensions of the client’s game window.
 ### Filter
 Generates a filter over the game screen.
 ```json
-&filter[=type]
+&filter[=type[,option1:value1[,option2:value2[,...]]]]
 ```
-**type***(string)))*
+
+**type** *(string)*
 : Filter to display.
 
-**Options**: crt, oldfilm, glitch, shockwave, bloom, ascii, godray, rgbsplitter, pixelate, underwater
+**Types** (options and defaults):
+
+- **crt** - `linecontrast:0, curvature:0.5, noise:0`
+
+- **oldfilm** - `noise:0.1`
+
+- **glitch** - _none_
+
+- **shockwave** - `centerX:0, centerY:0, amplitude:30, brightness:1, radius:-1, speed:500, wavelength:160, time:0`
+
+       > Note: if `centerX<1` and `centerY<1`, coordinates are treated as fractions of the screen size. They are treated as pixel distances otherwise.
+
+- **bloom** - `threshold:0, bloomscale:1.2, strength:2, strengthx:undefined, strengthy:undefined`
+
+- **ascii** - `size:8`
+
+- **godray** - `angle:30, gain:0.5, lacunarity:2.5, parallel:1, centerX:0, centerY:0, time:0, alpha:1`
+
+- **rgbsplitter** - `redX:0, redY:0, greenX:0, greenY:0, blueX:0, blueY:0`
+
+- **pixelate** - `size:2`
+
+- **underwater** - `count:0`
 
 **Default**: Remove any filter
 
