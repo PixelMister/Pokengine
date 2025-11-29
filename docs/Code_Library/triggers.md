@@ -641,6 +641,13 @@ Creates a shop with the listed items and prices. An infinite list of items can b
 
 **Default**: Default Price
 
+### Limited Item Shop
+If the price of an item is negative, it is treated as a limited stock. For example,
+> `&shop=06xa6ohm:-5,06idcypk,06rpsnfm:-1`
+would create a limited item shop that has 10 Poke Balls, unlimited Great Balls, and 1 Master Ball.
+
+Note that TMs are always a limited stock of 1
+
 ### Buy
 Creates a shop with the listed items and prices, similar to &shop. However, the player may not sell items here; only the buy option is activated.
 ```json
