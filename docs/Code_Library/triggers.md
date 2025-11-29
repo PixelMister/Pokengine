@@ -889,7 +889,7 @@ Generates a filter over the game screen.
 **type** *(string)*
 : Filter to display.
 
-**Types** (options and defaults):
+**Options** (options and defaults):
 
 - **crt** - `linecontrast:0, curvature:0.5, noise:0`
 
