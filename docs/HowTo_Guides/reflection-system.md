@@ -11,7 +11,7 @@ To activate the reflection system, either:
 
     `%random%=sprite(186753/test-reflection-single,reflection)`.
 
-    ![Alt text](assets/reflectionmaskexample.png)
+![Alt text](assets/reflectionmaskexample.png)
 
    - The mask will show reflections where pixels are white.
    - The mask respects alpha.
