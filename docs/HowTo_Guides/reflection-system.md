@@ -38,3 +38,5 @@ To activate the reflection system, either:
 `mapvar[reflections_frosted]=1`
 
 ![The player skates on ice while having a fuzzy reflection.](assets/reflectionfrostedice.gif)
+
+💡 **Credit**: The Reflection system was developed by **Ginzuishou**, **Kyledove**, and **JosiahKunz**.
