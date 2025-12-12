@@ -858,6 +858,48 @@ Plays a sound track.
 
 **Default**: Stops playing any track.
 
+### Track Fadeout
+Fades out the currently playing track.
+```json
+&trackfadeout[=duration:time[,replace:url]]
+```
+**time***(number)))*
+: Fading happens over `time` ms to a final volume of zero.
+
+**url***(string)))*
+: When the fadeout ends, a replacement track (`url`) is played at full volume (if it exists).
+
+**Default**: Fades out the currently playing track over 1000 ms.
+
+!!! note
+    
+    Can be combined with `&trackfadein` to achieve cross fading via
+
+    `&trackfadeout&trackfadein=url`
+
+### Track Fadein
+Immediately stops the current audio and fades in a new track.
+```json
+&trackfadein=url[,duration:time[,volume:vol[,loop[:t1[-t2]]]
+```
+**time***(number)))*
+: Fading happens over `duration` ms.
+
+**vol***(number)))*
+: The ending volume.
+
+**loop***(loop)))*
+: If just `loop`, the new audio will loop. If `loop:t1`, the audio will loop about the ending time `t1` in ms. If `loop:t1-t2`, the loop will happen between the two times `t1` and `t2` in ms.
+
+**Example** 
+`&trackfadein=url,duration:1000,volume:100,loop:0-1000`
+
+!!! note
+
+    Can be combined with `&trackfadeout` to achieve cross fading via
+
+    `&trackfadeout&trackfadein=url`
+
 ### Cry
 Plays a Pokémon cry.
 ```json

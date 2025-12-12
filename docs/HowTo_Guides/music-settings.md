@@ -32,6 +32,12 @@ If you want a specific map to use a different track:
 
 ![alt text](assets/daynightaudio.png)
 
+## Global Audio Fadeout
+
+Normally, when a new map loads, it will immediately stop the old audio and begin playing the new audio at full volume. To instead have the old track fade out and the new track replace it, set `var[bgm_fade_time]` to a fading time in ms:
+
+![alt text](assets/bgmfadetimesettings.png)
+
 ## Triggering Music via jCoad
 
 Please see the following example from Sinnoh Region:
@@ -47,6 +53,8 @@ else
 You can use this as a separate trigger anywhere - not just when a trainer spots the player. For example, it’s useful during cutscenes if you want to change the music after a specific event occurs.
 
 `&track=db:s/brm2ibkabxai4t5/Look%21%20Shorts%20Boy.mp3`
+
+See also [the `&track=` trigger](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#track>).
 
 ## Setting a Song for Specific Trainer Battles
 
