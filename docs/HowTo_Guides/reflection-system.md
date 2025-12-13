@@ -29,6 +29,9 @@ To activate the reflection system, either:
 
      ![Alt text](assets/reflectionvoidcolor.png)
 
+!!! note "Exclusivity Note"
+
+     Don't have both void reflections and a reflection mask on the same map. Only one is supported at a time.
 
 ## Customizations
 
