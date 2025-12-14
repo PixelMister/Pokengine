@@ -7,7 +7,7 @@
 
 To activate the reflection system, either:
 
-<u>1. Create a reflection sprite</u> on the `reflection` layer of the game to act as a mask. This can be done via, e.g.,
+<u>Option A: Create a reflection sprite</u> on the `reflection` layer of the game to act as a mask. This can be done via, e.g.,
 
     `%random%=sprite(186753/test-reflection-single,reflection)`.
 
@@ -23,7 +23,7 @@ To activate the reflection system, either:
 
      Set the sprite's layer to `map` first to align it.
 
-<u>-or- 2. Set `mapvar[reflections_void]=1`</u>. This allows reflections to appear on the `void` layer of the game.
+<u>Option B: Set `mapvar[reflections_void]=1`</u>. This allows reflections to appear on the `void` layer of the game.
 
    - If you do this, it's also recommended to change the void color to `133,206,255`:
 
