@@ -17,6 +17,13 @@ An area, represented by two integers separated by an “x.” Use the format `mx
 area
 mxn
 ```
+
+If part of a `path`, the area starts at the (0, 0) and goes to (`m`, `n`). 
+
+Alternatively, the area can be represented by four integers for further control: `kxlxmxn`. Here, the area stretches from (`-k`, `-l`) to (`m`, `n`). 
+
+For example, using `npc(01nvbqll,down,3x2x5x0)` would let the NPC roam from (-3, -2) to (+5, +0) around its current location.
+
 ## Depth
 A depth string that indicates the depth of a sprite or animation drawn in the game. Depth strings consist of a base position and an optional offset.
 ```json title="(type) depth" 
@@ -92,6 +99,14 @@ circle => 1r, 1d, 1l, 1u*
 spin => 0r,0d,0l,0r
 twirl => spin once, ending on the direction it initiates with.
 ```
+More advanced pathing includes:
+
+ - `g`: If the path ends with `g`, the target enters "ghost mode" where it can pass through solid tiles.
+ - `s`: Move forward in the target's current direction (e.g., `3s`).
+ - `o`: Move in the opposite direction as the target's current direction (e.g., `3o`).
+ - `b`: Same as `o`, but the target does not turn around (the target takes one step backwards).
+ - `pauseN`: Pauses `N` milliseconds in the path (e.g., `1r,pause1000,1u`).
+ 
 ## Percentage
 An integer representing a percentage.
 ```json title="(type) percentage" 
