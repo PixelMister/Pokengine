@@ -444,7 +444,7 @@ Initiates a battle.
 &battle=id
 ```
 **id***(number)*
-: Battle ID to initiate.
+: Battle ID to initiate, either the trainer's battle ID (like 3378) or a Pokémon UID (like `00xchwcw` for Mewtwo).
 
 ### No Blackout
 Prevents the user from "blacking out" and heading to the Pokemon Center or defined heal point.

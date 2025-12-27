@@ -380,7 +380,7 @@ beaten[x,y]
 ```
 
 ### Battle Won
-Value is the battle ID of the last battle the player won, either a trainer’s battle ID or a Pokémon name. 0 if player has not battled.
+Value is the battle ID of the last battle the player won, either a trainer’s battle ID or a Pokémon UID. 0 if player has not battled.
 
 ```json 
 battlewon
@@ -392,14 +392,14 @@ msg(Congrats, you have earned the Wilds Badge!)
 ```
 
 ### Battle Lost
-Value is the battle ID of the last battle the player lost, either a trainer’s battle ID or a Pokémon name. 0 if player has not battled.
+Value is the battle ID of the last battle the player lost, either a trainer’s battle ID or a Pokémon UID. 0 if player has not battled.
 
 ```json 
 battlelost
 ```
 
 ### Caught
-Value is the battle ID of the last battle in which the player captured a Pokémon, either a trainer’s battle ID or a Pokémon name. 0 if player has not captured anything.
+Value is the battle ID of the last battle in which the player captured a Pokémon, either a trainer’s battle ID or a Pokémon UID. 0 if player has not captured anything.
 
 ```json 
 caught
@@ -408,13 +408,13 @@ caught
 ```json 
 if !ev[mewtwo]
 mewtwo=npc(543,down)
-mewtwo.msg(Mew!)&battle=mewtwo;level 70;moves 129,112,94,105;scene 42
-if ontile=mewtwo and caught=mewtwo
+mewtwo.msg(Mew!)&battle=00xchwcw;level 70;moves 129,112,94,105;scene 42
+if ontile=mewtwo and caught=00xchwcw
 execute(ev[mewtwo]=1)
 ```
 
 ### Battled
-Value is the battle ID of the last battle the player participated in regardless of outcome, either a trainer’s battle ID or a Pokémon name. 0 if player has not battled.
+Value is the battle ID of the last battle the player participated in regardless of outcome, either a trainer’s battle ID or a Pokémon UID. 0 if player has not battled.
 
 ```json 
 battled
