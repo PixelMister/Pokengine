@@ -419,6 +419,14 @@ Adds a new (potentially animated) sprite to the map. See `animation()`.
 &sprite[name]=x,y,file,depth,image_x,image_y,image_width,image_height,frames,speed,loop,unsynced
 ```
 
+### Shadow
+Adds or removes a shadow from the target. See also [`shadow` (entity property)](<https://pokengine.readthedocs.io/en/latest/Code_Library/entities/#shadow>).
+```json
+&shadow[=choice]
+```
+**choice***(yes / no)*
+: Should the target have a shadow?
+
 ## Player Events
 
 ### Warp
