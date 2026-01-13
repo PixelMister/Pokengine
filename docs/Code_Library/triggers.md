@@ -99,6 +99,16 @@ Causes the target to face the given direction.
 **direction***(string)*
 : The name of the direction the target will face.
 
+### Freeze Direction
+Causes the target to freeze in the given direction regardless of motion. The player can still control their character. Example: climbing down a ladder.
+freeze-direction
+```json title="&direction" 
+&freeze-direction=yes
+&freeze-direction=no
+```
+**freeze***(yes | no)*
+: If yes, freeze the player. If no, unfreeze the player.
+
 ### Path
 Moves the target along the given path.
 ```json
