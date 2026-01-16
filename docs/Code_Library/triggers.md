@@ -95,9 +95,10 @@ Causes the target to face the given direction.
 &direction=d or &direction=down
 &direction=l or &direction=left
 &direction=r or &direction=right
+&direction=player
 ```
 **direction***(string)*
-: The name of the direction the target will face.
+: The name of the direction the target will face. Using `direction=player` will cause the target to face the player.
 
 ### Freeze Direction
 Causes the target to freeze in the given direction regardless of motion. The player can still control their character. Example: climbing down a ladder.
@@ -394,7 +395,7 @@ Resets a target who has spotted the player.
 ## Sprite Manipulation
 
 ### Animate
-Forces the target to animate.
+Forces the target to animate. If the target is an NPC, it will force it to perform its walk animation.
 ```json
 &animate[=percentage]
 ```
