@@ -23,15 +23,15 @@ To use the list, you can stringitize the call like:
 if !mapvar[rng]
   execute(mapvar[rng]=%random[3]%-1)
 
-// Fight Dude
+// Fight Derrick
 if mapvar[rng]=0
   msg(You'll be facing %list[trainers][0].name%!)&battle=%list[trainers][0].id%
         
-// Fight Kyle
+// Fight Ronda
 if mapvar[rng]=1
   msg(You'll be facing %list[trainers][1].name%!)&battle=%list[trainers][1].id%
 
-// Fight Jext
+// Fight Tasha
 if mapvar[rng]=2
   msg(You'll be facing %list[trainers][2].name%!)&battle=%list[trainers][2].id%
 ```
