@@ -95,10 +95,10 @@ Causes the target to face the given direction.
 &direction=d or &direction=down
 &direction=l or &direction=left
 &direction=r or &direction=right
-&direction=player
+&direction=npc
 ```
 **direction***(string)*
-: The name of the direction the target will face. Using `direction=player` will cause the target to face the player.
+: The name of the direction the target will face. Using `direction=npc` will cause the target to face the named npc (or the player using `&direction=player`).
 
 ### Freeze Direction
 Causes the target to freeze in the given direction regardless of motion. The player can still control their character. Example: climbing down a ladder.
