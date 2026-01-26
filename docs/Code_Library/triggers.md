@@ -719,6 +719,18 @@ Causes the target to start surfing.
 
 **Default**: No
 
+### Fish
+Causes the target to start fishing.
+```json
+&fish=choice[,nobobber[,noitem]]
+```
+**choice***(yes | blank)))*
+: If not blank, causes the target to attempt to fish. `nobobber` can be added to skip the animation and `noitem` can be added to suppress the ability to fish up items.
+
+**Default**: Blank
+
+**Example usage**: `&fish=yes,nobobber,noitem`
+
 ### Safari
 Puts the player in a Safari Zone, where they have a certain number of steps before being warped away.
 ```json
