@@ -722,10 +722,16 @@ Causes the target to start surfing.
 ### Fish
 Causes the target to start fishing.
 ```json
-&fish=choice[,nobobber[,noitem]]
+&fish=rod[,nobobber[,noitem]]
 ```
-**choice***(yes | blank)))*
-: If not blank, causes the target to attempt to fish. `nobobber` can be added to skip the animation and `noitem` can be added to suppress the ability to fish up items.
+**rod***(string)))*
+: If not blank, causes the target to attempt to fish using the specified rod (such as `oldrod`). See also the [Fishing System Overview](<https://pokengine.readthedocs.io/en/latest/Utilities/fishing-system/>). 
+
+**nobobber**(string)))*
+: `nobobber` can be added to skip the casting and bobber animations. 
+
+**noitem**(string)))*
+: `noitem` can be added to suppress the ability to fish up items.
 
 **Default**: Blank
 
