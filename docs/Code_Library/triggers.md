@@ -735,7 +735,7 @@ Causes the target to start fishing.
 
 **Default**: Blank
 
-**Example usage**: `&fish=yes,nobobber,noitem`
+**Example usage**: `&fish=oldrod,nobobber,noitem`
 
 ### Safari
 Puts the player in a Safari Zone, where they have a certain number of steps before being warped away.
