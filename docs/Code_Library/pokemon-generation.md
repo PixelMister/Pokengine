@@ -286,21 +286,38 @@ Value| Function |
 ? | The Pokemon has a random chance of being a Shiny Pokemon.
 
 ## Pokemon Caught Data
-Set the Pokemon’s caught data. Caught strings are another type of string that must be formatted. Every option must appear continuously.
+Set the Pokemon's caught data. Caught strings are a comma-separated format with key-value pairs.
 
+### Syntax
 ```json
 caught caught_string
 ```
 ```json
 c caught_string
 ```
-```json title="Code Limiters" 
-@[time] - Set the time when caught.
-By[player_id] - Set the player who caught the Pokemon.
-In[item_id] - Set the Poke Ball the Pokemon was caught in.
-On[map_id] - Set where the Pokemon was caught.
-Lv[level] - Set what level the Pokemon was caught at.
+
+### Format
+The caught string is a comma-separated list of key-value pairs in the format `key:value`. Multiple fields are joined with commas.
+
+**Example:**
 ```
+c @:1738454400,p:12345,i:06idcypk,m:0816tgj5,l:5,t:0
+```
+
+### Code Limiters
+```
+@:time        - Set the timestamp when caught (Unix timestamp)
+p:player_id   - Set the player ID who caught/owns the Pokemon (OT - Original Trainer)
+i:item_id     - Set the Poke Ball the Pokemon was caught in
+m:map_id      - Set the map where the Pokemon was caught
+l:level       - Set what level the Pokemon was caught at
+t:type        - Set the catch type (0 = caught, 1 = hatched, etc.)
+```
+
+### Notes
+- Fields are optional and only included if they have a value
+- Fields are comma-separated (`,`)
+- Order doesn't matter, but typically appears as: time, player, ball, map, level, type
 
 
 
