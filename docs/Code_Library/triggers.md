@@ -131,12 +131,24 @@ Sets the targets speed. Can be used on the player.
 ### Icon Bubbles
 Places an animated icon bubble above the targets head. Can be used on the player.
 ```json 
-&icon=id
+&icon=id[,stay[,silent]]
 ```
 **id***(number)*
 : Icon ID to display.
 
+**stay***(number)*
+: If 1, the icon does not disappear. Default: 0.
+
+**silent***(string)*
+: If `silent`, the icon plays without the sound effect. Defaults to nothing (plays sfx).
+
 **Default**: Removes any icon.
+
+**Usage**: 
+
+Create a permanent icon without playing sound: `&icon=13,1,silent`
+
+Remove any icons from the target: `&icon`
 
 Icon Name | ID | Symbol
 ------------|-------------|-------------
