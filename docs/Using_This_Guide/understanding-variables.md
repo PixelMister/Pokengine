@@ -2,7 +2,7 @@
 ## Types of Variables
 **Variables** are individual values that are stored to the player to manipulate their ingame experience. Without variables, creating any sort of story or event within the game would be impossible.
 
-There are four types of variables. They are different in function, and when they should be reset.
+There are several types of variables. They are different in function, and when they should be reset.
 
 ### Variables
 
@@ -10,7 +10,7 @@ Name | Code | Description
 ------------|-------------|-------------
 **Variables** | var | Variables are reset after the game is reloaded by the user.
 **Map Variables** | mapvar | Map Variables are reset after the user switches maps.
-**Event Variables** | ev | Event Variables are stored indefinitely. Due to their permanent nature, these values are used for events and story progression.
+**Event Variables** | ev | Event Variables are stored indefinitely. Due to their permanent nature, these values are used for events and story progression. Note: event variables are reset upon region reset.
 **Region Variables** | var/mapvar/ev | A variable controlled within region parameters, and are set at the initialisation of a region.
 
 !!! warning "Using Var/Mapvar/EVs in Debug Mode"
@@ -21,3 +21,16 @@ Name | Code | Description
 The most important thing with regard to variables is their name. Since variables are stored to the user as different values, no two triggers within the same region can have the same name. Sure, variables and map variables that are not permanent, may not matter as much as event variables, but any naming conflicts will still cause different values to be overwritten at the wrong times. This may potentially break any coded event for the player. Whilst ev’s,var’s and mapvar’s are locked to a region, it is still advised that the following naming scheme is used for your variables.
 
 For naming variables and map variables, begin by using your three-letter region identification code as a prefix for your variable. For example; Otopo would be ```oto_``` This will automatically keep your variable exclusive to your maps to avoid naming discrepancies. Next, you should include the name of the map if it is a variable or map variable. Lastly, include a short, one-word identifier for what your variable does in the game. For example…
+
+### Global EVs
+By prefixing a variable name with `$` and a region code, you can create a global event variable. These variables are similar to EVs except that:
+
+ - Global EVs can be seen in an region. For example, let's say `ev[$cv_dex_complete]=1` is set in Centennial Valley. If the player travels to Harsholme, they could experience a unique interaction since the CV dex is completed.
+ - Global EVs are not reset with a region reset. This is useful for one-time gifts or new game plus functionalities.
+
+!!! note "Proper Naming"
+    
+    Global EVs must be started with `$`, then a region code (like `cv` for Centennial Valley or `oto` for Otopo), then an underscore, then the regular variable name.
+
+    Correct: $REGION_Varname, $region_varname, $HWT_shoes_owned
+    Incorrect (will error): $varname, $TEST, $ABC_, $_something
