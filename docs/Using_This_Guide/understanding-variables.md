@@ -25,12 +25,12 @@ For naming variables and map variables, begin by using your three-letter region 
 ### Global EVs
 By prefixing a variable name with `$` and a region code, you can create a global event variable. These variables are similar to EVs except that:
 
- - Global EVs can be seen in an region. For example, let's say `ev[$cv_dex_complete]=1` is set in Centennial Valley. If the player travels to Harsholme, they could experience a unique interaction since the CV dex is completed.
- - Global EVs are not reset with a region reset. This is useful for one-time gifts or new game plus functionalities.
+ - Global EVs can be seen in _any_ region. For example, let's say `ev[$cv_dex_complete]=1` is set in Centennial Valley. If the player travels to Harsholme, they could experience a unique interaction since the CV dex is completed.
+ - Global EVs are _not_ reset with a region reset. This is useful for one-time gifts or new game plus functionalities.
 
 !!! note "Proper Naming"
     
-    Global EVs must be started with `$`, then a region code (like `cv` for Centennial Valley or `oto` for Otopo), then an underscore, then the regular variable name.
+    Global EVs _must_ be started with `$`, then a region code (like `cv` for Centennial Valley or `oto` for Otopo), then an underscore, then the regular variable name.
 
     Correct: `$REGION_Varname`, `$region_varname`, `$HWT_shoes_owned`
 
