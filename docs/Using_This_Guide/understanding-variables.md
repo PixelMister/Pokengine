@@ -32,5 +32,6 @@ By prefixing a variable name with `$` and a region code, you can create a global
     
     Global EVs must be started with `$`, then a region code (like `cv` for Centennial Valley or `oto` for Otopo), then an underscore, then the regular variable name.
 
-    Correct: $REGION_Varname, $region_varname, $HWT_shoes_owned
-    Incorrect (will error): $varname, $TEST, $ABC_, $_something
+    Correct: `$REGION_Varname`, `$region_varname`, `$HWT_shoes_owned`
+
+    Incorrect (will error): `$varname`, `$TEST`, `$ABC_`, `$_something`
