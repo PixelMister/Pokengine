@@ -861,19 +861,34 @@ Shakes the screen, as if there was an earthquake.
 **Default**: 0
 
 ### Lookat
-Moves the game camera to the given coordinates on the map.
+Moves the game camera to the given coordinates on the map. 
+
+There are four modes:
 ```json
-&lookat[=x,y]
+&lookat
 ```
-**x***(number)))*
-: X-coordinate of target tile.
+The default mode makes the camera look at the player. 
+ - The speed is 1/10 of the distance to the player per frame.
+ - The movement happens every tick, so this method is fps-dependent.
 
-**Default**: Player
+```json
+&lookat=player[,px_per_frame[,frame_duration]]
+```
+In player mode, you can control the number of pixels moved per frame and how long each frame is. For an extreme example, use `lookat=player,64,1000`, which makes the camera move 64 pixels in 1 second increments (very choppy).
 
-**y***(number)))*
-: Y-coordinate of target tile.
+```json
+&lookat=x,y[,px_per_frame[,frame_duration]]
+```
+Similar to player mode, you can look at a specified coordinate. For example, `&lookat=0,0,64,1000`.
 
-**Default**: Player
+```json
+&lookat=npc,anything,[,px_per_frame[,frame_duration]]
+```
+In NPC mode, you can look at named NPCs just like you do with the player. Due to a bug, the second argument can be anything (even blank), but must exist. For example, `&lookat=lady,` or `&lookat=lady,,64,1000`.
+
+!!! note "Recommended Values"
+
+    To avoid fps-dependent camera `lookat`s, it's recommended that you always use the `px_per_frame` and `frame_duration` parameters. The smoothest transitions happen when `px_per_frame` is 1. Some values for `frame_duration` might be 25 (slow), 10 (medium), or 1 (fast).
 
 ### Weather
 Sets the weather the player sees.
