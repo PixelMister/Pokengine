@@ -141,9 +141,7 @@ Sets the targets frequency of movement (in movements per second).
 &freq=num
 ```
 **num***(any positive number)*
-: Number of times per second to move. For example, `&freq=2` (fast) or `&freq=0.5` (slow).
-
-**Default**: 1
+: Number of times per second to move. For example, `&freq=2` (fast) or `&freq=0.5` (slow). **Default**: 1
 
 ### Icon Bubbles
 Places an animated icon bubble above the targets head. Can be used on the player.
