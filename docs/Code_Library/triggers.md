@@ -119,6 +119,12 @@ Moves the target along the given path.
 : Path for the target to follow.
 **Default**: Unsets the current path.
 
+In addition to those listed under [the path datatype](<https://pokengine.readthedocs.io/en/latest/Using_This_Guide/understanding-datatypes/#paths>), you can limit the directions. For example,
+
+`&path=0dx0lx0u`
+
+lets the npc randomly look down, left, or up (but not right).
+
 ### Speed
 Sets the targets speed. Can be used on the player.
 ```json
@@ -127,6 +133,17 @@ Sets the targets speed. Can be used on the player.
 **percentage***(percentage)*
 : Percentage of normal speed. Use `50` for half speed or `200` for double speed.
 **Default**: 100
+
+### Frequency
+Sets the targets frequency of movement (in movements per second).
+```json
+&frequency=num
+&freq=num
+```
+**num***(any positive number)*
+: Number of times per second to move. For example, `&freq=2` (fast) or `&freq=0.5` (slow).
+
+**Default**: 1
 
 ### Icon Bubbles
 Places an animated icon bubble above the targets head. Can be used on the player.
