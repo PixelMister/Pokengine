@@ -902,10 +902,10 @@ Runs unit tests for the daycare system, including incense.
 
 - "a" (default): Use whatever mons are currently in the .
 - "b": Use two Bulbasaurs (87.5% male ratio). 
-  - Mom has perfect IVs except for speed (0), holds a Power Bracer, is in a Love Ball, and has an OT of 1.
-  - Dad has perfect IVs except for HP (0), holds a Destiny Knot, is in an Ultra Ball, and has an OT of 186753. 
+    - Mom has perfect IVs except for speed (0), holds a Power Bracer, is in a Love Ball, and has an OT of 1.
+    - Dad has perfect IVs except for HP (0), holds a Destiny Knot, is in an Ultra Ball, and has an OT of 186753. 
 - "c": Use Nidoran♀/Nidoran♂ (50% ratio, different species)
-  - Parents have the same features as the Bulbasaur couple except no held items.
+    - Parents have the same features as the Bulbasaur couple except no held items.
 
 **Default**: "a"
 
