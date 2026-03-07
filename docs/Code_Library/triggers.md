@@ -240,6 +240,37 @@ Moves the target to the specified coordinates on the current map by taking the s
 
 **Default**: Current Direction
 
+### Spectate Area
+Opens a menu to spectate nearby battles within a specified radius. Useful for stadium-esque areas.
+```json
+&spectatearea=x,y,radius
+```
+
+**x** *(number)*
+: The X coordinate of the center point to search for battles.
+
+**y** *(number)*
+: The Y coordinate of the center point to search for battles.
+
+**radius** *(number)*
+: The search radius in pixels to look for active battles.
+
+**Default**: 80
+
+#### Examples
+
+Spectate battles near coordinates (100, 200):
+```json
+&spectatearea=100,200
+```
+
+Spectate battles within 150 pixels of (100, 200):
+```json
+&spectatearea=100,200,150
+```
+
+**Notes**: This command only works when the player is free (not battling or already spectating). If multiple battles are found, the player will be presented with a menu to choose which battle to spectate. If no battles are found in the area, a message will indicate that no battles are currently happening.
+
 ### Follow
 Forces the current target to follow another target.
 ```json 
@@ -262,6 +293,78 @@ Sets the target’s skin.
 ```
 **skin***(skinid)*
 : Specify the skin ID for the target to change to.
+
+### Delete Outfit
+Removes a specific skin from the player's collection.
+```json
+&deleteskin=skinid
+```
+
+**skinid** *(string)*
+: The ID of the skin to delete from the player's inventory.
+
+**Notes**: The skin will only be deleted if the player currently owns it.
+
+### Dye
+Unlocks and/or equips outfit color variants for the player.
+```json
+&dye=color1,color2,...
+```
+
+**color** *(color name)*
+: Name of the dye color to unlock. Can specify multiple colors separated by commas. Options are `red`, `grey`, `gray`, `orange`, `yellow`, `pink`, `green`, `lightblue`, `darkblue`, `purple`, and `teal`.
+
+**silent**
+: Suppresses the unlock notification and sound effect. Only applies to colors after the first one in the list.
+
+**equip**
+: Automatically equips the next color specified after this keyword.
+
+**all**
+: Unlocks all available dye colors at once.
+
+**deleteall**
+: Removes all unlocked dyes and unequips the current dye. Used mostly for debugging.
+
+#### Examples
+
+Unlock a single color:
+```json
+&dye=lightblue
+```
+
+Unlock multiple colors:
+```json
+&dye=red,green,darkblue
+```
+
+Unlock and equip a color:
+```json
+&dye=equip,purple
+```
+
+Unlock silently (no notification):
+```json
+&dye=silent,yellow
+```
+
+Unlock multiple colors, announce only the first, and equip one:
+```json
+&dye=lightblue,silent,equip,green,teal
+```
+*This unlocks lightblue (with notification), green (silently and equipped), and teal (silently).*
+
+Unlock all colors:
+```json
+&dye=all
+```
+
+Remove all unlocked dyes:
+```json
+&dye=deleteall
+```
+
+**Notes**: Color names are case-insensitive and whitespace is ignored. `gray` and `grey` are treated as equivalent. The `equip` keyword only affects the immediately following color.
 
 ### Texture
 Sets the target’s texture.
@@ -773,6 +876,52 @@ Puts the player in a Safari Zone, where they have a certain number of steps befo
 : Number of steps in the Safari Zone.
 
 **Default**: Unsets the state
+
+### Incense
+Opens the incense menu for the player, allowing them to set the currently active incense. (Incense affects eggs produced in the daycare.)
+```json
+&incense
+```
+
+### Daycare Test
+Runs unit tests for the daycare system, including incense.
+```json
+&dctest=incense:id;number:n;subcase:c
+```
+
+**i** or **incense** *(number)*
+: The incense ID to test. If omitted, tests the incense that's currently active (can be no active incense).
+
+**n** or **number** *(number)*
+: Number of test iterations to run.
+
+**Default**: 10000
+
+**s** or **subcase** *(string)*
+: Subcase identifier for the test:
+
+- "a" (default): Use whatever mons are currently in the .
+- "b": Use two Bulbasaurs (87.5% male ratio). 
+  - Mom has perfect IVs except for speed (0), holds a Power Bracer, is in a Love Ball, and has an OT of 1.
+  - Dad has perfect IVs except for HP (0), holds a Destiny Knot, is in an Ultra Ball, and has an OT of 186753. 
+- "c": Use Nidoran♀/Nidoran♂ (50% ratio, different species)
+  - Parents have the same features as the Bulbasaur couple except no held items.
+
+**Default**: "a"
+
+#### Examples
+
+Test Incense #7
+```json
+&dctest=i:7
+```
+
+Using full parameter names:
+```json
+&dctest=incense:7;number:1000;subcase:b
+```
+
+**Notes**: This is a development/testing command and is not allowed in any live maps.
 
 ## Game Appearance
 
