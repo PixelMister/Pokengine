@@ -77,10 +77,10 @@ f
 ## Status Effects
 Set the Pokemon’s status. A Pokemon's status is determined by stating the affliction, after the word 'status'.
 ```json
-status
+status status
 ```
 ```json
-q
+q status
 ```
 ```json title="Code Examples" 
 status asleep
@@ -129,7 +129,7 @@ a 1
 ```
 **Available Options**
 
-- **Omitted** | Random Ability from their dex information.
+- **Omitted** | A non-hidden ability will be assigned randomly based on the Pokemon's dex information.
 
 - **1** | This will Pokemon will have the ability designated on their dex page as Ability 1.
 
@@ -330,3 +330,15 @@ can-mega value
 g value
 ```
 where `value` is 0 (does not bypass happiness check) or 1 (bypasses happiness check).
+
+## Sketch Used
+Sets the slot of a Sketched move. This will block Sketch from being relearned unless it is the only move the Pokemon can learn (like Smeargle).
+
+### Syntax
+```json
+sketch-used slot
+```
+```json
+v slot
+```
+where `slot` is the slot of the Sketched move or `-1` if Sketch has never been used.
