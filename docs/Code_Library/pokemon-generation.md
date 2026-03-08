@@ -319,11 +319,14 @@ t:type        - Set the catch type (0 = caught, 1 = hatched, etc.)
 - Fields are comma-separated (`,`)
 - Order doesn't matter, but typically appears as: time, player, ball, map, level, type
 
+## Can Mega Evolve
+Sets whether or not the Pokemon has ever Mega Evolved. Mega Evolution normally requires a happiness of at least 200 (in addition to the trainer having a Key Stone and the Pokemon holding a Mega Stone). If the Pokemon has this flag set, they will bypass the happiness check. This is useful if the Pokemon's happiness ever drops below 200 after it has Mega Evolved once. This flag is reset on trade since the new Trainer will need to bond with the Pokemon to Mega Evolve it.
 
-
-
-
-
-
-
-
+### Syntax
+```json
+can-mega value
+```
+```json
+g value
+```
+where `value` is 0 (does not bypass happiness check) or 1 (bypasses happiness check).
