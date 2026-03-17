@@ -67,9 +67,9 @@ fixedlevel
 fixedlevel level
 fixedlevel side1,side2
 ```
-  - If no arguments are given, each side is level 50.
-  - If one argument is given, each side uses that level.
-  - If two arguments are given, each side has a different fixed level (e.g., `fixedlevel 50,60`).
+- If no arguments are given, each side is level 50.
+- If one argument is given, each side uses that level.
+- If two arguments are given, each side has a different fixed level (e.g., `fixedlevel 50,60`).
 ### Hidden Opposing Pokemon Level
 Levels of the opposing Pokémon are hidden. Appears as ???.
 ```json 
@@ -115,46 +115,33 @@ weather name
 ```
 
 Options are:
-  - `ash`
-  - `blizzard`
-  - `bubbles`
-  - `cherry`
-  - `clear`
-  - `confetti`
-  - `downpour`
-  - `duststorm`
-  - `fog`
-  - `grassblades`
-  - `hail`
-  - `hailstorm`
-  - `leaves`
-  - `mist`
-  - `pink-petals`
-  - `rain`
-  - `soot`
-  - `spooky`
-  - `sparkles`
-  - `spore`
-  - `sprite`
-  - `steam`
-  - `storm`
-  - `strong winds`
-  - `snow`
-  - `windy`
-  - `yellow-petals`
-
-
-## Set ev on Caught
-Sets an ev to be saved upon successfully catching the wild mon.
-```json 
-oncaught ev[name]=value
-```
-
-
-
-
-
-
+- `ash`
+- `blizzard`
+- `bubbles`
+- `cherry`
+- `clear`
+- `confetti`
+- `downpour`
+- `duststorm`
+- `fog`
+- `grassblades`
+- `hail`
+- `hailstorm`
+- `leaves`
+- `mist`
+- `pink-petals`
+- `rain`
+- `soot`
+- `spooky`
+- `sparkles`
+- `spore`
+- `sprite`
+- `steam`
+- `storm`
+- `strong winds`
+- `snow`
+- `windy`
+- `yellow-petals`
 
 ## Battle Format
 ### Double Battles
@@ -198,15 +185,18 @@ Makes the introductory text "A Magikarp approches for battle!" instead of "A wil
 notwild
 ```
 
-
-
-
-
 ## Pokedex Registration
+
 ### Not Seen in Pokedex
 The opposing Pokemon in this battle, will not be counted as seen in the Pokedex.
 ```json
 noseen
+```
+
+## Set ev on Caught
+Sets an ev to be saved upon successfully catching the wild mon.
+```json 
+oncaught ev[name]=value
 ```
 
 ## Battle Scene Alterations
@@ -227,7 +217,17 @@ Sets the battle intro (animation) to the one specified. Similar to scenes, the i
 ```json
 intro name
 ```
-Name options are `cave`, `sand`, `retro-hoenn-dive`, `grass`, `grass-dry`, `retro-hoenn-grass`, `retro-hoenn-pond`, `trainer`, `splash`, and `retro-hoenn-splash`.
+Name options are 
+- `cave`
+- `sand`
+- `retro-hoenn-dive`
+- `grass`
+- `grass-dry`
+- `retro-hoenn-grass`
+- `retro-hoenn-pond`
+- `trainer`
+- `splash`
+- `retro-hoenn-splash`.
 
 ### Battle Theme (Audio)
 Sets the music playing during battle. Currently, only hosting on Dropbox is supported. The format is db: for host, then a modified URL which cuts out the https://www.dropbox.com/ part.
