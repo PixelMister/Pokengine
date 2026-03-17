@@ -21,6 +21,13 @@ var[max_mon_level]=20
 
     Any Pokémon transferred in above this level will be scaled *down* to the cap.
 
+### Automatic (Dynamic) Evolution
+When [dynamic leveling](<https://pokengine.readthedocs.io/en/latest/Code_Library/pokemon-generation/#dynamic-levelling>) is active, sometimes it makes sense for the Pokémon to automatically evolve. This is great for situations where the player might otherwise encounter a level 25 Caterpie.
+```json 
+var[autoevolve_all]=mode
+```
+See also [Battle Properties - Automatic Evolution](<https://pokengine.readthedocs.io/en/latest/Code_Library/battle-properties/#automatic-evolution>).
+
 ### Move Learner Context
 Allows move relearning directly from the party menu.
 ```json
