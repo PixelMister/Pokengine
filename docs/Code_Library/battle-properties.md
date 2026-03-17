@@ -67,6 +67,7 @@ fixedlevel
 fixedlevel level
 fixedlevel side1,side2
 ```
+
 - If no arguments are given, each side is level 50.
 - If one argument is given, each side uses that level.
 - If two arguments are given, each side has a different fixed level (e.g., `fixedlevel 50,60`).
@@ -115,6 +116,14 @@ weather name
 ```
 
 Options are:
+
+<style>
+.weather-columns ul {
+    margin-top: 0;
+}
+</style>
+
+<div class="weather-columns" style="column-count: 3; column-gap: 20px;" markdown="1">
 - `ash`
 - `blizzard`
 - `bubbles`
@@ -142,6 +151,7 @@ Options are:
 - `snow`
 - `windy`
 - `yellow-petals`
+</div>
 
 ## Battle Format
 ### Double Battles
@@ -217,7 +227,8 @@ Sets the battle intro (animation) to the one specified. Similar to scenes, the i
 ```json
 intro name
 ```
-Name options are 
+Name options are
+
 - `cave`
 - `sand`
 - `retro-hoenn-dive`
