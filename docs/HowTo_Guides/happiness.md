@@ -1,14 +1,14 @@
 # Happiness
-Happiness, also known as friendship, is a stat that measures how much a Pokémon likes its Trainer. It affects evolution, move effectiveness, and certain interactions.
+Happiness, also known as **friendship**, is a stat that measures how much a Pokémon likes its Trainer. It affects evolution, move effectiveness, and certain interactions.
 
-Happiness is a value between 0 and 255.
+Happiness is a **value between 0 and 255**.
 
-You can decide how happy a Pokémon is when it’s caught, but we recommend sticking to the default value of 70 for consistency.
+You can decide how happy a Pokémon is when it’s caught, but we recommend sticking to the default value of **70** for consistency.
 
-Some Pokémon evolve when their happiness reaches a certain threshold. We recommend using the default evolution point of 220.
+Some Pokémon evolve when their happiness reaches a certain threshold. We recommend using the default evolution point of **220**.
 
 !!! Note
-      Pokengine does not support the heavily unbalanced mechanics from later generations where high-friendship Pokémon may survive hits with 1 HP, land critical hits more often, or shake off status effects, nor do we plan to. In older games, Happiness and Friendship were two separate things, but we just have Happiness.
+      Pokengine does **not** support the heavily unbalanced mechanics from later generations where high-friendship Pokémon may survive hits with 1 HP, land critical hits more often, or shake off status effects, nor do we plan to. In older games, Happiness and Friendship were two separate things, but we just have Happiness.
 
 ## How to Increase Happiness / Friendship
 
@@ -18,11 +18,13 @@ Some Pokémon evolve when their happiness reaches a certain threshold. We recomm
 
 - Receive items from it (see the Buddy System section).
 
-- Use vitamins or other happiness-boosting items (search `“items #happiness+up”` on the website).
+- Use **vitamins** or other happiness-boosting items (search `“items #happiness+up”` on the website).
 
-- Give it a Soothe Bell to hold.
+- Give it a **Soothe Bell** to hold.
 
-- Catch it in a Luxury Ball.
+- Catch it in a **Luxury Ball**.
+
+- Any activity like daily Haircuts / massages.
 
 ## Lowering Happiness / Friendship
 
@@ -36,7 +38,7 @@ Some Pokémon evolve when their happiness reaches a certain threshold. We recomm
 
 
 
-!!! warning "Balancing Happiness Accessibility"
+!!! Warning
 
     **Happiness is designed to be something that increases gradually.**
     Because of this, you should be **extremely cautious** when implementing happiness-raising items and mechanics.
