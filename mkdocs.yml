@@ -53,7 +53,7 @@ nav:
   - Utilities:
       - Developer Resources:
         - Tips & Tricks: Utilities/tips-and-tricks.md
-        - Cheat Sheet: Utilities/cheat-sheet.md
+        - Kyledove's Cheat Sheet: Utilities/cheat-sheet.md
         - Common Pitfalls: Utilities/common-pitfalls.md
         - Variable Library: Utilities/variables.md
       - Region & World Setup:
