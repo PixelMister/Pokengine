@@ -1,6 +1,6 @@
 # Variable Library
 
-These variables can be used in **textboxes, dialogue** or other string-based fields to dynamically insert game data. Think of them as simple shortcuts to personalise your in-game text. test
+These variables can be used in **textboxes, dialogue** or other string-based fields to dynamically insert game data. Think of them as simple shortcuts to personalise your in-game text.
 
 **Player's Username**  
 `%player%`
