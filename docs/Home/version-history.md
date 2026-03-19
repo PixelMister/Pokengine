@@ -8,7 +8,7 @@ This page will be updated at every *major* update, smaller tweaks can be highlig
 
 - :octicons-feed-person-16: __Kyledove__ - Pokengine Director
 
-- :octicons-feed-person-16: __JosiahKunz__ - Code Developer and Documentation Developer
+- :octicons-feed-person-16: __JosiahKunz__ - Code Developer and Documentation Lead
 
 - :octicons-feed-person-16: __PixelMister__ - Region Developer and Documentation Migration Lead
 
