@@ -35,7 +35,7 @@ Some Pokémon evolve when their happiness reaches a certain threshold. We recomm
 - Trading Pokémon will reset happiness.
 
 
-!!! Warning Happiness Balance
+!!! Warning "Happiness Balancing"
 
     **Happiness is designed to be something that increases gradually.**
     Because of this, you should be **extremely cautious** when implementing happiness-raising items and mechanics.
