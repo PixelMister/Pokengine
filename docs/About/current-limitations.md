@@ -1,4 +1,4 @@
-# Current Limitations
+# Mapbuilder Limitations
 We know the engine isn’t perfect - and there are definitely areas where it could be better. Here’s a look at some of the rough spots we’re aware of and hoping to improve:
 
 - Ability to create folders in tilefuser.
