@@ -40,11 +40,11 @@ Some Pokémon evolve when their happiness reaches a certain threshold. We recomm
     **Happiness is designed to be something that increases gradually.**
     Because of this, you should be **extremely cautious** when implementing happiness-raising items and mechanics.
     
-    **We strongly recommend that mechanics be:**
+    We strongly recommend that mechanics be:
     
-    - **Limited to one purchase per day**
+    - **Limited to one purchase per day**, or
 
-    - **Tightly gated through quests, events, or milestones.**
+    - **Tightly gated** through quests, events, or milestones.
 
     Overuse can trivialize happiness-based evolution and undermine the intended pacing of the mechanic.
 
