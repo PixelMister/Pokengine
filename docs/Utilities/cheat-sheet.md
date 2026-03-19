@@ -1,10 +1,8 @@
-# Kyledove's jCoad Cheat Sheet
+# Kyledove's Cheat Sheet
 
-Over the years, Kyledove has compiled a handy collection of code to speed up your region creation workflows. This quick reference page provides code snippets, that you can copy and paste directly into an object. If you're looking for detailed explanations, please refer to the more detailed **How-To Guides**. A basic understanding of jCoad is assumed.
+Over the years, I’ve compiled a handy collection of code snippets to speed up my workflow. Feel free to use them too! This page is meant for quick reference - if you're looking for detailed explanations, please refer to the more detailed **How-To Guides**. A basic understanding of jCoad is assumed.
 
-## Non Player Characters
-
-### Quick NPC
+### NPC
 ```json
 %random%=npc()
 %random%.msg()
@@ -34,45 +32,42 @@ Yes=%random%.answer(All right, pick which Pokemon I should teach it to.)&movelea
 No=%random%.answer(Well, that's fine, too.)
 ```
 
-### NPC Path - Alternate Between Two Directions
+### NPC Path - alternates between wwo directions
 ```json
 %random%.path(0d,pause300,0r,pause300*)
 ```
 
-### NPC Path - Alternate Between Two Directions
+### NPC Path - spinning
 ```json
 %random%.path(0r,pause300,0d,pause300,0l,pause300,0u,pause300*)
 ```
 
-### NPC Path - Return to Original Direction After Speech
+### Trigger to make npc return to original direction after speech
 ```json
 &with=%random%&direction=d
 ```
 
-### Pokemon NPC - Register as Seen and Plays Cry SFX
+### Pokemon NPC - register as seen and plays cry sfx
 ```json 
 %random%.npc(006ii7ud,right,0x0)
 %random%.msg(SKITTY: Miyaaaan?)&!cry=00cz496x&show=00cz496x
 ```
 
-## Signs
-### Automatic Sign Interaction (Ontouch)
+### Permanent Icon Above NPC
+```json
+%random%.icon(37,1)
+```
+
+### Signpost that creates textbox without having to press action button, simply by walking into it
 ```json
 msg()
 if direction=up and ontouch
 msg()
 ```
 
-## Icons
-### Permanent Icon Above NPC
-```json
-%random%.icon(37,1)
-```
-!!! tip "NPC Overworld Log"
+I highly recommend keeping a separate file to track the NPCs in your region. It’ll save you a lot of time compared to constantly searching the site.
+Here’s an example list from one of my projects:
 
-    We highly recommend keeping a separate file to track the NPCs in your region. It'll save you a *lot* of time, compared to constantly searching the site.
-
-Here's an example list from a developer project:
 **Johto**
 - `01ih0r1l` youngster
 
