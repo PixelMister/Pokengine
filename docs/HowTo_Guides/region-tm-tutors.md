@@ -1,6 +1,6 @@
 # TMs and Tutors
 For the player’s convenience, we support displaying a list of TMs and Tutors for each region directly on the site.  
-For example: Retro Kanto TM List https://pokengine.org/regions/035prupq/Retro+Kanto?tmlist
+For example: [Retro Kanto TM List](https://pokengine.org/regions/035prupq/Retro+Kanto?tmlist) 
 
 Unfortunately, this list has to be populated manually - the engine doesn’t automatically know which TMs or Tutors are available in your region.
 The good news is that it’s easy to set up.
