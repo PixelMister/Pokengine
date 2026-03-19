@@ -83,17 +83,20 @@ p {
     color: black;
 }
 .md-typeset h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
     font-weight: 600;
 }
 .md-typeset h3 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .md-typeset code {
     font-size: 1em;
 }
 .md-typeset pre {
     margin-top: 0;
+}
+.md-typeset {
+    line-height: 1.5;
 }
