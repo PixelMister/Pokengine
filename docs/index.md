@@ -1,18 +1,40 @@
 # Home
 
-## What is Pokengine?
-Pokengine is a community-driven platform focused on creating custom content, such as Regions or Dexes. It also offers a browser-based MMO that merges all the user-created content into one expansive game, though Regions can be kept separate and turned into standalone games if their creators prefer. 
+## Welcome to the Pokengine Development Documentation
+The Pokengine engine is a custom-built platform designed to support an ever-expanding Pokémon world, with a growing number of regions in a shared online environment. This guide will help you understand the engine, Mapbuilder, jCoAD, and how to create, manage, and expand your own content within Pokengine.
 
-At its core, Pokengine is an engine, not a game itself. The game aspect is built by the users, meaning Pokengine isn’t just one game but a collection of many, all rolled into one.
+## Who is this guide for?
+Our documentation is written for a range of users - so no matter how you got here, there’s something useful for you.
+Whether you're:
 
-The engine provides a suite of online, browser-based tools specifically designed to help users edit and build their own game worlds.  
+:white_check_mark: Just approved to start building your own region but unsure where to begin  
+:white_check_mark: Helping out as part of someone else’s team and need to understand how the engine works  
+:white_check_mark: A developer looking to learn how to build regions from scratch using the tools available  
+:white_check_mark: An experienced Pokengine dev exploring new functionality, tools, and tips
 
-## What is Mapbuilder?
-Mapbuilder is Pokengine’s tool for programming and integrating Tilefuser maps into the game engine. Only users who have been granted access to Mapbuilder can use it to add their maps to the game. 
+!!! info
 
-Access to Mapbuilder is limited to those developing regions or trusted with the tool, as it provides a high level of control over the game engine.
+    This guide is updated regularly as new functionality is added, so it’s worth checking back often.  
 
-Mapbuilder operates by using your Tilefuser map as a base, allowing you to add objects, NPCs, sprites, animations, and more to bring your map to life in the game. All map elements are implemented using Pokengine’s custom programming language, jCoad, which is the focus of this guide.
+## Documentation Layout  
+Here’s a quick overview of how the guide is organized:
 
-Before diving into programming, here are a few helpful tips to get you started with Mapbuilder.
+**Intro**  
+For newcomers or team members not using jCoAD directly. Gives a high-level overview of what Pokengine, Mapbuilder, and Jcoad are - and how they all fit together.
 
+**Mapbuilder & Tilefuser**  
+Introduces Mapbuilder and Tilefuser, the tools for designing and implementing regions and maps in Pokengine.
+
+**Utilities**  
+A set of helpful pre-made tools, reference variables, tips, and common mistakes to watch out for when building regions.
+
+**Code Library**  
+The core of the guide - a growing collection of copy-pasteable JCoad code snippets.
+
+**How-To Guides**  
+More detailed, focused tutorials that walk you through setting up specific systems or features - like weather, battles, etc.
+
+**General Info**  
+Covers everything else - from commonly asked questions to user roles, feature request processes, etc.
+
+Think of it as your meta-guide to how Pokengine development works behind the scenes.
