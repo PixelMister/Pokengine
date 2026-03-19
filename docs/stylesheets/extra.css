@@ -85,10 +85,12 @@ p {
 .md-typeset h2 {
     font-size: 1.2em;
     margin: 0;
+    margin-bottom: 0.5em;
     font-weight: 600;
 }
 .md-typeset h3 {
     margin: 0;
+    margin-bottom: 0.5em;
     font-weight: 600;
     font-size: 1.1em;
 }
