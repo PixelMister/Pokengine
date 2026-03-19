@@ -104,3 +104,6 @@ p {
 .md-typeset h2+h3 {
     margin-top: 0;
 }
+.md-typeset blockquote, .md-typeset dl, .md-typeset figure, .md-typeset ol, .md-typeset pre, .md-typeset ul {
+    margin-bottom: 0.5em;
+}
