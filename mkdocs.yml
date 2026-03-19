@@ -4,8 +4,7 @@ nav:
   - Home: 
       - About: index.md
       - Version History: Home/version-history.md
-  - Using This Guide:
-      - Using This Guide: Using_This_Guide/understanding-guide.md
+  - Mapbuilder & Tilefuser:
       - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
       - About Tilefuser: Using_This_Guide/what-is-tilefuser.md
       - Mapbuilder Syntax Guidelines:
