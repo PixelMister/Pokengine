@@ -1,6 +1,4 @@
 # Happiness
-## Introduction
-
 Happiness, also known as friendship, is a stat that measures how much a Pokémon likes its Trainer. It affects evolution, move effectiveness, and certain interactions.
 
 Happiness is a value between 0 and 255.
@@ -9,7 +7,8 @@ You can decide how happy a Pokémon is when it’s caught, but we recommend stic
 
 Some Pokémon evolve when their happiness reaches a certain threshold. We recommend using the default evolution point of 220.
 
-Note: Pokengine does not support the heavily unbalanced mechanics from later generations where high-happiness Pokémon may survive hits with 1 HP, land critical hits more often, or shake off status effects.
+!!! Note
+      Pokengine does not support the heavily unbalanced mechanics from later generations where high-friendship Pokémon may survive hits with 1 HP, land critical hits more often, or shake off status effects, nor do we plan to. In older games, Happiness and Friendship were two separate things, but we just have Happiness.
 
 ## How to Increase Happiness / Friendship
 
