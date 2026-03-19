@@ -68,6 +68,12 @@ code {
     white-space: pre-wrap !important;
 }
 /* overrides added by kyle */
+.md-main__inner {
+    margin-top: 0;
+}
+.md-content__inner {
+    padding-top: 0;
+}
 p {
     margin-top: 0;
 }
