@@ -77,7 +77,11 @@ p {
     color: black;
 }
 .md-typeset h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin: 0;
-    font-weight: 600;
+    font-weight: 500;
+}
+.md-typeset h3 {
+    margin: 0;
+    font-size: 1.2em;
 }
