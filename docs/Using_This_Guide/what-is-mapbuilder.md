@@ -20,4 +20,4 @@ Before diving into programming, here are a few helpful tips to get you started w
 10. You, and only you, are responsible for the programming of your region. Be cautious when working with event variables and spawning items and Pokemon.
 
 !!! note
-If you're careful, you can have multiple people editing same map in mapbuilder. As long as you're editing different areas, it shoudln't cause any issues. Issues might occur if you try editing same things at same time, where it will override the changes with whoever changed it last.
+    If you're careful, you can have multiple people editing same map in mapbuilder. As long as you're editing different areas, it shoudln't cause any issues. Issues might occur if you try editing same things at same time, where it will override the changes with whoever changed it last.
