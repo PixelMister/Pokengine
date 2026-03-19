@@ -13,6 +13,9 @@ nav:
         - Definition Syntax: Using_This_Guide/understanding-definitions.md
         - Variable Syntax: Using_This_Guide/understanding-variables.md
         - Data Types: Using_This_Guide/understanding-datatypes.md
+        - Mapbuilder Limitations: About/mapbuilder-limitations.md
+      - Tilefuser:
+        - Using Tilefuser: About/tilefuserquickguide.md
   - Code Library:
       - Objects: Code_Library/objects.md
       - Entities: Code_Library/entities.md
@@ -67,13 +70,8 @@ nav:
         - Obedience System: Utilities/obedience-system.md
         - Battle AI: Utilities/battle-ai.md
   - General Info:
-      - FAQ: About/faq.md
-      - Commonly Asked Questions: About/commonly-asked-questions.md
       - Roles and Permissions: About/rolesandpermissions.md
-      - Using Tilefuser: About/tilefuserquickguide.md
       - Request A Feature: About/request-a-feature.md
-      - Mapbuilder Limitations: About/mapbuilder-limitations.md
-
 
 extra_css:
   - stylesheets/extra.css
