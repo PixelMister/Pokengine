@@ -3,9 +3,7 @@
 These variables can be used in **textboxes, dialogue** or other string-based fields to dynamically insert game data. Think of them as simple shortcuts to personalise your in-game text.
 
 ## Player's Username
-```json
-%player%
-```
+`%player%`
 
 ## Player’s username in all caps (eg: KYLEDOVE) for retro regions
 ```json
