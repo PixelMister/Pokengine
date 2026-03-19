@@ -2,7 +2,7 @@ site_name: Pokengine Documentation
 site_url: https://pokengine-new.readthedocs.io
 nav:
   - Home: 
-      - About: index.md
+      - Home: index.md
       - Version History: Home/version-history.md
   - Mapbuilder & Tilefuser:
       - Introduction:
