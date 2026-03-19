@@ -1,6 +1,5 @@
-# POKÉNGINE Frequently Asked Questions [FAQ]
+# Frequently Asked Questions
 
-# __Pokéngine & Website__
 ## What is Pokéngine?
 Pokéngine is:
 - A Website - https://pokengine.org/
