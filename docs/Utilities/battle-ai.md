@@ -1,24 +1,23 @@
 # Battle AI
-## Introduction
 Pokengine includes its own **Battle AI System**, which governs how battles play out. To streamline its use, we’ve created a set of default **battle skill levels/behaviours**, each with tailored routines that reflect different skill levels.
 
 ## Behaviours and their Routines
 
-- **Noob**
+- **🧢 Noob**
     * Clueless and Inexperienced
 
     * Will only try a new move after the current one fails 3 times.
 
     * `damage, typing, failedMove-3, useitems, random-5`
 
-- **Beginner**
+- **🥈 Beginner**
     * Starting to grasp the basics
 
     * Uses STAB moves and switches tactics after a single failed move.
 
     * `damage, typing, stab, inflictStatus, failedMove-1, useitems, random-5`
 
-- **Skilled**
+- **🧠 Skilled**
 
     * Tactically aware and reactive.
 
@@ -28,7 +27,7 @@ Pokengine includes its own **Battle AI System**, which governs how battles play 
 
     * `damage, typing, stab, inflictStatus, accuracy, switchout-0.5, sethazards, setweathers, statboost, useitems, random-5`
 
-- **Expert**
+- **🧬 Expert**
 
     * Highly strategic, competitive-level AI.
 
@@ -74,7 +73,7 @@ The main exception to this might be custom rival characters, where you'll likely
 | `useitems`                   | Uses available items if certain conditions are met. |
 | `statboost`                  | Encourages use of stat-boosting moves on the first turn out. |
 
-## Advanced Routines
+## Advanced Behaviors
 In addition to the basic Noob, Beginner, Skilled, and Expert behaviors, we also offer several more advanced and specialized behaviors for greater tactical variety.
 
 | Group           | Includes                                                                                      |
@@ -90,10 +89,9 @@ For example, say you have a Youngster who’s obsessed with rain and always trie
 `;routines noob,rain;`
 
 This line is added to the trigger that initiates the battle via jcoad.
+This keeps the base “Noob” behavior but adds rain-setting as a priority - perfect for giving even early trainers some personality.
 
-This keeps the base “Noob” behavior but adds rain-setting as a priority — perfect for giving even early trainers some personality.
-
-!!! warning "Default Behaviour"
+!!! Warning
 
     You must explicitly include the default behavior (e.g. noob), even if the trainer class already has it by default. If no routine is provided, the system falls back to the routine set on the specific trainer used (as defined on the website). If that doesn’t exist either, the AI will default to using random moves. 
 
@@ -104,20 +102,20 @@ By default, wild Pokémon don’t have skill levels, so they’ll simply choose 
 
 To do this, just add `;routines noob,rain;` at the end of the jcoad that’s generating the battle, like you would do for its level for example with `;l 50;`
 
-For routines that follow a routine-value format, only the last instance of that routine type in the list will be used when scoring.
+For routines that follow a routine-value format, only the **last instance** of that routine type in the list will be used when scoring.
 
-**For example:**
+For example:
  `routines = "failedMove-3, failedMove-5, failedMove-1"` → only `failedMove-1` is counted.
 
-This also applies when routines are defined through personas (behaviors):
+This also applies when routines are defined through **personas (behaviors)**:
 
  routines = "beginner, failedMove-5, noob" → the failedMove-3 from noob will override failedMove-5, since noob comes later and also includes failedMove.
  
-!!! warning "Default Behaviour"
+!!! Important
     This override behavior does not apply to routines written as "no-[routine]". These exclusions are always respected, regardless of their position in the list.
  
 For example: `routines = "failedMove-3,failedMove-5,failedMove-1",` only failedMove-1 will be counted when scoring
 
 This also applies for behaviors:
 `for example: routines = "beginner,failedMove-5,noob", only failedMove-3` (and other values from 'noob' that also existed in the list) will be counted when scoring
-THIS DOESNT HAPPEN IF THE ROUTINE IS `"=no-(routine)"`
+THIS DOESN'T HAPPEN IF THE ROUTINE IS `"=no-(routine)"`
