@@ -1,7 +1,7 @@
 # Home
 
 ## Welcome to the Pokengine Development Documentation
-The Pokengine engine is a custom-built platform designed to support an ever-expanding Pokémon world, with a growing number of regions in a shared online environment. This guide will help you understand the engine, Mapbuilder, jCoAD, and how to create, manage, and expand your own content within Pokengine.
+The Pokengine engine is a custom-built platform designed to support an ever-expanding Pokémon world, with a growing number of regions in a shared online environment. This guide will help you understand the engine, Mapbuilder, jcoad, and how to create, manage, and expand your own content within Pokengine.
 
 ## Who is this guide for?
 Our documentation is written for a range of users - so no matter how you got here, there’s something useful for you.
