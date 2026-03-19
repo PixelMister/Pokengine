@@ -5,9 +5,10 @@ nav:
       - About: index.md
       - Version History: Home/version-history.md
   - Mapbuilder & Tilefuser:
-      - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
-      - About Tilefuser: Using_This_Guide/what-is-tilefuser.md
-      - Mapbuilder Syntax Guidelines:
+      - Introduction:
+        - About Mapbuilder: Using_This_Guide/what-is-mapbuilder.md
+        - About Tilefuser: Using_This_Guide/what-is-tilefuser.md
+      - Mapbuilder:
         - Object Syntax: Using_This_Guide/understanding-objects.md
         - Definition Syntax: Using_This_Guide/understanding-definitions.md
         - Variable Syntax: Using_This_Guide/understanding-variables.md
