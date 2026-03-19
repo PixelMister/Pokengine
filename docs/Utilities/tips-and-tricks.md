@@ -1,9 +1,9 @@
 # Tips & Tricks
 
-## é:  
+## é  
 The game automatically converts "Pokemon" into "Pokémon". Full list includes - Pokémon, POKéMON, pokédex, POKéDEX, Pokétch, POKéTCH, Poké Ball, Poké Mart.
 
-## Has code’ label:  
+## Has code’ label  
 Within mapbuilder, if you hover over an object, bottom left will let you know if that object has code in it. Useful if you ever put code in an object like a solid and return and can’t find where it was.
 
 ![alt text](assets/hascodeidentifier.png)
@@ -13,7 +13,7 @@ By setting a ‘Region’ on a trainer battle, anyone with access to that Region
 
 ![alt text](assets/sharingtrainerbattledata.png)
 
-## Trainer Battle copy/duplicate:  
+## Trainer Battle copy/duplicate  
 You can easily copy a trainer battle along with their whole team and dialogue if you use the “Load” button. Create a new trainer and paste this into the “Load” input to duplicate and edit as you wish.
 
 ![alt text](assets/trainerbattleduplication.png)
@@ -30,7 +30,7 @@ This works with Trainers, Items, Moves, everything, and search queries are the s
 !!! tips
     Pasting in the exact UID saves you hassle every time. This works for Pokémon, Trainers, Items, Moves, and more.
 
-## Night lights for Pokemon Center / Mart / Gym:  
+## Night lights for Pokemon Center / Mart / Gym  
 Most people create a large overlay sprite for all the night lights in their town - windows, lamp posts, etc. However, it can be useful to exclude buildings that are reused a lot, like Pokémon Centers, Marts, and Gyms. Personally, I use a dedicated object placed on the Pokémon Center warp that includes its specific night lighting.
 
 ## Template Maps  
