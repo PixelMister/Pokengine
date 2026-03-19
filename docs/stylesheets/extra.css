@@ -107,3 +107,6 @@ p {
 .md-typeset blockquote, .md-typeset dl, .md-typeset figure, .md-typeset ol, .md-typeset pre, .md-typeset ul {
     margin-bottom: 0.5em;
 }
+.md-typeset .admonition-title, .md-typeset summary {
+        margin-bottom: 1em;
+}
