@@ -32,7 +32,7 @@ Yes=%random%.answer(All right, pick which Pokemon I should teach it to.)&movelea
 No=%random%.answer(Well, that's fine, too.)
 ```
 
-### NPC Path - alternates between wwo directions
+### NPC Path - alternates between two directions
 ```json
 %random%.path(0d,pause300,0r,pause300*)
 ```
@@ -68,7 +68,8 @@ msg()
 I highly recommend keeping a separate file to track the NPCs in your region. It’ll save you a lot of time compared to constantly searching the site.
 Here’s an example list from one of my projects:
 
-**Johto**
+**Johto**  
+
 - `01ih0r1l` youngster
 
 - `01ll2v4i` schoolboy
