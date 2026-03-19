@@ -4,21 +4,17 @@ This page will be updated at every *major* update, smaller tweaks can be highlig
 ## Authors
 <div class="grid cards" markdown>
 
-- :octicons-feed-person-16: __Jext__ - Pokengine Founder and Main Developer
+- :octicons-feed-person-16: __Jext__ - Pokengine Founder
 
-- :octicons-feed-person-16: __Kyledove__ - Pokengine's Creative Director and Documentation Director
+- :octicons-feed-person-16: __Kyledove__ - Pokengine Director
+
+- :octicons-feed-person-16: __JosiahKunz__ - Code Developer and Documentation Developer
+
+- :octicons-feed-person-16: __PixelMister__ - Region Developer and Documentation Migration Lead
 
 - :octicons-feed-person-16: __Zermonious__ - Administrator and Previous Code Database Manager
 
 - :octicons-feed-person-16: __Fuzzy__ - Administrator and Region Developer
-
-- :octicons-feed-person-16: __Twitch__ - Region Developer
-
-- :octicons-feed-person-16: __PixelMister__ - Region Developer and Current Code Database Manager
-
-- :octicons-feed-person-16: __JosiahKunz__ - Code Developer and Documentation Developer
-
-
 
 </div>
 
