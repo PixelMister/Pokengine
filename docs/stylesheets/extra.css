@@ -67,3 +67,14 @@ code {
     word-break: break-all !important;
     white-space: pre-wrap !important;
 }
+/* modify headings */
+.md-typeset h1 {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: black;
+}
+.md-typeset h2 {
+    font-size: 1.1em;
+    margin: 0;
+    font-weight: 600;
+}
