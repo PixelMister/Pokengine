@@ -1,7 +1,5 @@
 # Tips & Tricks
 
-## Putting the correct 'e'
-
 **é:**  
 The game automatically converts "Pokemon" into "Pokémon". Full list includes - Pokémon, POKéMON, pokédex, POKéDEX, Pokétch, POKéTCH, Poké Ball, Poké Mart.
 
