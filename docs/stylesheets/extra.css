@@ -88,3 +88,6 @@ p {
 .md-typeset code {
     font-size: 1em;
 }
+.md-typeset pre {
+    margin-top: 0;
+}
