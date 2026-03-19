@@ -26,6 +26,9 @@ These variables can be used in **textboxes, dialogue** or other string-based fie
 **Dex Rating (TODO)**  
 `%dexrating%`
 
+**Current # of eggs hatched**  
+`%eggshatched%`
+
 **Date (TODO)**  
 `%date%`
 
@@ -34,6 +37,6 @@ These variables can be used in **textboxes, dialogue** or other string-based fie
 
 **Party Pokemon's Slot Name/Species**  
 `%nickname[1]%`  
-*You can change the number in %nickname[1]% to access other slots.
+*You can change the number in %nickname[1]% to access other slots.  
 For example: %nickname[2]%, %nickname[3]%, etc.*
 
