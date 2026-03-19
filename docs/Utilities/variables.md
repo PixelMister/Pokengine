@@ -7,7 +7,7 @@ These variables can be used in **textboxes, dialogue** or other string-based fie
 %player%
 ```
 
-## Player's Username in All Caps (Retro Regions, for example %KYLEDOVE%)
+## Player’s username in all caps (eg: KYLEDOVE) for retro regions
 ```json
 %PLAYER%
 ```
