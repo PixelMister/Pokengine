@@ -1,5 +1,11 @@
-# What is Mapbuilder?
+### What is Mapbuilder?
+Mapbuilder is Pokengine’s tool for programming and integrating Tilefuser maps into the game engine. Only users who have been granted access to Mapbuilder can use it to add their maps to the game. 
 
+Access to Mapbuilder is limited to those developing regions or trusted with the tool, as it provides a high level of control over the game engine.
+
+Mapbuilder operates by using your Tilefuser map as a base, allowing you to add objects, NPCs, sprites, animations, and more to bring your map to life in the game. All map elements are implemented using Pokengine’s custom programming language, jCoad, which is the focus of this guide.
+
+Before diving into programming, here are a few helpful tips to get you started with Mapbuilder.
 
 ## Mapbuilder Tips
 1. Only use one Mapbuilder tab at one time.
@@ -12,3 +18,6 @@
 8. Mapbuilder maps are exclusive to you unless you specify its region in the “Settings” tab. Then, all region helpers will be able to view and edit your map as well.
 9. Be careful!
 10. You, and only you, are responsible for the programming of your region. Be cautious when working with event variables and spawning items and Pokemon.
+
+!!! note
+If you're careful, you can have multiple people editing same map in mapbuilder. As long as you're editing different areas, it shoudln't cause any issues. Issues might occur if you try editing same things at same time, where it will override the changes with whoever changed it last.
