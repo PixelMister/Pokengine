@@ -85,3 +85,6 @@ p {
     margin: 0;
     font-size: 1.2em;
 }
+.md-typeset code {
+    font-size: 1em;
+}
