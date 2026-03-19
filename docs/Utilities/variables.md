@@ -5,52 +5,35 @@ These variables can be used in **textboxes, dialogue** or other string-based fie
 **Player's Username**  
 `%player%`
 
-## Player’s username in all caps (eg: KYLEDOVE) for retro regions
-```json
-%PLAYER%
-```
-## Rival’s Name (if you’re giving the player the option to name them)
-```json
-%rival%
-```
+**Player’s Username in all caps (eg: KYLEDOVE) for retro regions**  
+`%PLAYER%`
 
-## Rival's Name in All Caps
-```json
-%rival%
-```
+**Rival’s Name (if you’re giving the player the option to name them)**  
+`%rival%`
 
-## Current Money
-```json
-%money%
-```
+**Rival’s name in all caps**  
+`%RIVAL%`
 
-## Current #no of Seen Mons in Dex
-```json
-%seen%
-```
+**Current Money**  
+`%money%`
 
-## Current #no of Caught Mons in Dex
-```json
-%caught%
-```
+**Current # of seen mons in dex**  
+`%seen%`
 
-## Dex Rating (???)
-```json
-%dexrating%
-```
+**Current # of caught mons in dex**  
+`%caught%`
 
-## Date (???)
-```json
-%date%
-```
+**Dex Rating (TODO)**  
+`%dexrating%`
 
-## Time (???)
-```json
-%time%
-```
+**Date (TODO)**  
+`%date%`
 
-## Party Pokemon's Slot Name/Species
-```json
-%nickname[1]%
-```
-**Options**: Replace [1], with the slot number of the Pokemon's name you'd like to replace.
+**Time (TODO)**  
+`%time%`
+
+**Party Pokemon's Slot Name/Species**  
+`%nickname[1]%`  
+*You can change the number in %nickname[1]% to access other slots.
+For example: %nickname[2]%, %nickname[3]%, etc.*
+
