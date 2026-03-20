@@ -1,197 +1,108 @@
-# Regional Variables (Region Vars)
-## Introduction
-Sometimes you’ll want to adjust global settings across your region without needing to inject code into every map - that’s what Region Vars are for.
+# Region Vars
+
+Sometimes you’ll want to adjust global settings across your region without needing to inject code into every map - that’s what **Region Vars** are for.
 
 Region Vars are loaded once, when the player first enters your region. They let you set default behaviors and mechanics for your maps and gameplay. Think of them as your region’s global ruleset.
 
-## Available Variables
-
-### Max Allies
+`var[max_allies]=1`
 How many allies can follow the player out of their Pokéballs (max. 6)
-```json
-var[max_allies]=1
-```
 
-### Max Mon Level / Level Cap
+`var[max_mon_level]=20`
 Level cap - can be changed later with JCoad as the player progresses.
-```json
-var[max_mon_level]=20
-```
-!!! danger "Level Scaling on Transfer"
 
-    Any Pokémon transferred in above this level will be scaled *down* to the cap.
+!!! Danger 
 
-### Automatic (Dynamic) Evolution
-When [dynamic leveling](<https://pokengine.readthedocs.io/en/latest/Code_Library/pokemon-generation/#dynamic-levelling>) is active, sometimes it makes sense for the Pokémon to automatically evolve. This is great for situations where the player might otherwise encounter a level 25 Caterpie.
-```json 
-var[autoevolve_all]=mode
-```
+    Any Pokémon transferred in above this level will be scaled *down* to the cap. This means unhappy players.
+
+`var[autoevolve_all]=mode`
+When [dynamic leveling](<https://pokengine.readthedocs.io/en/latest/Code_Library/pokemon-generation/#dynamic-levelling>) is active, sometimes it makes sense for the Pokémon to be automatically evolved already. This is great for situations where the player might otherwise encounter a level 25 Caterpie.
+
 See also [Battle Properties - Automatic Evolution](<https://pokengine.readthedocs.io/en/latest/Code_Library/battle-properties/#automatic-evolution>).
 
-### Move Learner Context
+`var[move_learner_context]=1`
 Allows move relearning directly from the party menu.
-```json
-var[move_learner_context]=1
-```
 
-### Jump Height
+`var[jump_height]=8`
 How high the player can jump.
-```json
-var[jump_height]=8
-```
 
-### Trainer Spot Overlay Effect
+`var[show_trainer_spot]=0`
 Disables the "trainer spot" overlay effect.
-```json
-var[show_trainer_spot]=0
-```
 
-### Silent Icons
+`var[silent_icons]=0`
 Silences the default SFX that plays on overworld icons (like !).
-```json
-var[silent_icons]=0
-```
 
-### No Shadow
+`var[no_shadow]=0`
 Toggles whether overworld sprites have shadows.
-```json
-var[no_shadow]=0
-```
 
-### No Item Shadow
+`var[item_shadow]=1`
 Whether pickup items cast shadows. If off, you can include custom shadows in the sprite.
-```json
-var[item_shadow]=1
-```
 
-### Regional Outfits
+`var[regional_outfits]=0`
 Only shows outfits in the bag that match the region you're in.
-```json
-var[regional_outfits]=0
-```
 
-### Can Run
+`var[can_run]=1`
 Toggle ability to run.
-```json
-var[can_run]=1
-```
 
-### Follower Speed
+`var[follow_speed]=1`
 Sets follower speed to match the player’s.
-```json
-var[follow_speed]=1
-```
 
-### Cycle on Water
+`var[can_cycle_on_water]=0`
 Allows the player to cycle on water.
-```json
-var[can_cycle_on_water]=0
-```
 
-### Indoor Cycling
+`var[can_cycle_indoors]=0`
 Allows the player to cycle indoors (useful for caves).
-```json
-var[can_cycle_indoors]=0
-```
 
-### Can Cycle
+`var[can_cycle]=0`
 At map load, turns on or off depending on whether the map is an interior. You can change it with an `execute()`.
-```json
-var[can_cycle]=0
-```
 
-### Must Cycle
+`var[must_cycle]=0`
 Prevents the player from dismounting. It's set to 0 at map load, but can also be toggled after.
-```json
-var[must_cycle]=0
-```
 
-### Dismounting Control for Bikes
+`var[can_dismount_bike]=0`
 Setting this var to 1 will prevent the player from dismounting their bicycle - Useful for cycling road areas!
-```json
-var[can_dismount_bike]=0
-```
 
-### Dismounting Control for Bikes
+`var[disobedience]={20: badge-1}`
 Sets level cap disobedience. See “Disobedience System” for more info.
-```json
-var[disobedience]={20: badge-1}
-```
 
-## Region Vars You Shouldn’t Touch
-These vars exist but are core to balance, so avoid changing them unless approved by Kyle or Jext.
+## ⚠️ Region Vars You Shouldn’t Touch
+These vars exist but are core to balance, so avoid changing them unless approved by Kyle.
 
-### Battle Experience
+`var[battle_exp]=100`
 Base EXP gain rate.
-```json
-var[battle_exp]=100
-```
 
-### Battle Experience from Participation
+`var[battle_exp_participated]=75`
 EXP percentage for participants (when EXP All is active).
-```json
-var[battle_exp_participated]=75
-```
 
-### Battle Experience for Party
+`var[battle_exp_party]=33`
 EXP percentage for non-participants (when EXP All is active).
-```json
-var[battle_exp_party]=33
-```
 
-### Maximum Dynamic Level
+`var[max_dynamic_level]=65`
 Upper limit for dynamic levels.
-```json
-var[max_dynamic_level]=65
-```
 
-### Minimum Dynamic Level
+`var[min_dynamic_level]=1`
 Lower limit for dynamic levels.
-```json
-var[min_dynamic_level]=1
-```
 
-### Ally Happiness Steps
+`var[ally_happiness_steps]=128`
 Steps needed to trigger happiness gain.
-```json
-var[ally_happiness_steps]=128
-```
 
-### Ally Happiness Chance
+`var[ally_happiness_chance]=50`
 Percentage chance to gain happiness.
-```json
-var[ally_happiness_chance]=50
-```
 
-### Egg Hatch Rate
+`var[egg_step_multiplier]=1`
 Egg hatch rate modifier.
-```json
-var[egg_step_multiplier]=1
-```
 
-### Encounter Rate
+`var[encounter_chance]=5`
 Default encounter rate, 1 in 5
-```json
-var[encounter_chance]=5
-```
 
-### Cave Encounter Rate
+`var[cave_encounter_chance]=30`
 Default encounter rate in caves, 1 in 30
-```json
-var[cave_encounter_chance]=30
-```
 
-### Surf Encounter Rate
+`var[surf_encounter_chance]=40`
 Default encounter rate while surfing, 1 in 40
-```json
-var[surf_encounter_chance]=40
-```
 
-### Wild Encounter Step Counter 
+`var[min_encounter_count]=10`
 Disable wild encounters the first 10 steps after a battle
-```json
-var[min_encounter_count]=10
-```
+
 
 ## Priority Rules
 If the same var is defined multiple times, this is the priority:
@@ -205,12 +116,12 @@ Region Vars are still vars: You can modify them anywhere with jcoad.
 
 ## Persistent Changes
 
-- Any change made in JCoad will be saved unless you reset it.
+- Any change made in Jcoad will be saved unless you reset it.
 
 - For temporary or map-specific settings, use mapvar instead.
 
 - If you want it to persist long-term and across maps, use an ev.
 
-!!! warning "Coding Logic"
+!!! Warning
 
-    Region Vars only support var and list – you can’t use full jcoad logic inside them.
+    Region Vars only support `var` and `list` – you can’t use full jcoad logic inside them.
