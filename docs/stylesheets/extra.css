@@ -60,6 +60,10 @@
   color: #ff9800; /* a warm orange tone, or any colour you like */
 }
 
+[data-md-color-scheme="slate"] .md-typeset h1 {
+    color: white;
+}
+
 /* Should make code blocks wrap instead of one line that extends horizontally via scrollbar */
 code {
     overflow: visible !important;
