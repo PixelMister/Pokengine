@@ -346,6 +346,11 @@ name=glow(radius,color,flicker)
 **flicker (unit interval)**
 : Strength of the flicker, where `0` is no flicker and `1` is full flicker.
 
+**Usage:**
+```json
+glow(4,[250,32,16,0.5],0.01)
+```
+
 ---
 
 ### Slide

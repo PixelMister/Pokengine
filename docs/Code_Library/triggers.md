@@ -402,15 +402,57 @@ Causes the target to float.
 
 **Default**: Stops Floating
 
+### Falling
+Causes the target to fall, optionally spinning while they fall. The target will be teleported to the top of the screen and then fall to the center of the screen, similar to how players might fall in boulder holes from one level to the next in the canonical games.
+```json
+&fall[=spin]
+```
+
+**Default**: Does not spin
+
+### Rising
+Causes the target to rise to the center of the screen. This is the reverse of `&fall`, and hence is most similar to the older canonical games' warp panel animations.
+```json
+&rise[=spin]
+```
+
+**Default**: Does not spin
+
 ### Spin
-Causes the target to float.
+Causes the target to rapidly change directions down, left, up, right.
 ```json
 &spin[=choice]
 ```
-**spin***(yes | no)*
+**choice***(yes | no)*
 : Should the target spin?
 
 **Default**: No
+
+### Rotation
+Causes the target's sprite to rotate in-plane clockwise, either to the specified position or at the specified rate.
+```json
+&rotation=[value[,speed]]
+```
+
+**value***(number)*
+: If `speed` is enabled, this is the rotational speed in degrees per second. Otherwise, this is the position (in degrees) to rotate to.
+
+**Default**: Resets the rotation to zero
+
+**Usage:**
+```json
+&rotation=90
+```
+![alt text](assets/rotationpos.gif)
+
+```json
+&rotation=90,speed
+```
+![alt text](assets/rotationspeed.gif)
+
+!!! note "Use Wisely!"
+
+    This is intended to animate rotating sprites such as windmills (so you don't have to create 30 frames for a fluid animation). Using it to rotate sprites such as the player is discouraged.
 
 ### Solid
 Turns the target solid.
@@ -483,12 +525,23 @@ Causes the target to repel wild Pokémon encounters.
 **Default**: No
 
 ### Depth
-Sets the depth of the target.
+Sets the depth of the target. See also [Depth (data type)](<https://pokengine.readthedocs.io/en/latest/Using_This_Guide/understanding-datatypes/#depth>).
 ```json
 &depth[=z]
 ```
-**z***(number)*
-: Target’s new depth.
+**z***(depth)*
+: Target’s new depth. Accepted formats are:
+
+ - `fore`
+   - This has a depth of zero on the `fore` layer
+ - `fore+16`
+ - `fore-16`
+ - `16`			
+   - This goes to the "map" layer
+ - `+16`
+ - `-16`
+ - `[empty]`	
+   - map layer at zero depth
 
 **Default**: 0
 
@@ -501,6 +554,17 @@ Sets the target’s opacity.
 : Target’s opacity.
 
 **Default**: 100
+
+### Fading Out/In
+Causes the target's opacity to fade either out to 0 or in to 100 over time.
+```json
+&fade[=outOrIn[,speed]]
+```
+**outOrIn***(string)*
+: Either `out` (default) or `in`
+
+**speed***(number)*
+: The speed at which the fading occurs. Default is 0.05 (in somewhat arbitrary units).
 
 ### Untile
 Removes a target’s `ontile` activation, allowing it to trigger an `ontile` condition again without needing to move.
@@ -700,10 +764,15 @@ Heals the target’s party.
 ### Badge
 Gives the user a gym badge.
 ```json
-&badge=badge
+&badge=badge[,animate]
 ```
 **badge***(number))*
 : Badge ID to give to the player.
+
+**animate***(string))*
+: If present, animates the badge with a jingle.
+
+![alt text](assets/badgeanim.png)
 
 ### Achievement
 Advances the given achievement by 1.
