@@ -40,15 +40,23 @@ if onload
 
 ## Customizations
 
+In addition to the above two methods, you may further tweak reflections in a couple of ways.
+
 ### Gen 3 Filter
 
-`mapvar[reflections_gen3]=1`
+```json
+if onload
+  execute(mapvar[reflections_gen3]=1)
+```
 
 ![The player and two NPCs play in a puddle while having their reflections look like those in Pokemon Emerald.](assets/reflectiongen3filter.gif)
 
 ### Frosted Ice
 
-`mapvar[reflections_frosted]=1`
+```json
+if onload
+  execute(mapvar[reflections_frosted]=1)
+```
 
 ![The player skates on ice while having a fuzzy reflection.](assets/reflectionfrostedice.gif)
 
