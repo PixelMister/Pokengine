@@ -25,6 +25,11 @@ To activate the reflection system, either:
 
 <u>Option B: Set `mapvar[reflections_void]=1`</u>. This allows reflections to appear on the `void` layer of the game.
 
+```json
+if onload
+  execute(mapvar[reflections_void]=1)
+```
+
    - If you do this, it's also recommended to change the void color to `133,206,255`:
 
      ![Alt text](assets/reflectionvoidcolor.png)

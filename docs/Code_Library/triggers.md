@@ -651,6 +651,37 @@ Gives the player one or more answers to select. Answers should be separated by c
 **answer***(string)*
 : A single answer.
 
+### Textbox Nametags
+Options for dynamically controlling the nametags in textboxes. See also [NPC Nametags](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/msg-and-textboxes/#npc-nametags>).
+```json
+&nametag=value[,color]
+```
+**value***(yes | no | string)*
+: Either `yes`, `no`, or the name you want displayed.
+
+- If `yes` (default), the cached nametag is restored (if any exists).
+- If `no`, it caches the previous nametag (if any) and turns off the nametag display.
+- If any other string is given, it caches the previous nametag (if any) and displays the new name.
+
+**Example**
+
+```json
+%random%=npc(01fz5kw8)
+%random%.msg(<name:Jimmy,yellow>Hi.|Jimmy looks at you suspiciously...|Can I help you?|JIMMY!!!!!|....Uh-oh...)&nametag=no&|nametag=yes&|with=%random%&icon=1&nametag=Barb,pink&|nametag=yes
+```
+1. Jimmy starts out with a nametag.
+2. `&nametag=no` turns off Jimmy's nametag.
+3. `&nametag=yes` restores Jimmy's original nametag
+4. `with=%random%&icon=1&nametag=Barb,pink` puts a `!` over Jimmy's head and changes the nametag to `Barb` in pink.
+    - Changing the nametag like this does not change what the "original" nametag was (`Jimmy` in yellow).
+5. `&nametag=yes` restores Jimmy's original nametag.
+
+![alt text](assets/nametagex.gif)
+
+!!! note
+    
+    This trigger only executes when the textbox is active. When the textbox is inactive, the `&nametag` trigger changes the visibility of the overworld nametags (above the player's head). See also [Overworld Nametags](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#overworld-nametags>).
+
 ### Battle
 Initiates a battle. 
 ```json
@@ -1134,6 +1165,18 @@ Sets the weather the player sees.
 **Options**: downpour, rain, storm, blizzard, snow, hail, hailstorm, fog, mist, spooky, sandstorm, soot, kyle, cherry, confetti, overcast, harsh sunlight, strong winds
 
 **Default**: Resets to no weather.
+
+### Overworld Nametags
+Sets the visibility of the nametags above the player's head.
+```json
+&nametag[=visible]
+```
+**visible***(yes | no)*
+: If yes (default), your nametag is shown.
+
+!!! note
+
+    This trigger only executes when the textbox is not active. When the textbox is active, the `&nametag` trigger changes the textbox nametag (denoting the person speaking). See also [Textbox Nametags](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#textbox-nametags>).
 
 ## Sounds
 
