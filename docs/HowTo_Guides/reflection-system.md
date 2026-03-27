@@ -60,4 +60,16 @@ if onload
 
 ![The player skates on ice while having a fuzzy reflection.](assets/reflectionfrostedice.gif)
 
+### Surf Offset
+
+You can adjust the height of the reflections while surfing via
+```json
+var[reflections_surf_offset]=-4
+```
+
+This can alternatively be done per-map using mapvars
+```json
+mapvar[reflections_surf_offset]=-2
+```
+
 💡 **Credit**: The Reflection system was developed by **Ginzuishou**, **Kyledove**, and **JosiahKunz**.
