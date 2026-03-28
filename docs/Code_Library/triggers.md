@@ -669,6 +669,7 @@ Options for dynamically controlling the nametags in textboxes. See also [NPC Nam
 %random%=npc(01fz5kw8)
 %random%.msg(<name:Jimmy,yellow>Hi.|Jimmy looks at you suspiciously...|Can I help you?|JIMMY!!!!!|....Uh-oh...)&nametag=no&|nametag=yes&|with=%random%&icon=1&nametag=Barb,pink&|nametag=yes
 ```
+
 1. Jimmy starts out with a nametag.
 2. `&nametag=no` turns off Jimmy's nametag.
 3. `&nametag=yes` restores Jimmy's original nametag
