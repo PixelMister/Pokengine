@@ -134,6 +134,17 @@ Sets the targets speed. Can be used on the player.
 : Percentage of normal speed. Use `50` for half speed or `200` for double speed.
 **Default**: 100
 
+!!! note "Followers"
+
+    By default, allies will use their leader's speed rather than this value. As an example, if you try
+    ```json
+    with=ally&speed=200&path=5d,5u
+    ```
+    the ally will move with a speed of 100% because the player moves with a speed of 100%. To allow followers to have a different speed than their leader, set the `follow_speed` variable to zero:
+    ```json
+    mapvar[follow_speed]=0&with=ally&speed=200
+    ```
+
 ### Frequency
 Sets the targets frequency of movement (in movements per second).
 ```json
