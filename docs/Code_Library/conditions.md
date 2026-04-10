@@ -577,3 +577,14 @@ onload
 ```json 
 refreshed
 ```
+
+### Map
+The map UID.
+```json
+map
+```
+Example usage: check if we're on Route 2 (`089wd0g2`)
+```json
+if map=089wd0g2
+  execute(textbox=On Route 2)
+```
