@@ -203,10 +203,35 @@ The opposing Pokemon in this battle, will not be counted as seen in the Pokedex.
 noseen
 ```
 
-## Set ev on Caught
-Sets an ev to be saved upon successfully catching the wild mon.
+## On Caught
+Executes a trigger upon successfully catching the wild mon.
 ```json 
-oncaught ev[name]=value
+oncaught trigger
+```
+Example usage:
+```json
+msg(Hi!)&battle=3500;oncaught ev[defeated_derrick]=1
+```
+
+!!! note
+    Currently, you cannot chain triggers together with `&` because the engine will interpret that as a brand new trigger (rather than a part of the `&battle=` trigger).
+
+## On Won
+Executes a trigger upon successfully winning a battle.
+```json 
+onwon trigger
+```
+
+## On Lost
+Executes a trigger upon losing a battle.
+```json 
+onlost trigger
+```
+
+## On Ran
+Executes a trigger upon running away from a battle.
+```json 
+onran trigger
 ```
 
 ## Battle Scene Alterations
