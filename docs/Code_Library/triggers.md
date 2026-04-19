@@ -748,6 +748,17 @@ Uses the given item from the player's bag (provided it exists). If this is a con
 **uid***(string)*
 : The UID of the item to use (such as `06419qe1` for Repel).
 
+!!! note
+    Due to the arbitrary nature of item coding, items cannot be used while a textbox is active. Code like this is possible:
+    ```json
+    msg(Use this Repel!)&item=06419qe1,1,silent&useitem=06419qe1
+    ```
+    Code where an item is used between messages is not possible:
+    ```json
+    msg(Use this Repel!|That's a Repel, and it's on me this time!)&item=06419qe1,1,silent&useitem=06419qe1
+    ```
+    In this example, the player will simply be given the Repel and the `&useitem` trigger will be ignored.
+
 ### Mon
 Gives the player the generated Pokémon.
 ```json
