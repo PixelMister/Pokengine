@@ -739,6 +739,15 @@ Gives the player a given amount of some item.
 
 **Default**: 1
 
+### Use Item
+Uses the given item from the player's bag (provided it exists). If this is a consumable item, it will exhaust one charge.
+```json
+&useitem=uid
+```
+
+**uid***(string)*
+: The UID of the item to use (such as `06419qe1` for Repel).
+
 ### Mon
 Gives the player the generated Pokémon.
 ```json
