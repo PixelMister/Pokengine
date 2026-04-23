@@ -51,6 +51,6 @@ spawn(travel,down)
 
 ## Travel Checkpoints
 
-As a player, you don’t want to be sent back to the start of a Region every time you visit. To solve this, we use a checkpoint system that remembers the last place you traveled from and returns you to that same spot when you come back. You can see this in action above with &travel=checkpoint and spawn(travel).
+As a player, you don’t want to be sent back to the start of a Region every time you visit. To solve this, we use a checkpoint system that remembers the last place you traveled from and returns you to that same spot when you come back. You can see this in action above with &travel=checkpoint and spawn(travel). See also [spawn](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#spawn>).
 
 Some Regions, like Rica, don’t use checkpoints. Instead, when you travel there, you’re given a list of locations to choose from. Ultimately, it’s up to you how you want to handle it. Generally, this method can be trickier because you’ll need to track whether the player has visited each location, and the list will grow as the journey progresses.
