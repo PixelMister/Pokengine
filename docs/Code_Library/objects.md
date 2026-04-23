@@ -182,7 +182,7 @@ item(id,amount,sprite)
 
 ---
 ### Spawn
-Creates a spawn point. Use on entrances, exits or other spawn points. The non-numeric versions serve as checkpoints. See also [Travel Checkpoints](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/region-travel/#travel-checkpoints>).
+Creates a spawn point. Use on entrances, exits or other spawn points. The non-numeric versions serve as checkpoints (e.g., cave checkpoints are used for Escape Ropes). See also [Travel Checkpoints](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/region-travel/#travel-checkpoints>).
 
 ```json
 spawn(id,direction,move)
