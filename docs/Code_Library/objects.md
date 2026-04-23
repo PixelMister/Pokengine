@@ -191,7 +191,7 @@ spawn(id,direction,move)
 spawn(heal)
 ```
 ```json
-spawn(cave)
+spawn(cave,direction)
 ```
 ```json
 spawn(safari)
@@ -207,7 +207,7 @@ spawn(travel)
 **Options**: heal, cave, safari, fly
 
 **direction (direction)**
-: Direction the player faces when spawning here.
+: Direction the player faces when spawning here. `cave` requires a direction.
 
 **move (0/1) [Can be omitted]**
 : Move one tile in the aforementioned direction.
