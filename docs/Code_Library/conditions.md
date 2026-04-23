@@ -188,7 +188,7 @@ party[id]
 Additional Party Conditions for advanced party control.
 
 ```json 
-partyHas[searchFor|collections|copyright|eggGroups|evolutions|slot|species|tags|types|mon]
+partyHas[searchFor|collections|copyright|eggGroups|evolutions|slot|species|tags|type|mon]
 ```
 
 1 if the condition is true, 0 otherwise.
@@ -288,28 +288,28 @@ Tags ARE case sensitive here.
 
 Would be "If the party has any mon that has the tag ‘King’ OR ‘knight’"
 
-**types**
+**type**
 Accepts any number of types by name separated by commas.
 
 If specified, no matter how many types are provided, the mon/mons must belong to AT LEAST ONE of them, not ALL of them.
 
-`if partyHas[types=bug]`
+`if partyHas[type=bug]`
 
 Would be “any mon that has the type bug”
 
-`if partyHas[types=bug,ground]`
+`if partyHas[type=bug,ground]`
 
 Would be “any mon that has the type bug OR ground”
 
-`if partyHas[types=bug&type=ground]`
+`if partyHas[type=bug&type=ground]`
 
 Would be “any mon that has the type bug AND ground”
 
-`if partyHas[searchfor=all&types=bug,ground]`
+`if partyHas[searchfor=all&type=bug,ground]`
 
 Would be “All mons in party are at least bug OR at least ground”
 
-`if partyHas[searchfor=all&types=bug&types=ground]`
+`if partyHas[searchfor=all&type=bug&type=ground]`
 
 Would be “All mons in party are at least bug AND ground”
 
