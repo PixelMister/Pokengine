@@ -154,6 +154,14 @@ Sets the targets frequency of movement (in movements per second).
 **num***(any positive number)*
 : Number of times per second to move. For example, `&freq=2` (fast) or `&freq=0.5` (slow). **Default**: 1
 
+!!! note "Usage"
+
+    To set this value for an npc, the suggested usage is
+    ```json
+    if onload
+       execute(with=npc&frequency=0.75)
+    ```
+
 ### Icon Bubbles
 Places an animated icon bubble above the targets head. Can be used on the player.
 ```json 
