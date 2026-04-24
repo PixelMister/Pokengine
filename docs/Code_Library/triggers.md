@@ -156,10 +156,11 @@ Sets the targets frequency of movement (in movements per second).
 
 !!! note "Usage"
 
-    To set this value for an npc, the suggested usage is
+    To set this value for an npc, the suggested usage is to give them a roaming area and then set the frequency once on load:
     ```json
+    %random%=npc(01olvbxq,down,3x4)
     if onload
-       execute(with=npc&frequency=0.75)
+       execute(with=%random%&frequency=0.75)
     ```
 
 ### Icon Bubbles
