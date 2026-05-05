@@ -1,0 +1,3297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 3.0.0.5-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:yca="http://www.yworks.com/xml/yfiles-compat-arrows/1.0" xmlns:ycns="http://www.yworks.com/xml/yfiles-compat-node-styles/1.0" xmlns:yjs2="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:template-styles="http://www.yworks.com/demos/template-node-style/3.0" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:Vue3jsNodeStyle="http://www.yworks.com/demos/yfiles-vue-node-style/3.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:yx="http://www.yworks.com/xml/yfiles-common/4.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/3.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder"/>
+	<key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d2" for="node" attr.type="string" attr.name="url"/>
+	<key id="d3" for="node" attr.type="string" attr.name="description"/>
+	<key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d10" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d19">
+		<y:SharedData>
+			<yx:InteriorNodeLabelModel x:Key="1"/>
+			<yx:CompositeLabelModel x:Key="2">
+				<yx:CompositeLabelModel.Models>
+					<yx:CompositeLabelModelModelPair>
+						<yx:CompositeLabelModelModelPair.Model>
+							<yx:ExteriorNodeLabelModel Margins="5"/>
+						</yx:CompositeLabelModelModelPair.Model>
+					</yx:CompositeLabelModelModelPair>
+					<yx:CompositeLabelModelModelPair Model="{y:GraphMLReference 1}"/>
+					<yx:CompositeLabelModelModelPair Model="{x:Static yx:FreeNodeLabelModel.Instance}"/>
+				</yx:CompositeLabelModel.Models>
+			</yx:CompositeLabelModel>
+			<yjs:LabelStyle x:Key="3" verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 7}" textFill="{y:GraphMLReference 8}"/>
+			<yjs:Color x:Key="4" value="#FFD2DEEE"/>
+			<yjs:Color x:Key="5" value="#FFE9BAF9"/>
+			<yx:CompositeLabelModelParameter x:Key="6" Model="{y:GraphMLReference 2}">
+				<yx:CompositeLabelModelParameter.Parameter>
+					<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+				</yx:CompositeLabelModelParameter.Parameter>
+			</yx:CompositeLabelModelParameter>
+			<yjs:Font x:Key="7" fontSize="12" lineSpacing="0.2"/>
+			<yjs:CssFill x:Key="8" cssString="black"/>
+			<y:FreeNodePortLocationModelParameter x:Key="9" Ratio="0.009803921568627472,0.5"/>
+			<y:FreeNodePortLocationModelParameter x:Key="10" Ratio="0.9901960784313726,0.5"/>
+			<yjs:Color x:Key="11" value="#FFEED2D2"/>
+			<yjs:Color x:Key="12" value="#FFFFC499"/>
+			<yx:CompositeLabelModelParameter x:Key="13" Model="{y:GraphMLReference 2}">
+				<yx:CompositeLabelModelParameter.Parameter>
+					<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+				</yx:CompositeLabelModelParameter.Parameter>
+			</yx:CompositeLabelModelParameter>
+			<y:FreeNodePortLocationModelParameter x:Key="14" Ratio="0.5,0.9838709677419355"/>
+			<y:FreeNodePortLocationModelParameter x:Key="15" Ratio="0.5,0.016129032258064502"/>
+			<y:FreeNodePortLocationModelParameter x:Key="16" Ratio="0.007414272474513428,0.5"/>
+			<y:FreeNodePortLocationModelParameter x:Key="17" Ratio="0.007414272474513484,0.5"/>
+			<y:FreeNodePortLocationModelParameter x:Key="18" Ratio="0.9925857275254866,0.5"/>
+			<y:FreeNodePortLocationModelParameter x:Key="19" Ratio="0.5,0.9838709677419355"/>
+			<yjs:Color x:Key="20" value="#FFEF9362"/>
+			<yjs:Color x:Key="21" value="#FFEAEED2"/>
+			<yx:CompositeLabelModelParameter x:Key="22" Model="{y:GraphMLReference 2}">
+				<yx:CompositeLabelModelParameter.Parameter>
+					<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+				</yx:CompositeLabelModelParameter.Parameter>
+			</yx:CompositeLabelModelParameter>
+			<yjs:Font x:Key="23" fontSize="24" lineSpacing="0.2"/>
+			<y:FreeNodePortLocationModelParameter x:Key="24" Ratio="0.5,0.9838709677419355"/>
+			<yjs:PolylineEdgeStyle x:Key="25" stroke="{y:GraphMLReference 28}" targetArrow="{y:GraphMLReference 30}" sourceArrow="{y:GraphMLReference 29}"/>
+			<yx:SmartEdgeLabelModelParameter x:Key="26" Model="{y:GraphMLReference 27}" Distance="5"/>
+			<yx:SmartEdgeLabelModel x:Key="27"/>
+			<yjs:Stroke x:Key="28" fill="#FF663800"/>
+			<yjs:Arrow x:Key="29" fill="BLACK" type="NONE"/>
+			<yjs:Arrow x:Key="30" stroke="#FF663800" fill="#FF663800" cropLength="1" lengthScale="0.75" widthScale="0.75" type="TRIANGLE"/>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d6">
+			<y:Json>{"version":"2.0.0","origin":"yed-live","theme":{"name":"light","version":"1.0.0"},"layout":"layout-mind-map","config":{"p_minimumNodeDistance":10,"p_minimumLayerDistance":60,"p_integratedEdgeLabeling":false,"p_integratedNodeLabeling":true}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d0">1</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Start">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<yjs:LabelStyle backgroundFill="#7FFFC499" verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" shape="PILL" textSize="42">
+								<yjs:LabelStyle.font>
+									<yjs:Font fontSize="42" lineSpacing="0.2"/>
+								</yjs:LabelStyle.font>
+								<yjs:LabelStyle.textFill>
+									<yjs:CssFill cssString="#662b00"/>
+								</yjs:LabelStyle.textFill>
+							</yjs:LabelStyle>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-317.5" Y="-269.5" Width="260" Height="60"/>
+			</data>
+			<data key="d7">
+				<yjs:ShapeNodeStyle shape="PILL">
+					<yjs:ShapeNodeStyle.stroke>
+						<yjs:Stroke thickness="3">
+							<yjs:Stroke.fill>
+								<yjs:CssFill cssString="#662b00"/>
+							</yjs:Stroke.fill>
+						</yjs:Stroke>
+					</yjs:ShapeNodeStyle.stroke>
+					<yjs:ShapeNodeStyle.fill>
+						<yjs:CssFill cssString="#ff6c00"/>
+					</yjs:ShapeNodeStyle.fill>
+				</yjs:ShapeNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9961832061068702,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p8">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+			</port>
+			<port name="p9">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+			</port>
+			<port name="p10">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+			</port>
+			<port name="p11">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+			</port>
+		</node>
+		<node id="n1">
+			<data key="d0">2</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Assets loaded?" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-12.5" Y="-269.5" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 4}"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n2">
+			<data key="d0">3</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Store config values" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Right" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="139" Y="-269.5" Width="106.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 4}"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9917948717948718,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n3">
+			<data key="d0">4</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="reset()" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="297.375" Y="-269.5" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 4}"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n4">
+			<data key="d0">5</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Assign widgets" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="452.3125" Y="-269.5" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 4}"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n5">
+			<data key="d0">7</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="mon is string" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="607.25" Y="-369" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="607.25,-369,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n6">
+			<data key="d0">8</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Construct mon object" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="442.37500000000006" Y="-369" Width="119.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="442.37500000000006,-369,119.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9917948717948715,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.008205128205128198,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n7">
+			<data key="d0">9</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="mon obj has data" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="593.875" Y="-468.5" Width="126.75" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="593.875,-468.5,126.75,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.007766990291262155,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n8">
+			<data key="d0">10</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Try loading data" LayoutParameter="{y:GraphMLReference 6}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="452.3125" Y="-468.5" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="452.3125,-468.5,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="9"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="10"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n9">
+			<data key="d0">11</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Team trainer is loaded" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="578.3125" Y="-568" Width="157.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="578.3125,-568,157.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.006254886630179812,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.006254886630179812,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.006254886630179812,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n10">
+			<data key="d0">12</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Try loading data" LayoutParameter="{y:GraphMLReference 6}">
+						<y:Label.Style>
+							<yjs:LabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 7}" textFill="{y:GraphMLReference 8}"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="452.3125" Y="-568" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="452.3125,-568,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="9"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="10"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n11">
+			<data key="d0">13</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Need to
+autoevolve?]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-82.5625" Y="-124.875" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 11}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="-82.5625,-124.875,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n12">
+			<data key="d0">14</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="applyAutoEvolve()" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-247.4375" Y="-124.875" Width="119.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 11}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="-247.4375,-124.875,119.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9917948717948715,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.008205128205128198,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n13">
+			<data key="d0">15</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Set up
+Team object]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="264.58195530984904" Y="-11.312341480400704" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 12}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="264.58195530984904,-11.312341480400704,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n14">
+			<data key="d0">16</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Trainer needs
+name assigned?]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="254.62305059095615" Y="104.37859457046108" Width="119.875" Height="110.875"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 12}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="254.62305059095615,104.37859457046108,119.875,110.875"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.008859357696566983"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9917948717948718,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.991140642303433"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.008205128205128198,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9917948717948718,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.991140642303433"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.008859357696566983"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p8">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.008205128205128198,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n15">
+			<data key="d0">17</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Load + construct
+full name]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Left" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="93.56398464560311" Y="129.81609457046108" Width="94.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 12}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="93.56398464560311,129.81609457046108,94.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9896774193548388,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n16">
+			<data key="d0">18</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Construct trainer sprites,
+party, items, storage]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="416.4946165363092" Y="129.81609457046108" Width="143.25" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 12}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="416.4946165363092,129.81609457046108,143.25,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.0068846815834767705,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.0068846815834767705,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9931153184165232,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n17">
+			<data key="d0">19</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Exit loop" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="607.25" Y="-667.5" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="607.25,-667.5,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n18">
+			<data key="d0">20</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="setReplay()" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="90.99656594535315" Y="-125.93913876563124" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 11}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="90.99656594535315,-125.93913876563124,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.517735646093854"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.517735646093854"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n19">
+			<data key="d0">21</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Loop: load teams" LayoutParameter="{y:GraphMLReference 13}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="590.8125" Y="-270.4999999999999" Width="132.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="start1" fill="{y:GraphMLReference 5}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="590.8125,-270.4999999999999,132.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="14"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="15"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="16"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n20">
+			<data key="d0">22</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Loop over teams" LayoutParameter="{y:GraphMLReference 13}">
+						<y:Label.Style>
+							<yjs:LabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 7}" textFill="{y:GraphMLReference 8}"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="248.1181318907063" Y="-127.00327753126248" Width="132.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="start1" fill="{y:GraphMLReference 12}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="605.8125,-255.4999999999999,132.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="14"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.409689557855127,0.75"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="15"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.409689557855127,0" Offset="0,-11.032258064516157"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="16"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0,0.3" Offset="-11.014828544949069,0"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="17"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="18"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="19"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9925857275254866,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n21">
+			<data key="d0">23</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Loop over mons" LayoutParameter="{y:GraphMLReference 13}">
+						<y:Label.Style>
+							<yjs:LabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 7}" textFill="{y:GraphMLReference 8}"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="74.56398464560311" Y="265.44109457046096" Width="132.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="start1" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="620.8125,-240.4999999999999,132.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="14"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.319379115710254,0.55"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="15"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.319379115710254,0" Offset="0,-15"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="16"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0,0.1" Offset="-15,0"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="17"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0,0.3" Offset="-11.014828544949069,0"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="18"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.8871119473189087,0.3"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="19"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.409689557855127,0.75"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.007414272474513428,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p8">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p9">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9925857275254866,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n22">
+			<data key="d0">24</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[mon needs
+dynamic level?]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="82.78273464560311" Y="367.125" Width="116.4375" Height="81.625"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="82.78273464560311,367.125,116.4375,81.625"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.011958146487294485"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.008443271767810012,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.99155672823219,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9880418535127056"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n23">
+			<data key="d0">25</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Calculate
+dynamic level]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-82.5625" Y="377.9375" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="-82.5625,377.9375,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n24">
+			<data key="d0">26</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Reinitialize mon" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-237.50257160179538" Y="377.9375" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="-237.50257160179538,377.9375,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627583,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n25">
+			<data key="d0">28</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Set mon item" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="91.00148464560311" Y="490.433905429539" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="91.00148464560311,490.433905429539,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n26">
+			<data key="d0">29</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Load item" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-131.27354707993646" Y="490.433905429539" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="-131.27354707993646,490.433905429539,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n27">
+			<data key="d0">30</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Construct mon's
+battle object]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="264.5058562778525" Y="490.433905429539" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="264.5058562778525,490.433905429539,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n28">
+			<data key="d0">31</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Set fixed level" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="438.0073462101267" Y="489.4339220383423" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="438.0073462101267,489.4339220383423,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n29">
+			<data key="d0">32</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Alias mon/battle
+functions, like 
+mon.flinch()]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="90.93035434245655" Y="602.9302883716016" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="90.93035434245655,602.9302883716016,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n30">
+			<data key="d0">33</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Create mon UI
+(stats, sprite, shadow)]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="264.48879413558893" Y="602.9302883716016" Width="132.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="264.48879413558893,602.9302883716016,132.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9925857275254866,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n31">
+			<data key="d0">34</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Exit mon loop" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="438.0073462101267" Y="602.9302883716016" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 20}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="438.0073462101267,602.9302883716016,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n32">
+			<data key="d0">35</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Exit trainer loop" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="264.6449256422281" Y="265.44109457046096" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 12}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="264.6449256422281,265.44109457046096,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n33">
+			<data key="d0">36</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Reset
+multistrike
+counters]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="452.31249999999994" Y="-128.1544669593706" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="452.31249999999994,-128.1544669593706,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313723,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n34">
+			<data key="d0">37</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="Reset flags" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="603.3379915928815" Y="-128.1544669593706" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="603.3379915928815,-128.1544669593706,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n35">
+			<data key="d0">38</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Calculate
+disobedience]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="754.363483185763" Y="-128.1544669593706" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="754.363483185763,-128.1544669593706,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n36">
+			<data key="d0">39</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Attached this.scene
+to game stage]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="905.3889747786445" Y="-128.1544669593706" Width="119.875" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="905.3889747786445,-128.1544669593706,119.875,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.008205128205128198,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9917948717948718,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n37">
+			<data key="d0">40</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Just
+evolution?]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1076.289466371526" Y="-128.1544669593706" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="decision" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1076.289466371526,-128.1544669593706,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n38">
+			<data key="d0">41</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="checkEvolutions()" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Right" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1076.289466371526" Y="-237.5" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1076.289466371526,-237.5,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n39">
+			<data key="d0">42</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Text="END" LayoutParameter="{y:GraphMLReference 22}">
+						<y:Label.Style>
+							<yjs:LabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 23}" textFill="WHITE" textSize="24"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1076.289466371526" Y="-346.8455330406294" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="terminator" fill="BLACK"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1076.289466371526,-346.8455330406294,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="24"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n40">
+			<data key="d0">43</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Toggle fullscreen
+if simulator]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1237.2524579644075" Y="-128.1544669593706" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1237.2524579644075,-128.1544669593706,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n41">
+			<data key="d0">44</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[If host,
+send other player
+matured data]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="603.3379915928815" Y="-16.596107127224656" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="603.3379915928815,-16.596107127224656,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n42">
+			<data key="d0">45</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Add intro anims
+to scene]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="754.3862842485448" Y="-16.596107127224656" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="754.3862842485448,-16.596107127224656,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n43">
+			<data key="d0">46</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA[Poll every 100ms
+until anims are
+loaded]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Left" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="905.4312668134041" Y="-17.596085213101965" Width="100" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="905.4312668134041,-17.596085213101965,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.009803921568627472,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9901960784313726,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n44">
+			<data key="d0">48</data>
+			<data key="d4">
+				<x:List>
+					<y:Label>
+						<y:Label.Text><![CDATA[<p><strong>onBeforeBattleStarts()</strong></p><p><strong>(first mons only)</strong></p>]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Left" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 7}" textFill="WHITE"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1220.8288145858269" Y="-26.34608521310195" Width="132.875" Height="77.5"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="paperType" fill="#FF036D10"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1056.7009870663705,-27.45637396449662,132.875,77.5"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.007414272474513428,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.8655660377358491"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.007414272474513428,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9925857275254866,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n45">
+			<data key="d0">49</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 3}">
+						<y:Label.Text><![CDATA["You are challenged by"
++ zoom anim
++ sendout anims]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<yx:CompositeLabelModelParameter Model="{y:GraphMLReference 2}">
+								<yx:CompositeLabelModelParameter.Parameter>
+									<yx:InteriorNodeLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
+								</yx:CompositeLabelModelParameter.Parameter>
+							</yx:CompositeLabelModelParameter>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1041.498112388906" Y="-17.596085213101958" Width="143.25" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 21}"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1041.498112388906,-17.596085213101958,143.25,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.0068846815834767705,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9931153184165232,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n46">
+			<data key="d0">50</data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 22}">
+						<y:Label.Text><![CDATA[Battle.makeMove()
+(ends setup)]]></y:Label.Text>
+						<y:Label.Style>
+							<yjs:LabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="NONE" font="{y:GraphMLReference 23}" textFill="WHITE" textSize="24"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="1416.789466371526" Y="-17.596085213101958" Width="250.25" Height="60"/>
+			</data>
+			<data key="d7">
+				<demostyle:FlowchartNodeStyle type="terminator" fill="BLACK"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1091.289466371526,-331.8455330406294,100,60"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:GraphMLReference ResourceKey="24"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.38,0.75"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.0039643211100099385,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<edge id="e0" source="n0" target="n1" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e1" source="n1" target="n0" sourceport="p1" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="37.5,-317.5"/>
+					<y:Bend Location="-187.5,-317.5"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e2" source="n1" target="n2" sourceport="p2" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e3" source="n2" target="n3" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e4" source="n3" target="n4" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e5" source="n4" target="n19" sourceport="p1" targetport="p2">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e6" source="n5" target="n6" sourceport="p0" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e7" source="n19" target="n5" sourceport="p1" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Loop" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e8" source="n6" target="n0" sourceport="p1" targetport="p2">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="-187.5,-339"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e9" source="n5" target="n7" sourceport="p2" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e10" source="n8" target="n0" sourceport="p0" targetport="p3">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="-187.5,-438.5"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e11" source="n7" target="n8" sourceport="p1" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e12" source="n7" target="n9" sourceport="p2" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e13" source="n10" target="n0" sourceport="p2" targetport="p5">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="-187.5,-538"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e14" source="n9" target="n10" sourceport="p3" targetport="p3">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e15" source="n9" target="n17" sourceport="p4" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e16" source="n11" target="n12" sourceport="p2" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e17" source="n13" target="n14" sourceport="p5" targetport="p7">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e18" source="n14" target="n15" sourceport="p8" targetport="p4">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e19" source="n14" target="n16" sourceport="p4" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e20" source="n12" target="n0" sourceport="p2" targetport="p8">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e21" source="n19" target="n11" sourceport="p0" targetport="p4">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Exit loop" Style="{y:GraphMLReference 3}">
+						<y:Label.LayoutParameter>
+							<yx:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 27}" SegmentRatio="-0.625" Distance="5"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="657.25,-157.875"/>
+					<y:Bend Location="-32.5625,-157.875"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e22" source="n15" target="n0" sourceport="p2" targetport="p9">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="-292.375,159.81609457046108"/>
+					<y:Bend Location="-292.375,-187.25"/>
+					<y:Bend Location="-187.5,-187.25"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e23" source="n11" target="n18" sourceport="p3" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 28}" targetArrow="{y:GraphMLReference 30}" sourceArrow="{y:GraphMLReference 29}"/>
+			</data>
+		</edge>
+		<edge id="e24" source="n18" target="n20" sourceport="p1" targetport="p3">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 28}" targetArrow="{y:GraphMLReference 30}" sourceArrow="{y:GraphMLReference 29}"/>
+			</data>
+		</edge>
+		<edge id="e25" source="n20" target="n13" sourceport="p5" targetport="p4">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Loop" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e26" source="n14" target="n16" sourceport="p6" targetport="p2">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e27" source="n16" target="n21" sourceport="p4" targetport="p7">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="488.1196165363092,220"/>
+					<y:Bend Location="141.0014846456031,220"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e28" source="n21" target="n22" sourceport="p8" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Loop" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e29" source="n22" target="n23" sourceport="p1" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e30" source="n23" target="n24" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e31" source="n24" target="n0" sourceport="p1" targetport="p10">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="-291.875,407.9375"/>
+					<y:Bend Location="-291.875,159.81609457046108"/>
+					<y:Bend Location="-291.875,-188"/>
+					<y:Bend Location="-187.5,-188"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e32" source="n22" target="n25" sourceport="p3" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e33" source="n25" target="n26" sourceport="p2" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Item not loaded" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e34" source="n26" target="n0" sourceport="p1" targetport="p11">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="-290.75,520.433905429539"/>
+					<y:Bend Location="-290.75,407.9375"/>
+					<y:Bend Location="-290.75,-187.75"/>
+					<y:Bend Location="-187.5,-187.75"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e35" source="n25" target="n27" sourceport="p3" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Item loaded" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e36" source="n27" target="n28" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e37" source="n28" target="n29" sourceport="p1" targetport="p0">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="488.0073462101267,580.75"/>
+					<y:Bend Location="140.93035434245655,580.75"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e38" source="n29" target="n30" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e39" source="n30" target="n31" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e40" source="n21" target="n32" sourceport="p9" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Exit loop" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e41" source="n20" target="n33" sourceport="p6" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Exit loop" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e42" source="n33" target="n34" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e43" source="n34" target="n35" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e44" source="n35" target="n36" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e45" source="n36" target="n37" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e46" source="n37" target="n38" sourceport="p1" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="Yes" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e47" source="n38" target="n39" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e48" source="n37" target="n40" sourceport="p2" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Label Text="No" LayoutParameter="{y:GraphMLReference 26}" Style="{y:GraphMLReference 3}"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e49" source="n40" target="n41" sourceport="p1" targetport="p0">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1287.2524579644075,-42.5"/>
+					<y:Bend Location="653.3379915928815,-42.5"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e50" source="n41" target="n42" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e51" source="n42" target="n43" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e52" source="n43" target="n45" sourceport="p3" targetport="p1">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e53" source="n45" target="n44" sourceport="p2" targetport="p2">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+		<edge id="e54" source="n44" target="n46" sourceport="p3" targetport="p1">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="25"/>
+			</data>
+		</edge>
+	</graph>
+</graphml>
