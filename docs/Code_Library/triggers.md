@@ -1027,11 +1027,13 @@ Opens the incense menu for the player, allowing them to set the currently active
 ### Daycare Test
 Runs unit tests for the daycare system, including incense.
 ```json
-&dctest=incense:id;number:n;subcase:c
+&dctest[=incense:id[;number:n[;subcase:c]]]
 ```
 
 **i** or **incense** *(number)*
-: The incense ID to test. If omitted, tests the incense that's currently active (can be no active incense).
+: The incense ID to test. 
+
+**Default**: The currently active incense
 
 **n** or **number** *(number)*
 : Number of test iterations to run.
@@ -1041,7 +1043,7 @@ Runs unit tests for the daycare system, including incense.
 **s** or **subcase** *(string)*
 : Subcase identifier for the test:
 
-- "a" (default): Use whatever mons are currently in the .
+- "a" (default): Use whatever mons are currently in the daycare.
 - "b": Use two Bulbasaurs (87.5% male ratio). 
     - Mom has perfect IVs except for speed (0), holds a Power Bracer, is in a Love Ball, and has an OT of 1.
     - Dad has perfect IVs except for HP (0), holds a Destiny Knot, is in an Ultra Ball, and has an OT of 186753. 
