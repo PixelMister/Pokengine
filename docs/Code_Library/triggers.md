@@ -933,7 +933,9 @@ Creates a shop with the listed items and prices. An infinite list of items can b
 
 ### Limited Item Shop
 If the price of an item is negative, it is treated as a limited stock. For example,
-> `&shop=06xa6ohm:-5,06idcypk,06rpsnfm:-1`
+```json
+&shop=06xa6ohm:-5,06idcypk,06rpsnfm:-1
+```
 
 would create a limited item shop that has 10 Poke Balls, unlimited Great Balls, and 1 Master Ball.
 
@@ -951,6 +953,41 @@ Creates a shop with the listed items and prices, similar to &shop. However, the 
 : Price for one item. This price cannot be less than the item’s sell price.
 
 **Default**: Default Price
+
+### Dummy Items
+Instead of purchasing a real bag item, players may purchase "dummy items" that execute triggers instead.
+```json
+&buy=dummyItem[name:"...";icon="...";desc="...";trigger="...";max=N;close=N]:price
+```
+Note here that the square brackets are literal square brackets and *not* optional variables.
+
+**name***(string)))*
+: The name of the dummy item.
+
+**icon***(string)))*
+: The UID of the icon to use (for UI purposes).
+
+**desc***(string)))*
+: The shop description the player can read when selecting the dummy item. 
+
+**trigger***(string)))*
+:  Triggers that happen when you purchase the item. Use `|` instead of `&` for chains of triggers (formatting compromise).
+
+**max***(number)))*
+: Max quantity purchasable at once. Default: unlimited.
+
+**close***(number)))*
+: 1 closes the shop immediately after purchasing. 2 closes the shop, waits for all triggered textboxes/cutscene to finish, then reopens. When not set, the shop behaves as normal.
+
+**price***(number)))*
+: Price for one item.
+
+For example, the following sets up a shop to purchase 50 Coins:
+```json
+&buy=dummyItem[name:"50 Coins";icon="06q3svbf";desc="Refill your coin case!";trigger="ev[coins]=+50";]:1000
+```
+
+![Alt text](./assets/shopdummyitem.png)
 
 ### Sell
 Creates a menu that only allows the player to sell items.

@@ -1,4 +1,5 @@
 # Shop System
+See also [shop (trigger)](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#shop>).
 
 To create a shop, use msg() for the dialogue, followed by &shop= and a list of item uids:
 
