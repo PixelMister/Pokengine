@@ -54,10 +54,10 @@ This would award the Second Prize.
 
 
 ## Prize Tiers
-- 🥉 Third Prize - 2 digits match - Max Revive
-- 🥈 Second Prize - 3 digits match - PP Ups
-- 🥇 First Prize - 4 digits match - Lucky Egg
-- 👑 Jackpot Prize - 5 digits match - Master Ball
+- 🥉 Third Prize - 2 digits match - **Max Revive**
+- 🥈 Second Prize - 3 digits match - **PP Ups**
+- 🥇 First Prize - 4 digits match - **Lucky Egg**
+- 👑 Jackpot Prize - 5 digits match - **Master Ball**
 
 There is no prize for matching 1 digit, as this is too easy to achieve.
 
