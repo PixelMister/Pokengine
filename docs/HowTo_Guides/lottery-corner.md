@@ -2,7 +2,7 @@
 
 ![A screenshot of the player speaking to the lottery corner assistant with the dialogue appearing.](assets/lottery-corner.png)
 
-The Lottery Corner (also known as Loto-Id) system allows players to check a daily or weekly lottery number. If the drawn number matches the UMID number of any Pokémon they have obtained within that Region, they can win a prize.
+The Lottery Corner (also known as Loto-Id) system allows players to check a daily or weekly lottery number. If the drawn number matches the UMID number of any Pokémon they have obtained within that Region, they can win a prize. To clarify - it will check every Pokémon stored in your PC, not just your party.
 ## Activation
 
 To add a Lottery Corner NPC, simply use one of the following commands:
