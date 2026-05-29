@@ -1,5 +1,7 @@
 # Lottery Corner System
 
+![A screenshot of the player speaking to the lottery corner assistant with the dialogue appearing.](assets/lottery-corner.png)
+
 The Lottery Corner (also known as Loto-Id) system allows players to check a daily or weekly lottery number. If the drawn number matches the UMID number of any Pokémon they have obtained within that region, they can win a prize.
 ## Activation
 
@@ -59,5 +61,12 @@ By default, the rewards are:
 👑 Jackpot Prize - Master Ball
 
 There is no prize for matching 1 digit, as this is too easy to achieve.
+
+## Achievements
+Achievements are handled automatically by the system. 
+Prize achievements are awarded for each lottery tier, and an additional achievement is granted after entering 50 times, regardless of win or loss.
+These achievements are tracked cumulatively across all Regions and are not Region-specific.
+
+![A screenshot of all the possible lottery corner achievements.](assets/lottery-corner-achievements.png)
 
 💡 **Credit**: The Lottery Corner system was developed by **Skur**.
