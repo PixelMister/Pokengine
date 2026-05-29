@@ -2,7 +2,7 @@
 
 ![A screenshot of the player speaking to the lottery corner assistant with the dialogue appearing.](assets/lottery-corner.png)
 
-The Lottery Corner (also known as Loto-Id) system allows players to check a daily or weekly lottery number. If the drawn number matches the UMID number of any Pokémon they have obtained within that region, they can win a prize.
+The Lottery Corner (also known as Loto-Id) system allows players to check a daily or weekly lottery number. If the drawn number matches the UMID number of any Pokémon they have obtained within that Region, they can win a prize.
 ## Activation
 
 To add a Lottery Corner NPC, simply use one of the following commands:
@@ -17,7 +17,7 @@ Allows players to participate once per (real life) day.
 ```json
 msg()lottery=weekly
 ```
-Allows players to participate once per week. After first use by the player, they will need to wait a week from when they did it.
+Allows players to participate once per week. After first use, the player must wait one week from their previous attempt.
 
 The system automatically handles:
 - All dialogue
@@ -50,7 +50,7 @@ These three digits match:
 This would award the Second Prize.
 
 !!! note
-    The order of the numbers doesn't have to match, even though the dialogue in game says so, thats purely for flavor.
+    The order of the numbers doesn't have to match, even though the dialogue in game says so - that's purely for flavor.
 
 
 ## Prize Tiers
@@ -59,7 +59,7 @@ This would award the Second Prize.
 - 🥇 First Prize - 4 digits match - **Lucky Egg**
 - 👑 Jackpot Prize - 5 digits match - **Master Ball**
 
-There is no prize for matching 1 digit, as this is too easy to achieve.
+There is no reward for matching 1 digit, as this is considered too common.
 
 ## Achievements
 Achievements are handled automatically by the system. 
