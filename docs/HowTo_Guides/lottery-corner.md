@@ -32,8 +32,8 @@ No additional scripting is required.
 ## How Matching Works
 
 The lottery number is a 5-digit number.
-The system compares this number against the UMID of every Pokémon obtained within the current region.
-Only Pokémon from the current region are eligible. Pokémon originating from other regions will not be considered.
+The system compares this number against the UMID of every Pokémon obtained within the current Region.
+Only Pokémon from the current Region are eligible. Pokémon stored in other Regions will not be considered.
 The highest match found determines the prize awarded.
 Since UMID can be way bigger than 5 digits, it only takes from the last five digits of your UMID.
 
