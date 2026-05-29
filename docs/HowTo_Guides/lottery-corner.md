@@ -7,13 +7,13 @@ The Lottery Corner (also known as Loto-Id) system allows players to check a dail
 
 To add a Lottery Corner NPC, simply use one of the following commands:
 
-Daily Lottery
+**Daily Lottery**
 ```json
 msg()lottery=daily
 ```
 Allows players to participate once per (real life) day.
 
-Weekly Lottery
+**Weekly Lottery**
 ```json
 msg()lottery=weekly
 ```
@@ -39,26 +39,22 @@ The highest match found determines the prize awarded.
 Example:
 ```json
 Lottery Number: 12345
-Pokémon UMID:   54345
+Pokémon UMID:   53486
 ```
-The last three digits match:
+These three digits match:
 ```json
 345
 ```
 This would award the Second Prize.
 
+!!! note
+    The order of the numbers doesn't have to match, even though the dialogue in game says so, thats purely for flavor.
+
 ## Prize Tiers
-🥉 Third Prize - Match the last 2 digits
-🥈 Second Prize - Match the last 3 digits
-🥇 First Prize - Match the last 4 digits
-👑 Jackpot Prize - Match all 5 digits
-
-By default, the rewards are:
-
-🥉 Third Prize - Max Revives
-🥈 Second Prize - PP Ups
-🥇 First Prize - Lucky Egg
-👑 Jackpot Prize - Master Ball
+- 🥉 Third Prize - 2 digits match - Max Revive
+- 🥈 Second Prize - 3 digits match - PP Ups
+- 🥇 First Prize - 4 digits match - Lucky Egg
+- 👑 Jackpot Prize - 5 digits match - Master Ball
 
 There is no prize for matching 1 digit, as this is too easy to achieve.
 
