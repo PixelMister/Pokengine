@@ -1,75 +1,63 @@
-# Lottery Corner
+# Lottery Corner System
 
-![A sprite mask of an arbitrarily-shaped puddle mapped onto an in-game screenshot of the same puddle. The puddle shows reflections where the mask is white and respects the mask's alpha values.](assets/reflectionoverview.gif){width=50%}
-
-
+The Lottery Corner (also known as Loto-Id) system allows players to check a daily or weekly lottery number. If the drawn number matches the UMID number of any Pokémon they have obtained within that region, they can win a prize.
 ## Activation
 
-To activate the reflection system, either:
+To add a Lottery Corner NPC, simply use one of the following commands:
 
-<u>Option A: Create a reflection sprite</u> on the `reflection` layer of the game to act as a mask. This can be done via, e.g.,
-
-    `%random%=sprite(186753/test-reflection-single,reflection)`.
-
-
-   ![Alt text](assets/reflectionmaskexample.png)
-
-   - The mask will show reflections where pixels are white.
-   - The mask respects alpha.
-   - There can only be one mask active at a time. This is a restriction of the built-in PIXI sprite class.
-   - If the sprite is the same size as the map it's placed upon, it will automatically align itself with the map. This allows you to create a single sprite for an entire map. Note that this may create a `.png` that's quite large, but you can use png optimization tools, such as TinyPNG.com or create one yourself in, e.g., Python.
-
-!!! tips "Kyledove’s Tip"
-
-     Set the sprite's layer to `map` first to align it.
-
-<u>Option B: Set `mapvar[reflections_void]=1`</u>. This allows reflections to appear on the `void` layer of the game.
-
+Daily Lottery
 ```json
-if onload
-  execute(mapvar[reflections_void]=1)
+msg()lottery=daily
 ```
+Allows players to participate once per (real life) day.
 
-   - If you do this, it's also recommended to change the void color to `133,206,255`:
-
-     ![Alt text](assets/reflectionvoidcolor.png)
-
-!!! warning "Exclusivity Note"
-
-     Don't have both void reflections and a reflection mask on the same map. Only one is supported at a time.
-
-## Customizations
-
-In addition to the above two methods, you may further tweak reflections in a couple of ways.
-
-### Gen 3 Filter
-
+Weekly Lottery
 ```json
-if onload
-  execute(mapvar[reflections_gen3]=1)
+msg()lottery=weekly
 ```
+Allows players to participate once per week. After first use by the player, they will need to wait a week from when they did it.
 
-![The player and two NPCs play in a puddle while having their reflections look like those in Pokemon Emerald.](assets/reflectiongen3filter.gif)
+The system automatically handles:
+- All dialogue
+- Generating lottery numbers
+- preventing duplicate claims
+- Checking all eligible pokemon
+- Determining highest matching prize tier
+- Awarding prizes
 
-### Frosted Ice
+No additional scripting is required.
 
+## How Matching Works
+
+The lottery number is a 5-digit number.
+The system compares this number against the UMID of every Pokémon obtained within the current region.
+Only Pokémon from the current region are eligible. Pokémon originating from other regions will not be considered.
+The highest match found determines the prize awarded.
+
+Example:
 ```json
-if onload
-  execute(mapvar[reflections_frosted]=1)
+Lottery Number: 12345
+Pokémon UMID:   54345
 ```
-
-![The player skates on ice while having a fuzzy reflection.](assets/reflectionfrostedice.gif)
-
-### Surf Offset
-
-You can adjust the height of the reflections while surfing via
+The last three digits match:
 ```json
-var[reflections_surf_offset]=-4
+345
 ```
+This would award the Second Prize.
 
-This can alternatively be done per-map using mapvars
-```json
-mapvar[reflections_surf_offset]=-2
-```
+## Prize Tiers
+🥉 Third Prize - Match the last 2 digits
+🥈 Second Prize - Match the last 3 digits
+🥇 First Prize - Match the last 4 digits
+👑 Jackpot Prize - Match all 5 digits
 
-💡 **Credit**: The Reflection system was developed by **Ginzuishou**, **Kyledove**, and **JosiahKunz**.
+By default, the rewards are:
+
+🥉 Third Prize - Max Revives
+🥈 Second Prize - PP Ups
+🥇 First Prize - Lucky Egg
+👑 Jackpot Prize - Master Ball
+
+There is no prize for matching 1 digit, as this is too easy to achieve.
+
+💡 **Credit**: The Lottery Corner system was developed by **Skur**.
