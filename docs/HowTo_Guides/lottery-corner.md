@@ -40,8 +40,8 @@ Since UMID can be way bigger than 5 digits, it only takes from the last five dig
 Example:
 ```json
 Lottery Number: 12345
-Pokémon UMID: 705734
-Last 5 digits from your Pokemon's UMID: 05734
+Pokémon UMID: 705345
+Last 5 digits from your Pokemon's UMID: 05345
 ```
 These three digits match:
 ```json
@@ -50,7 +50,7 @@ These three digits match:
 This would award the Second Prize.
 
 !!! note
-    The order of the numbers doesn't have to match, even though the dialogue in game says so - that's purely for flavor.
+    The order of the numbers **has to match**. If the UMID was 05435, it would not win.
 
 
 ## Prize Tiers
