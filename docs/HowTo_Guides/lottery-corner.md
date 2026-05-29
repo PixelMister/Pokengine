@@ -35,11 +35,13 @@ The lottery number is a 5-digit number.
 The system compares this number against the UMID of every Pokémon obtained within the current region.
 Only Pokémon from the current region are eligible. Pokémon originating from other regions will not be considered.
 The highest match found determines the prize awarded.
+Since UMID can be way bigger than 5 digits, it only takes from the last five digits of your UMID.
 
 Example:
 ```json
 Lottery Number: 12345
-Pokémon UMID:   53486
+Pokémon UMID: 705734
+Last 5 digits from your Pokemon's UMID: 05734
 ```
 These three digits match:
 ```json
@@ -49,6 +51,7 @@ This would award the Second Prize.
 
 !!! note
     The order of the numbers doesn't have to match, even though the dialogue in game says so, thats purely for flavor.
+
 
 ## Prize Tiers
 - 🥉 Third Prize - 2 digits match - Max Revive
