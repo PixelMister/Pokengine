@@ -16,9 +16,3 @@ if ev[trademachop]=1
 This event uses the keyword `same` to ensure that the Pokémon received in the trade matches the level of the one traded away.
 
 While you can add a check to confirm the player has a specific Pokémon in their party, the trade screen accesses the entire PC, making it a better user experience to avoid that restriction. (There’s currently no way via jCoad to check for a Pokémon is stored in the PC.)
-
-!!! danger "Default Behaviour Flaw"
-
-    There is a significant flaw with this system due to default engine behavior:
-    
-    If a player opens the trade screen but cancels the trade, the game will still treat the trade as if it succeeded. This means the player can permanently miss out on receiving the intended Pokémon. There is an open bug report raised for this.

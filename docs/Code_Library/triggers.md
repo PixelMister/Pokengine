@@ -785,15 +785,15 @@ Shows the player a Pokémon.
 : Pokémon to show.
 
 ### Trade
-Trades one type of Pokémon in the player’s party for a new Pokémon.
+Trades one type of Pokémon in the player’s party for a new Pokémon. See also [NPC Trades How-To](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/npc-trades/>).
 ```json
 &trade[whom]=for_whom
 ```
 **whom***(uid))*
-: UID of the Pokémon needed to trade, such as `00u1owvp` for giving away the player's Caterpie.
+: UID of the Pokémon needed to trade, such as `00u1owvp` to give away the player's Caterpie. Specify `any` to have the player choose the mon regardless of species.
 
 **for_whom***(string))*
-: The Pokémon generation string the player receives, such as `009ezcs8` for a Scraggy or `00bxxu0w,level 25;male;n Sparky` for a male level 25 Pikachu named Sparky. See also [Pokemon Generation](<https://pokengine.readthedocs.io/en/latest/Code_Library/pokemon-generation/>). Notably, you may specify `;l same` to have the new mon inherit the level of the traded away mon.
+: The Pokémon generation string the player receives, such as `009ezcs8` for a Scraggy or `00bxxu0w,level 25;male;n Sparky` for a male level 25 Pikachu named Sparky. See also [Pokemon Generation](<https://pokengine.readthedocs.io/en/latest/Code_Library/pokemon-generation/>). Notably, if you don't specify the level the traded mons will have matching levels.
 
 ### Giveaway
 Gives away one Pokémon forever, removing it from the player’s party
