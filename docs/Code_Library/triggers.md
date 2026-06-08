@@ -789,11 +789,11 @@ Trades one type of Pokémon in the player’s party for a new Pokémon.
 ```json
 &trade[whom]=for_whom
 ```
-**whom***(pokemon))*
-: Type of Pokémon needed to trade.
+**whom***(uid))*
+: UID of the Pokémon needed to trade, such as `00u1owvp` for giving away the player's Caterpie.
 
-**for_whom***(pokemon))*
-: Pokémon the player receives.
+**for_whom***(string))*
+: The Pokémon generation string the player receives, such as `009ezcs8` for a Scraggy or `00bxxu0w,level 25;male;n Sparky` for a male level 25 Pikachu named Sparky. See also [Pokemon Generation](<https://pokengine.readthedocs.io/en/latest/Code_Library/pokemon-generation/>). Notably, you may specify `;l same` to have the new mon inherit the level of the traded away mon.
 
 ### Giveaway
 Gives away one Pokémon forever, removing it from the player’s party

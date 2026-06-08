@@ -1,6 +1,6 @@
 # NPC Trades
 ## Introduction
-The following How-To guide, will detail how to create a Pokemon trade within your region.
+The following How-To guide, will detail how to create a Pokemon trade within your region. See also [trade (trigger)](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#trade>) and [traded (condition)](<https://pokengine.readthedocs.io/en/latest/Code_Library/conditions/#traded>).
 
 ```json title="Trade Event from Sinnoh Region"
 %random%=npc(01b8skxh,down,0x0)
