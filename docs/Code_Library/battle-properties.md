@@ -109,7 +109,7 @@ var[autoevolve_all]=mode
 ```
 
 ## Weather
-Sets the weather before the battle starts.
+Sets the weather before the battle starts. The weather will last indefinitely.
 
 ```json 
 weather name
@@ -152,6 +152,23 @@ Options are:
 - `windy`
 - `yellow-petals`
 </div>
+
+## Terrain
+Sets the terrain before the battle starts. The terrain will last indefinitely.
+
+```json
+terrain name
+```
+
+Options are:
+
+- `electric`: Boosts Electric-type moves by 30% for grounded Pokémon. Prevents grounded Pokémon from falling asleep.
+- `grassy`: Boosts Grass-type moves by 30% for grounded Pokémon. Grounded Pokémon recover 1/16 max HP each turn.
+- `misty`: Halves damage from Dragon-type moves against grounded Pokémon. Prevents grounded Pokémon from being statused.
+- `psychic`: Boosts Psychic-type moves by 30% for grounded Pokémon. Grounded Pokémon are protected from priority moves.
+- `swarming`: Boosts Bug-type moves by 30% for grounded Pokémon. Prevents all healing.
+- `filthy`: Boosts Poison-type moves by 30% for grounded Pokémon. Doubles poison damage to grounded Pokémon.
+- `shady`: Halves damage from Fairy-type moves against grounded Pokémon. Adds +0.75x to critical hit damage against grounded Pokémon.
 
 ## Battle Format
 ### Double Battles
