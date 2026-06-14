@@ -42,4 +42,4 @@ The species of horde battles can also be intermixed. To do so, use `mixed`
 
 !!! note "Specific Hordes"
 
-    Pokengine currently doesn’t support specific horde combinations (e.g. one Phantump among a group of Sudowoodo). At the moment, hordes will only ever consist of the same species. This feature is on our roadmap.
+    Pokengine currently doesn’t support _specific_ horde combinations (e.g. one Phantump among a group of Sudowoodo). This feature is on our roadmap.
