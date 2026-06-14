@@ -1,32 +1,38 @@
 # Horde Battles
 
 ## Introduction
-As an aspiring Pokemon region developer, you will want to keep up with the latest battling trends. One of the newest battle mechanics which has managed to stick around, are Horde Battles.
 
-As a dev, you have two main ways to implement horde battles.
+A **horde battle** is a way for a trainer to encounter multiple wild mons in a single battle. Such battles can be 1v2, 1v5, or anything in between. 
 
-## Mixed Encounters
+![Arbok fighting a horde of three Furrets](assets/hordebattlescreenshot.png)
+
+As a developer, you have multiple ways to implement horde battles. Use whichever approach best fits the structure and design of your region.
+
+## Horde Chance Encounters
 Regular grass has a chance to trigger a horde instead of a standard encounter.
 
 - Shares the same encounter pool, rarity and level ranges as your normal wild encounters.
 
 - Good for casually mixing hordes into standard gameplay.
 
+![alt text](assets/hordebattleflags.png)
+
+In this example, every wild encounter has a **20% chance** to be a horde, consisting of **2 to 3 Pokémon.** The remaining 80% of battles will be traditional 1v1 single wild battles.
 
 ## Dedicated Horde Grass
-Use separate grass tiles specifically for horde-only encounters.
+Use `100%` and separate grass tiles specifically for horde-only encounters.
 
 - Gives you full control over what Pokémon appear, their levels, rarity, and even specific mechanics.
 
 - Ideal for special zones, unique challenges, post-game content.
 
-Use whichever approach best fits the structure and design of your region.
+## Mixed Horde Battles
 
-**Mixed encounter example:**
-![alt text](assets/hordebattleflags.png)
-In this example from Sinnoh, every wild encounter has a **20% chance** to be a horde, consisting of **2 to 3 Pokémon.**
+![Two Spinarak, Two Sentret, and one Hoothoot appearing for a mixed horde battle](assets/hordebattlemixed.png)
 
-For **dedicated horde grass**, simply create a separate encounter group (e.g. `encounter(horde)`) and use a **100% chance** in the flag to guarantee a horde battle.
+The species of horde battles can also be intermixed. To do so, use `mixed`
+
+![alt text](assets/hordebattleflagsmixed.png)
 
 !!! warning "Shiny Rolls"
 

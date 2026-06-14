@@ -281,6 +281,32 @@ Similar to the battle theme, you can select a track to play when the player when
 ```json
 victorytheme url
 ```
+
+## Trainer and Team Alterations
+Particularly useful for randomized battles, these options allow developers full customization without changing the battle ID.
+
+### Override Trainer
+To customize the trainer's name and skin, use:
+```json
+overridetrainer name="newName",outfit="UID"
+```
+Here, each entry is optional, but the name and UID **must be in double quotes**. As an example, see:
+```json
+battle=3500;overridetrainer name="Kerry",outfit="015icsxz"
+```
+which would change battle 3500's trainer from Gardener Derrick to Wave-Girl Kerry.
+
+### Override Mon
+To customize the enemy party, use:
+```json
+overridemon 1="uid1",2="uid2",...
+```
+where `uidN` are each mon's UID. This string **must be in double quotes**. As an example, see:
+```json
+battle=3500;overridemon 1="00bxxu0w"
+```
+which would change battle 3500's first mon from a Cutiefly to a Pikachu. Note that the level of the mon doesn't change (it's level 23 either way). The rest of the party remains the same as well.
+
 ## Transition
 Sets the screen transition animation used when entering the battle.
 ```json 
