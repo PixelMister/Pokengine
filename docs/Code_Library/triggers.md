@@ -736,17 +736,22 @@ Activates a target’s `name.msg()` property without the player needing to inter
 **Default**: Current Target
 
 ### Item
-Gives the player a given amount of some item.
+Gives the player an item or items.
 ```json
-&item=item[,amount]
+&item=item[,amount[,silent]]
 ```
-**item***(string | number)*
-: Name or ID number of the item.
+**item***(string)*
+: UID of the item. If a `list`'s name is specified instead, gives a random item in that list.   
 
-**amount***(number)*
-: Number of items to give. Use a negative number to take items away from the player.
+**amount***(number | string)*
+: Number of items to give. Use a negative number to take items away from the player. Use `-all` to throw away all of the given item in the player's bags.
 
 **Default**: 1
+
+**silent***(string)*
+: If `silent`, don't play the slideout animation.
+
+**Default**: Blank (not silent)
 
 ### Use Item
 Uses the given item from the player's bag (provided it exists). If this is a consumable item, it will exhaust one charge.
