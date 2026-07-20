@@ -32,7 +32,7 @@ If omitted, it defaults to first.
 
     Healing: Use a negative damage value to heal Pokémon. This works for both flat numbers and percentages, and will even revive fainted Pokémon.
 
-> 💡 **Credit**: The Move Relearner system was developed by **Skur**.
+> 💡 **Credit**: The Overworld Damage system was developed by **Skur**.
 
 
 ## Status Affliction Trigger
