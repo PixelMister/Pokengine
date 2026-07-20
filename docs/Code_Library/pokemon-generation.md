@@ -18,7 +18,7 @@ id
 ```
 
 ## Dynamic Levelling
-Allows the Pokemon's level to scale using dynamic levelling.
+Allows the Pokemon's level to scale using dynamic levelling, matching the player's highest mon's level. This level may be capped by using `ev`/`var`/`mapvar[min_dynamic_level]` and `ev`/`var`/`mapvar[max_dynamic_level]`. See also [Region Vars](<https://pokengine.readthedocs.io/en/latest/Utilities/region-variables/>).
 ```json
 dynamic-level
 ```
