@@ -1282,7 +1282,60 @@ Sets the weather the player sees.
 **type***(string)))*
 : Type of Weather
 
-**Options**: downpour, rain, storm, blizzard, snow, hail, hailstorm, fog, mist, spooky, sandstorm, soot, kyle, cherry, confetti, overcast, harsh sunlight, strong winds
+The canonical weather options are:
+
+<style>
+.weather-columns ul {
+    margin-top: 0;
+}
+</style>
+
+<div class="weather-columns" style="column-count: 3; column-gap: 20px;" markdown="1">
+- `clear`
+- `extremelyharshsunlight` (non-functional)
+- `fog`
+- `hail`
+- `harshsunlight`
+- `heavyrain` (non-functional)
+- `rain`
+- `sandstorm`
+- `snow`
+- `strongwinds` (non-functional)
+</div>
+
+Some custom options are:
+
+<style>
+.weather-columns ul {
+    margin-top: 0;
+}
+</style>
+
+<div class="weather-columns" style="column-count: 3; column-gap: 20px;" markdown="1">
+- `ash`
+- `blizzard`
+- `bubbles`
+- `cherry`
+- `confetti`
+- `darkovercast`
+- `downpour`
+- `duststorm`
+- `grassblades`
+- `hailstorm`
+- `leaves`
+- `mist`
+- `overcast`
+- `pink-petals`
+- `soot`
+- `spooky`
+- `sparkles`
+- `spore`
+- `sprite`
+- `steam`
+- `storm`
+- `windy`
+- `yellow-petals`
+</div>
 
 **Default**: Resets to no weather.
 

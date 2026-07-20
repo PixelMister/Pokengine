@@ -125,14 +125,15 @@ The canonical weather options are:
 
 <div class="weather-columns" style="column-count: 3; column-gap: 20px;" markdown="1">
 - `clear`
-- `rain`
-- `snow`
-- `hail`
+- `extremelyharshsunlight` (non-functional)
 - `fog`
-- `sandstorm`
+- `hail`
 - `harshsunlight`
-- `strong winds` (non-functional)
-
+- `heavyrain` (non-functional)
+- `rain`
+- `sandstorm`
+- `snow`
+- `strongwinds` (non-functional)
 </div>
 
 Some custom options are:
