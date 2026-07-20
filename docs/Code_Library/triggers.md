@@ -1274,6 +1274,13 @@ In NPC mode, you can look at named NPCs just like you do with the player. Due to
 
     To avoid fps-dependent camera `lookat`s, it's recommended that you always use the `px_per_frame` and `frame_duration` parameters. The smoothest transitions happen when `px_per_frame` is 1. Some values for `frame_duration` might be 25 (slow), 10 (medium), or 1 (fast).
 
+!!! note "`lookat` Queue"
+
+    If one `lookat` is triggered while another one is executing, the second one will wait until the first one is complete before it executes. An example of this is:
+    ```json
+    /trigger lookat=+32,+0,1,10&lookat=%player.x%-32,+0,1,10&lookat=player,1,10
+    ````
+
 ### Weather
 Sets the weather the player sees.
 ```json
