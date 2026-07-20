@@ -5,16 +5,16 @@ Sometimes, you might want to track how many steps a player takes and trigger som
 
 To activate the step counter, place the following code into an object, after an `execute()`.
 ```json
-ev[stepcounter_active]=1 
+mapvar[stepcounter_active]=1 
 ```
-This enables step tracking. Once active, each step taken will automatically increment: `ev[stepcounter]`
+This enables step tracking. Once active, each step taken will automatically increment: `mapvar[stepcounter]`
 
-For example, after 5 steps, the value becomes: `ev[stepcounter]=5`
+For example, after 5 steps, the value becomes: `mapvar[stepcounter]=5`
 
 ## Persistent Across Maps:
-Step counting will continue even when the player moves between maps. 
+You can use the `var[stepcounter_active]` for steps to persist across maps for a single session. Alternatively, you can use `ev[stepcounter_active]` to persist indefinitely (even between logins).
 
-If you want to stop counting, simply set/call the ev again: 
+If you want to stop counting, simply set/call the ev again:
 ```json
 ev[stepcounter_active]=0
 ```
@@ -23,6 +23,12 @@ ev[stepcounter_active]=0
 
     This system is not the same as the one used in the Safari Zone.
 
+
+!!! danger "Performance Issues"
+
+    Having `ev/var/mapvar[stepcounter_active]` causes the entire map to update each step. For this reason, it's recommended that:
+        1. You only use it on maps that do not have a lot of other events.
+        2. You should use the `mapvar` version when possible so that the performance issues do not follow the player around (especially if they use Fly).
 
 !!! danger "Visual Inconsistencies"
 
