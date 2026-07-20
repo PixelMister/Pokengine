@@ -736,17 +736,22 @@ Activates a target’s `name.msg()` property without the player needing to inter
 **Default**: Current Target
 
 ### Item
-Gives the player a given amount of some item.
+Gives the player an item or items.
 ```json
-&item=item[,amount]
+&item=item[,amount[,silent]]
 ```
-**item***(string | number)*
-: Name or ID number of the item.
+**item***(string)*
+: UID of the item. If a `list`'s name is specified instead, gives a random item in that list.
 
-**amount***(number)*
-: Number of items to give. Use a negative number to take items away from the player.
+**amount***(number | string)*
+: Number of items to give. Use a negative number to take items away from the player. Use `-all` to throw away all of the given item in the player's bags.
 
 **Default**: 1
+
+**silent***(string)*
+: If `silent`, don't play the slideout animation.
+
+**Default**: Blank (not silent)
 
 ### Use Item
 Uses the given item from the player's bag (provided it exists). If this is a consumable item, it will exhaust one charge.
@@ -758,15 +763,16 @@ Uses the given item from the player's bag (provided it exists). If this is a con
 : The UID of the item to use (such as `06419qe1` for Repel).
 
 !!! note
-    Due to the arbitrary nature of item coding, items cannot be used while a textbox is active. Code like this is possible:
-    ```json
-    msg(Use this Repel!)&item=06419qe1,1,silent&useitem=06419qe1
-    ```
-    Code where an item is used between messages is not possible:
-    ```json
-    msg(Use this Repel!|That's a Repel, and it's on me this time!)&item=06419qe1,1,silent&useitem=06419qe1
-    ```
-    In this example, the player will simply be given the Repel and the `&useitem` trigger will be ignored.
+Due to the arbitrary nature of item coding, items cannot be used while a textbox is active. Code like this is possible:
+```json
+msg(Use this Repel!)&item=06419qe1,1,silent&useitem=06419qe1
+```
+Code where an item is used between messages is not possible:
+```json
+msg(Use this Repel!|That's a Repel, and it's on me this time!)&item=06419qe1,1,silent&useitem=06419qe1
+```
+In this example, the player will simply be given the Repel and the `&useitem` trigger will be ignored.
+
 
 ### Mon
 Gives the player the generated Pokémon.
