@@ -1103,6 +1103,40 @@ Using full parameter names:
 
 **Notes**: This is a development/testing command and is not allowed in any live maps.
 
+## Quests
+
+See also [Quest System](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/quest-system/>).
+
+### Start Quest
+Starts the given quest.
+```json
+&startquest=name
+```
+**name***(string)))*
+: The name of the quest (case-insensitive).
+
+### Complete Quest
+Marks the quest as complete regardless of tracked progress.
+```json
+&completequest=name
+```
+**name***(string)))*
+: The name of the quest (case-insensitive).
+
+### Remove Quest
+Removes the quest so that it's no longer tracked regardless of progress. Useful for daily quests.
+```json
+&removequest=name
+```
+**name***(string)))*
+: The name of the quest (case-insensitive).
+
+### Reset All Quests
+Resets **all** quests. Useful for debugging, but should not be normally used during a playthrough.
+```json
+&resetquests
+```
+
 ## Game Appearance
 
 ### Fadeout
