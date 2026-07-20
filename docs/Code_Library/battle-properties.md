@@ -115,7 +115,27 @@ Sets the weather before the battle starts. The weather will last indefinitely.
 weather name
 ```
 
-Options are:
+The canonical weather options are:
+
+<style>
+.weather-columns ul {
+    margin-top: 0;
+}
+</style>
+
+<div class="weather-columns" style="column-count: 3; column-gap: 20px;" markdown="1">
+- `clear`
+- `rain`
+- `snow`
+- `hail`
+- `fog`
+- `sandstorm`
+- `harshsunlight`
+- `strong winds` (non-functional)
+
+</div>
+
+Some custom options are:
 
 <style>
 .weather-columns ul {
@@ -128,18 +148,16 @@ Options are:
 - `blizzard`
 - `bubbles`
 - `cherry`
-- `clear`
 - `confetti`
+- `darkovercast`
 - `downpour`
 - `duststorm`
-- `fog`
 - `grassblades`
-- `hail`
 - `hailstorm`
 - `leaves`
 - `mist`
+- `overcast`
 - `pink-petals`
-- `rain`
 - `soot`
 - `spooky`
 - `sparkles`
@@ -147,8 +165,6 @@ Options are:
 - `sprite`
 - `steam`
 - `storm`
-- `strong winds`
-- `snow`
 - `windy`
 - `yellow-petals`
 </div>
