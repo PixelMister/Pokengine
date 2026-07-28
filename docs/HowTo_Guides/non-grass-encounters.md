@@ -73,7 +73,7 @@ if ontile and random[6]=1
 msg(Something attacked you from the spiderweb!)&!icon=1&!cry=00pnxi7j&battle=00pnxi7j;level 30;scene 51
 ```
 
-In this example from Borovia, crossing spiderwebs triggers a chance that a spider will leap out and attack you. Combining this with a message, a notification, and the Pokémon’s cry helps create a more immersive and exciting encounter.
+In this example from Fall Festival, crossing spiderwebs triggers a chance that a spider will leap out and attack you. Combining this with a message, a notification, and the Pokémon’s cry helps create a more immersive and exciting encounter.
 
 ---
 
