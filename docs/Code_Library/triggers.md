@@ -762,7 +762,8 @@ Uses the given item from the player's bag (provided it exists). If this is a con
 **uid***(string)*
 : The UID of the item to use (such as `06419qe1` for Repel).
 
-    !!! note Due to the arbitrary nature of item coding, items cannot be used while a textbox is active. Code like this is possible:
+!!! note  
+    Due to the arbitrary nature of item coding, items cannot be used while a textbox is active. Code like this is possible:
     ```json
     msg(Use this Repel!)&item=06419qe1,1,silent&useitem=06419qe1
     ```
