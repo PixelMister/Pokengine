@@ -1321,7 +1321,6 @@ Some custom options are:
 <div class="weather-columns" style="column-count: 3; column-gap: 20px;" markdown="1">
 - `ash`
 - `blizzard`
-- `bubbles`
 - `cherry`
 - `confetti`
 - `darkovercast`
@@ -1336,9 +1335,7 @@ Some custom options are:
 - `soot`
 - `spooky`
 - `sparkles`
-- `spore`
 - `sprite`
-- `steam`
 - `storm`
 - `windy`
 - `yellow-petals`
