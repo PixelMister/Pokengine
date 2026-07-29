@@ -23,6 +23,8 @@ nav:
       - Conditions: Code_Library/conditions.md
       - Battle Properties: Code_Library/battle-properties.md
       - Pokemon Generation: Code_Library/pokemon-generation.md
+  - Battle Engine:
+      - Hooks & Effects: Battle_Engine/hooks-and-effects.md
   - How-To Guides:
       - Objects:
         - Root Objects: HowTo_Guides/root-objects.md
