@@ -1334,7 +1334,6 @@ Some custom options are:
 - `pink-petals`
 - `soot`
 - `spooky`
-- `sparkles`
 - `sprite`
 - `storm`
 - `windy`
