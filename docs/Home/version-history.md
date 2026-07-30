@@ -21,7 +21,7 @@ This page will be updated at every *major* update, smaller tweaks can be highlig
 ## Version Log
 | Version | Date    | Description                                                                                                         |
 |---------|---------|---------------------------------------------------------------------------------------------------------------------|
-| 1.5     | Jul 2026| Various page fixes. Additional page added - Lottery Corner Functionality. 
+| 1.5     | Jul 2026| Various page and terminology fixes (&trade, horde battle page, &weather, weather and terrain, Quest Triggers, &item, dynamic-level, &lookat). Additional pages/terms added - Lottery Corner Functionality, overrirdetrainer and overridemon. Documentation updates by JosiahKunz.
 | 1.4     | Mar 2026| Improved engine functionality and features. New documentation pages in development for footprints and badges. New documentation added for Reflection System and various trigger updates, additions and improvements by JosiahKunz, Ginzuishou, Kyledove and Skur.
 | 1.3     | Nov 2025| Additional Editing Permissions given to JosiahKunz, to assist in the development of documentation. Additional code areas added. |
 | 1.2     | Aug 2025| Editing permissions created and shared repository with Pokengine Creative Director. |
