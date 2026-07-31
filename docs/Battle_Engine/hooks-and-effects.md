@@ -8,10 +8,14 @@ An "effect" is an object that holds (possibly many) hooks. Effect types are:
 4. Volatile statuses
 5. Team effects (field effects on one side, like Reflect)
 6. Whole field effects (like Trick Room)
-7. Weather
-8. Terrain
+7. Terrain
+8. Weather
 
-Effects are checked from 1-8, so if a held item changes a Mon's type to Grass, but a weather changes it to Water, the Mon in the end will be a Water-type.
+Effects are checked from 1-8, so if a held item changes a Mon's type to Grass, but a weather changes it to Water, the Mon in the end will be a Water-type. This order roughly reflects the physically smallest things to the physically largest things.
+
+!!! tips "Site Search"
+
+    You can search code on the [Pokengine site](<https://pokengine.org/>) using `effect:`. For example, you can find moves/items/abilities that disable, then re-enable moves by searching for `effect:mon.enableMove`. 
 
 ## Hooks That Affect Types
 
@@ -43,7 +47,7 @@ normalizeMoves: {typesToChange: ["normal"], changeTo: "fairy"}
 Notably, this does not work for moves that have special type-changing mechanics already. For example, [Techno Blast](<https://pokengine.org/moves/07ruodk6/Techno+Blast>) has the classification `normalize-banned`.
 
 ### Self Type
-For moves only, this hook changes the attacking move the user's primary type. For example, [Revelation Dance] uses:
+For moves only, this hook changes the attacking move the user's primary type. For example, [Revelation Dance](<https://pokengine.org/moves/07csd11i/Revelation+Dance>) uses:
 ```js
 selfType: true
 ```
