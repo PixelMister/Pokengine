@@ -40,3 +40,25 @@ Party Pokemon's Slot Name/Species
 *You can change the number in %nickname[1]% to access other slots.  
 For example: %nickname[2]%, %nickname[3]%, etc.*
 
+## Keybinds
+
+![Keybinds, like X to Cancel,as they appear on the PC version of the game.](assets/keybindspc.png) ![Keybinds, like B to Cancel,as they appear on the mobile version of the game.](assets/keybindsmobile.png)
+
+Keybinds can be evaluated dynamically and used in a similar fashion to the above variables. As an example, consider a tutorial npc:
+```js
+msg(Hold %cancel% to run!)
+```
+In the PC version of the game, this would evaluate to `Hold X to run!`. In the mobile version, it would be `Hold B to run!`.
+
+The following dynamic keybinds are supported:
+
+- `%action%`
+- `%cancel%`
+- `%jump%`
+- `%left%`
+- `%right%`
+- `%up%`
+- `%down%`
+- `%item1%`
+- `%item2%`
+- `%item3%`
