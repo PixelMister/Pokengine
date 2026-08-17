@@ -3,13 +3,14 @@ A "hook" is a function called at a specified time in the battle that injects cod
 
 An "effect" is an object that holds (possibly many) hooks. Effect types are:
 1. Held items
-2. Abilities
-3. Moves (only when attacking)
-4. Volatile statuses
-5. Team effects (field effects on one side, like Reflect)
-6. Whole field effects (like Trick Room)
-7. Terrain
-8. Weather
+2. Key items
+3. Abilities
+4. Moves (only when attacking)
+5. Volatile statuses
+6. Team effects (field effects on one side, like Reflect)
+7. Whole field effects (like Trick Room)
+8. Terrain
+9. Weather
 
 Effects are checked from 1-8, so if a held item changes a Mon's type to Grass, but a weather changes it to Water, the Mon in the end will be a Water-type. This order roughly reflects the physically smallest things to the physically largest things.
 
