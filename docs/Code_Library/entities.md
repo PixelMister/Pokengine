@@ -171,3 +171,13 @@ Causes the object to spin.
 name.spin()
 ```
 
+### Glue
+Affixes a sprite to the screen. The glued sprite's position does not change as the player moves.
+```json
+name.glue(screenX, screenY)
+```
+Here, `screenX` and `screenY` start at the bottom center of the screen. `screenX` is positive to the right and `screenY` is positive down. For example:
+```json
+banner=animation(186753/banner_anim_hawthornewoods,fore+3200,0,0,155,62,100,100,1)
+banner.glue(-112,-224)
+```

@@ -59,6 +59,7 @@ The following dynamic keybinds are supported:
 - `%right%`
 - `%up%`
 - `%down%`
+- `%start%`
 - `%item1%`
 - `%item2%`
 - `%item3%`

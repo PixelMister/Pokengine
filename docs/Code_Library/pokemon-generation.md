@@ -342,3 +342,15 @@ sketch-used slot
 v slot
 ```
 where `slot` is the slot of the Sketched move or `-1` if Sketch has never been used.
+
+## Took Recoil Damage and Survived
+Sets the amount of recoil damage the Mon has self-inflicted without fainting from it. This is useful for Mons that evolve by taking recoil damage, such as [Basculin](<https://pokengine.org/mons/001e3daf/Basculin>).
+
+### Syntax
+```json
+took-recoil amount
+```
+```json
+t amount
+```
+where `amount` is a non-negative integer representing the amount of health the Mon has lost via recoil damage without fainting.

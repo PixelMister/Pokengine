@@ -176,6 +176,31 @@ item(id,amount,sprite)
 : Item sprite sheet. Use `hidden` to make this item invisible.
 **Default**: Region Sprite.
 
+### Splash
+Marks the tile to have a splash effect play underneath objects that occupy the tile.
+```json
+splash(file,numFrames,fps,loop)
+```
+
+**file (string)**
+: Filename of the animation sprite starting with your player ID.
+
+**numFrames (number)**
+: Number of frames in the animation.
+
+**fps (number)**
+: Speed at which to play the animation.
+
+**loop (number)**
+: 0 to play once, 1 to infinitely loop.
+
+For example:
+```json
+splash(1995/rippleanim,3,100,1)
+```
+
+![alt text](assets/splash.gif)
+
 ---
 
 ## Map Transfers and Movement

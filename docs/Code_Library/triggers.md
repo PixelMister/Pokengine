@@ -82,11 +82,15 @@ Unfreezes the target and allows player input.
 ### Jump
 Causes the target to jump.
 ```json
-&jump=height
+&jump=height[,silent]
 ```
 **height***(number)*
 : Number of pixels the target will jump by.
 **Default**: 8 pixels.
+
+**silent***(number | yes | no)*
+: If `1` or `yes` or `true`, the jump should not produce a sound effect.
+**Default**: `false`.
 
 ### Direction
 Causes the target to face the given direction.
