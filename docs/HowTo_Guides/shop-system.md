@@ -38,7 +38,7 @@ Creates a menu that only allows the player to sell items.
 &sell
 ```
 
-## Item Pricing and Best Practices
+### Item Pricing and Best Practices
 
 Prices for items are set at a **global level**, and by default, the **sell price is automatically half the buy price.**
 
