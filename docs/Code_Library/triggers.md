@@ -929,7 +929,7 @@ Costs will be paid upon the move being taught and saved, to avoid refresh-cheati
 Optional, but if provided will change this interface from a “move relearn” interface to a “move tutor” interface.
 
 ### Shop
-Creates a shop with the listed items and prices. An infinite list of items can be provided, with each item being separated by a comma.
+Creates a shop with the listed items and prices. An infinite list of items can be provided, with each item being separated by a comma. See the page on [Shop System](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/shop-system/>) for advanced options and examples.
 ```json
 &shop=item[:price],[item[:price],...]
 ```
@@ -940,16 +940,6 @@ Creates a shop with the listed items and prices. An infinite list of items can b
 : Price for one item. This price cannot be less than the item’s sell price.
 
 **Default**: Default Price
-
-### Limited Item Shop
-If the price of an item is negative, it is treated as a limited stock. For example,
-```json
-&shop=06xa6ohm:-5,06idcypk,06rpsnfm:-1
-```
-
-would create a limited item shop that has 10 Poke Balls, unlimited Great Balls, and 1 Master Ball.
-
-Note that TMs are always a limited stock of 1
 
 ### Buy
 Creates a shop with the listed items and prices, similar to &shop. However, the player may not sell items here; only the buy option is activated.

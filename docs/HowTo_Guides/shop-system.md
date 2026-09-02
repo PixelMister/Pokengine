@@ -1,5 +1,5 @@
 # Shop System
-See also [shop (trigger)](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#shop>).
+See also [shop (trigger)](<https://pokengine.readthedocs.io/en/latest/Code_Library/triggers/#move-learner:~:text=move%20tutor%E2%80%9D%20interface.-,Shop,-Creates%20a%20shop>).
 
 To create a shop, use msg() for the dialogue, followed by &shop= and a list of item uids:
 
@@ -32,6 +32,27 @@ In this example, although Poké Balls are normally **200**, this sets the price 
 !!! warning "Money Exploits"
 
     We strongly recommend against overriding item prices unless absolutely necessary. The sell price remains hardcoded - so if you set a Poké Ball’s price at 50 (instead of the normal 200), a player could then sell it back for 100 and effectively double their money. This creates a potential infinite money exploit that players could abuse.
+
+## Limited Item Shop
+
+![A Great Ball for sale, but there are only "2 Left!".](assets/shop-limited.png)
+
+If the price of an item is negative, it is treated as a limited stock. For example,
+```json
+&shop=06xa6ohm:-5,06idcypk,06rpsnfm:-1
+```
+would create a limited item shop that has 10 Poke Balls, unlimited Great Balls, and 1 Master Ball.
+
+Note that TMs are always a limited stock of 1
+
+## Conditional Shops
+
+Shops are natively able to use [Smart Answers](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/smart-answers/>). As an example, see:
+```json
+jerry=npc(01qplyfm)
+jerry.msg(Shop!)&shop=06xa6ohm,06a1u97i,06qqcmyo,if[mapvar[tmp]=1]06vfln35
+```
+This example only sells Paralyze Heal when `mapvar[tmp]=1` and hides Paralyze Heal otherwise.
 
 ## Advanced Shop Code Example
 
