@@ -19,6 +19,25 @@ The shop system will, by default, include both **Buy** and **Sell** options.
 
 Players can sell most items they own, **except** those in the **Key Item** and **TM pockets** - these cannot be sold under any circumstance.
 
+### Buy-Only Shops
+Creates a shop with the listed items and prices, similar to &shop. However, the player may not sell items here; only the buy option is activated.
+```json
+&buy=item[:price],[item[:price],...]
+```
+**item***(string | number)))*
+: Item name or number to sell.
+
+**price***(number)))*
+: Price for one item. This price cannot be less than the item’s sell price.
+
+**Default**: Default Price
+
+### Sell-Only Shops
+Creates a menu that only allows the player to sell items.
+```json
+&sell
+```
+
 ## Item Pricing and Best Practices
 
 Prices for items are set at a **global level**, and by default, the **sell price is automatically half the buy price.**
@@ -53,6 +72,42 @@ jerry=npc(01qplyfm)
 jerry.msg(Shop!)&shop=06xa6ohm,06a1u97i,06qqcmyo,if[mapvar[tmp]=1]06vfln35
 ```
 This example only sells Paralyze Heal when `mapvar[tmp]=1` and hides Paralyze Heal otherwise.
+
+## Dummy Items
+
+![A shop selling 50 Coins for your Coin Case.](./assets/shopdummyitem.png)
+
+Instead of purchasing a real bag item, players may purchase "dummy items" that execute triggers instead.
+```json
+&buy=dummyItem[name:"...";icon="...";desc="...";trigger="...";max=N;close=N]:price
+```
+Note here that the square brackets are literal square brackets and *not* optional variables.
+
+**name***(string)))*
+: The name of the dummy item.
+
+**icon***(string)))*
+: The UID of the icon to use (for UI purposes).
+
+**desc***(string)))*
+: The shop description the player can read when selecting the dummy item.
+
+**trigger***(string)))*
+:  Triggers that happen when you purchase the item. Use `|` instead of `&` for chains of triggers (formatting compromise).
+
+**max***(number)))*
+: Max quantity purchasable at once. Default: unlimited.
+
+**close***(number)))*
+: 1 closes the shop immediately after purchasing. 2 closes the shop, waits for all triggered textboxes/cutscene to finish, then reopens. When not set, the shop behaves as normal.
+
+**price***(number)))*
+: Price for one item.
+
+For example, the following sets up a shop to purchase 50 Coins:
+```json
+&buy=dummyItem[name:"50 Coins";icon="06q3svbf";desc="Refill your coin case!";trigger="ev[coins]=+50";]:1000
+```
 
 ## Advanced Shop Code Example
 
