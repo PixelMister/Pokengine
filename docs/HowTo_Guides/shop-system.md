@@ -70,8 +70,9 @@ You can also specify both price and limit by having three arguments:
 ```
 For example,
 ```json
-&shop=06xa6ohm:-5:1200,06idcypk,06rpsnfm:-1
+&shop=06xa6ohm:-5:120,06idcypk,06rpsnfm:-1
 ```
+would create 5 Poke Balls priced at \$120 each (normally priced at \$200).
 
 ## Conditional Shops
 
