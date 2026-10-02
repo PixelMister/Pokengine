@@ -62,7 +62,16 @@ If the price of an item is negative, it is treated as a limited stock. For examp
 ```
 would create a limited item shop that has 10 Poke Balls, unlimited Great Balls, and 1 Master Ball.
 
-Note that TMs are always a limited stock of 1
+Note that TMs are always a limited stock of 1.
+
+You can also specify both price and limit by having three arguments:
+```json
+&shop=uid:-stock:price
+```
+For example,
+```json
+&shop=06xa6ohm:-5:1200,06idcypk,06rpsnfm:-1
+```
 
 ## Conditional Shops
 
