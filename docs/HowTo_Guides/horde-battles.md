@@ -48,4 +48,4 @@ The species of horde battles can also be intermixed. To do so, use `mixed`
 
 ![alt text](assets/horde-intruder-setup.png) ![alt text](assets/horde-intruder-result.png)
 
-"Intruders" are Mons that have a chance to appear in a horde. Intruders help the wild horde battle the player. Up to one intruder may appear in this way (but it could also be zero intruders).
+"Intruders" are Mons that have a chance to appear in a horde. Intruders help the wild horde battle the player. Up to one intruder may appear in this way (but it could also be zero intruders). The percentage (25% in the given example) is the odds of appearing within a horde of Mons. In the given example, 50% of Tauros hordes will have some kind of intruder.
