@@ -3,7 +3,7 @@
 Below is an example of the engine code used for the [Old Rod](<https://pokengine.org/items/06xh999l/Old+Rod>):  
 
 ```json
-gameEffect: game => game.player.attemptToFish("oldrod"),
+fishingEncounter: "oldrod",
 hookChance: 25
 ```
 
@@ -68,7 +68,7 @@ If unspecified, the item chance is 1/6 on a successful hook.
 ### Custom Rods
 Rods can use `hookChance` and `itemChance` as properties. For example, the [Hot Rod](<https://pokengine.org/items/06cd8o4n/Hot+Rod>) has good hook odds, but never fishes up items:
 ```js
-gameEffect: game => game.player.attemptToFish("hotrod"),
+fishingEncounter: "hotrod",
 hookChance: 75,
 itemChance: 0
 ```
