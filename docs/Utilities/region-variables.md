@@ -92,16 +92,16 @@ Percentage chance to gain happiness.
 Egg hatch rate modifier.
 
 `var[encounter_chance]=5`  
-Default encounter rate, 1 in 5
+Default [encounter](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) rate, 1 in 5
 
 `var[cave_encounter_chance]=30`  
-Default encounter rate in caves, 1 in 30
+Default [encounter](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) rate in caves, 1 in 30
 
 `var[surf_encounter_chance]=40`  
-Default encounter rate while surfing, 1 in 40
+Default [encounter](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) rate while surfing, 1 in 40
 
 `var[min_encounter_count]=10`  
-Disable wild encounters the first 10 steps after a battle
+Disable wild [encounters](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) the first 10 steps after a battle
 
 ## Priority Rules
 If the same var is defined multiple times, this is the priority:

@@ -451,6 +451,8 @@ encounter(type)
 **type (string)**
 : The name of the encounter list, the encounter tile will link to.
 
+See also [Grass Encounters](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/grass-encounters/#milestone-progression>) and [Non-Grass Encounters](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/non-grass-encounters/>). 
+
 ---
 
 ### Grass

@@ -1,5 +1,7 @@
 # Non-Grass Encounters
 
+See also [Grass Encounters](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/grass-encounters/>).
+
 Experiment with ways to find wild Pokémon beyond just grass encounters.
 
 This section covers unique methods to encounter Pokémon, helping to diversify your players’ experience and keep exploration fresh and exciting.
@@ -105,4 +107,15 @@ msg(What's this?#There's something in the trash can!)&ev[confectiousencountered]
 if ev[confectious]!=0
 msg(Looks empty... For now.)
 ```
+
+---
+
+### Variable-Based
+
+The "time" field also accepts variable conditions (`ev`, `var`, and `mapvar`) provided that they are **lower-case**.
+
+For example, when a player steps on the "secret fishing spot", the tile executes `mapvar[mt]=1` and the encounter table changes to include Mantyke:
+
+![alt text](assets/encounter-mapvar.png)
+
 ---

@@ -41,6 +41,7 @@ These entries are separate from Discord and Pokengine Website Staff.
 ## Version Log
 | Version | Date    | Description                                                                                                         |
 |---------|---------|---------------------------------------------------------------------------------------------------------------------|
+| 1.6     | Oct 2026 | AI routines, Rock Climb, Mon generation string updates, linking and expanding the "encounters" pages, fishing changes, and horde intruder battles.
 | 1.5     | Jul 2026| Various page and terminology fixes (&trade, horde battle page, &weather, weather and terrain, Quest Triggers, &item, dynamic-level, &lookat). Additional pages/terms added - Lottery Corner Functionality, overrirdetrainer and overridemon. Documentation updates by JosiahKunz.|
 | 1.4     | Mar 2026| Improved engine functionality and features. New documentation pages in development for footprints and badges. New documentation added for Reflection System and various trigger updates, additions and improvements by JosiahKunz, Ginzuishou, Kyledove and Skur.|
 | 1.3     | Nov 2025| Additional Editing Permissions given to JosiahKunz, to assist in the development of documentation. Additional code areas added. |

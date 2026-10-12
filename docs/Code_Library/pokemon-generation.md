@@ -368,7 +368,7 @@ z uid1,uid2,...
 
 !!! warning
 
-    You should never have to manually set Move History in a normal playthrough. The documentation here only exists so you can read the generation string.
+    A Mon's Move History is automatically started whenever their `caught` info is registered. It's also automatically updated every time they learn a move. You should never have to manually set Move History in a normal playthrough. The documentation here only exists so you can read the generation string.
 
 ## Continue Evolution
 Marks a Mon's evolution sequence as interrupted. This feature helps if the player has a Mon that's in the process of evolving, but the player disconnects (most damagingly while trading).

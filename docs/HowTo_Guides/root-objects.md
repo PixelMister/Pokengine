@@ -28,7 +28,7 @@ Use these to block off tiles the player shouldn't be able to walk into.
     Unlike RPG Maker / RMXP, **tilesets in Pokengine don’t have built-in passability**. You must manually place blocks for each map.
 
 ## Encounters
-Setting different types of encounters of a block can be useful to change Pokemon encounters across different terrain types.
+Setting different types of [encounters](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) of a block can be useful to change Pokemon encounters across different terrain types.
 
 - Encounter - Grass: *Avoid using this.* You’ll usually want to create your own grass objects to match your Region.
 

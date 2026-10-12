@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A **horde battle** is a way for a trainer to encounter multiple wild mons in a single battle. Such battles can be 1v2, 1v5, or anything in between. 
+A **horde battle** is a way for a trainer to [encounter](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) multiple wild mons in a single battle. Such battles can be 1v2, 1v5, or anything in between. 
 
 ![Arbok fighting a horde of three Furrets](assets/hordebattlescreenshot.png)
 
@@ -43,3 +43,9 @@ The species of horde battles can also be intermixed. To do so, use `mixed`
 !!! note "Specific Hordes"
 
     Pokengine currently doesn’t support _specific_ horde combinations (e.g. one Phantump among a group of Sudowoodo). This feature is on our roadmap.
+
+## Intruder Horde Battles
+
+![alt text](assets/horde-intruder-setup.png) ![alt text](assets/horde-intruder-result.png)
+
+"Intruders" are Mons that have a chance to appear in a horde. Intruders help the wild horde battle the player. Up to one intruder may appear in this way (but it could also be zero intruders).

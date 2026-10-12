@@ -1,5 +1,7 @@
 # Grass Encounters (How to)
 
+See also [Non-Grass Encounters](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/non-grass-encounters/>).
+
 The most common way to encounter wild Pokémon is through grass tiles.  
 To get started, create a reusable root object that you can place throughout your region. Here are two examples:
 
@@ -126,7 +128,7 @@ For example:
 
 ---
 
-### Custom Variables
+### Other Custom Methods
 
 There are many creative ways to design wild encounters beyond the basics:
 

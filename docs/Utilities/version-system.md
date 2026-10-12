@@ -189,7 +189,7 @@ Example:
 
 ### Conditional Logic Method
 
-Alternatively, if you want more control, you can define version-specific encounters directly in your root object using conditional logic:
+Alternatively, if you want more control, you can define version-specific [encounters](<https://pokengine.readthedocs.io/en/latest/Code_Library/objects/#encounters>) directly in your root object using conditional logic:
 
 ```
 if ev[version]=1
