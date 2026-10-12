@@ -352,6 +352,28 @@ strength(sprite,slide)[&triggers]
 
 ---
 
+### Rock Climb
+Creates a vertical terrain that can be traversed with the move "Rock Climb". 
+
+![alt text](assets/rock-climb.gif) ![alt text](assets/rock-climb-up-down.gif)
+
+(Excuse the crude "Rock Climb" visual indicators!)
+
+```json
+rockclimb(dx, dy)
+```
+**dx (number)**
+: Number of tiles to traverse in the x-direction.
+
+**dy (number)**
+: Number of tiles to traverse in the y-direction.
+
+For any horizontal distance, the path first moves over, then over and up, and then over again. For example, `rockclimb(-3,-1)` on the `CODE` block results in:
+
+![alt text](assets/rock-climb-schematic.png)
+
+---
+
 ## Overworld Actions or Effects
 
 ---

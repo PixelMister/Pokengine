@@ -354,3 +354,44 @@ took-recoil amount
 t amount
 ```
 where `amount` is a non-negative integer representing the amount of health the Mon has lost via recoil damage without fainting.
+
+## Move History
+Sets the list of previously-known moves for the Mon. The Mon can relearn these moves at a move tutor even if they're not normally in the Mon's moveset.
+
+### Syntax
+```json
+move-history uid1,uid2,...
+```
+```json
+z uid1,uid2,...
+```
+
+!!! warning
+
+    You should never have to manually set Move History in a normal playthrough. The documentation here only exists so you can read the generation string.
+
+## Continue Evolution
+Marks a Mon's evolution sequence as interrupted. This feature helps if the player has a Mon that's in the process of evolving, but the player disconnects (most damagingly while trading).
+
+### Syntax
+```json
+continue-evolution type,evo,methodID,evoUseItem,evoHeldItem,evoClone
+```
+```json
+kontinue-evolution type,evo,methodID,evoUseItem,evoHeldItem,evoClone
+```
+```json
+k type,evo,methodID,evoUseItem,evoHeldItem,evoClone
+```
+
+where
+ - `type` is the evolution method name as seen on the site, such as `"move-used"` or `"level"`. See `mon.attemptEvolution()` for the full list.
+ - `evo` is the UID of the Mon being evolved into.
+ - `evoUseItem` is the item UID that was consumed in order to make the Mon evolve (such as a Water Stone).
+ - `evoHeldItem` is whether the Mon's held item should be removed when it evolves (`true`/`false`).
+ - `methodId` is the numeric evolution method code. Differs from `type` because it identifies an exact method, such as [Basculin's](<https://pokengine.org/mons/001e3daf/Basculin>) "level-up while male after surviving 294 recoil damage" (method `57`) rather than simply `"took-recoil"`.
+ - `evoClone` is the "extra" Mon to spawn, such as Shedinja when Nincada evolves into Ninjask.
+
+!!! warning
+
+    You should never have to manually set Continue Evolution in a normal playthrough. The documentation here only exists so you can read the generation string.
