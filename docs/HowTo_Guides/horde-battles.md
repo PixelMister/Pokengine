@@ -8,7 +8,7 @@ A **horde battle** is a way for a trainer to [encounter](<https://pokengine.read
 
 As a developer, you have multiple ways to implement horde battles. Use whichever approach best fits the structure and design of your region.
 
-## Horde Chance Encounters
+### Horde Chance Encounters
 Regular grass has a chance to trigger a horde instead of a standard encounter.
 
 - Shares the same encounter pool, rarity and level ranges as your normal wild encounters.
@@ -19,7 +19,7 @@ Regular grass has a chance to trigger a horde instead of a standard encounter.
 
 In this example, every wild encounter has a **20% chance** to be a horde, consisting of **2 to 3 Pokémon.** The remaining 80% of battles will be traditional 1v1 single wild battles.
 
-## Dedicated Horde Grass
+### Dedicated Horde Grass
 Use `100%` and separate grass tiles specifically for horde-only encounters.
 
 - Gives you full control over what Pokémon appear, their levels, rarity, and even specific mechanics.
@@ -54,7 +54,7 @@ The species of horde battles can also be intermixed. To do so, use `mixed`
 
 - **Note:** You could list more than one intruder, but only one will ever appear. In the given example, 50% of Tauros hordes will have some kind of intruder (25% + 25%).
 
-## Official examples
+### Official examples
 
 Intruders can be used to represent natural relationships or behaviours between species, such as:
 
@@ -76,7 +76,7 @@ Official examples
 
 - Trevanant and 1 Sudwoodo
 
-## Expanded uses
+### Expanded uses
 
 But we can take this even further! Intruders could represent family groups, with a baby among its evolved species or a powerful Mon protecting its pre-evolutions.
 
