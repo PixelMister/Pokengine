@@ -1,121 +1,156 @@
 # Battle AI
 Pokengine includes its own **Battle AI System**, which governs how battles play out. To streamline its use, we’ve created a set of default **battle skill levels/behaviours**, each with tailored routines that reflect different skill levels.
 
-## Behaviours and their Routines
+---
+
+## Behaviors
 
 - **🧢 Noob**
     * Clueless and Inexperienced
 
-    * Will only try a new move after the current one fails 3 times.
-
-    * `damage, typing, failedMove-3, useitems, random-5`
+    * May still try a move that continues to fail
 
 - **🥈 Beginner**
     * Starting to grasp the basics
 
-    * Uses STAB moves and switches tactics after a single failed move.
+    * Uses STAB moves
 
-    * `damage, typing, stab, inflictStatus, failedMove-1, useitems, random-5`
+    * Quicker to give up if a move fails
 
 - **🧠 Skilled**
 
-    * Tactically aware and reactive.
+    * Tactically aware and reactive
 
-    * Balances offense with strategy, status effects, and     field control
+    * Balances offense with strategy, status effects, and field control
 
-    * May switch out if necessary.
-
-    * `damage, typing, stab, inflictStatus, accuracy, switchout-0.5, sethazards, setweathers, statboost, useitems, random-5`
+    * May switch out if necessary
 
 - **🧬 Expert**
 
-    * Highly strategic, competitive-level AI.
+    * Highly strategic, competitive-level AI
 
     * Same core as Skilled, but used for top-tier battles and bosses.
 
-    * `damage, typing, stab, inflictStatus, accuracy, switchout-0.5, sethazards, setweathers, statboost, useitems, random-5`
+All default Trainer Classes already come with preset AI levels - for example, Tubers use the `noob` AI, while Ace Trainers use the `expert` AI - so you generally won’t need to adjust these manually. 
 
-All default Trainer Classes already come with preset AI levels - for example, Tubers use the Noob AI, while Ace Trainers use the Expert AI - so you generally won’t need to adjust these manually. 
-
-The blank Gym Leader, Elite Four, and Champion classes are also set to Expert by default, so as long as you're using those templates, you're covered. 
+The blank Gym Leader, Elite Four, and Champion classes are also set to `expert` by default, so as long as you're using those templates, you're covered. 
 
 The main exception to this might be custom rival characters, where you'll likely need to assign the AI routine yourself.
 
-## All Routines
-| Behaviour/Rule                  | Description |
-|-------------------------------|-------------|
-| `no`                          | Will not use routine, can also be used to remove behaviours. |
-| `random-(maxScore)`           | Encourages random moves/targets with a score between 1 and maxScore. Avoids targeting allies unless affected by target range. |
-| `damage`                      | Scores moves and targets based on move power, negatively against teammates. |
-| `stab`                        | Adjusts damage scores to include STAB boost. |
-| `typing`                      | Considers typing in scoring. |
-| `hp`                          | Considers target's HP in scoring. |
-| `inflictParalysis`           | Encourages paralysis moves if the target has no status, discourages if already statused. |
-| `inflictSleep`               | Encourages sleep moves if the target has no status, discourages if already statused. |
-| `inflictPoison`              | Encourages poison moves if the target has no status, discourages if already statused. |
-| `inflictBurn`                | Encourages burn moves if the target has no status, discourages if already statused. |
-| `inflictFreeze`              | Encourages freeze moves if the target has no status, discourages if already statused. |
-| `inflictConfusion`           | Encourages confusion moves if the target is not confused, discourages if already confused. |
-| `inflictInfatuation`         | Encourages infatuation moves if the target is not infatuated, discourages if already infatuated. |
-| `accuracy`                   | Discourages lower accuracy moves; lower accuracy = more discouraged. |
-| `failedMove-(numberOfTurns)` | Discourages moves that failed against a target for at least a certain number of turns. |
-| `switchout-(penaltyMlt)`     | Compares scores of inactive Pokémon. If better, may switch in with a score multiplier (default 0.5). |
-| `saveLastMon`                | Trainer will try to save the last Pokémon in the party for last. |
-| `statusMoves-(score)`        | Encourages use of status moves by the given score. |
-| `dmgMoves-(score)`           | Encourages all damaging moves by the given score. |
-| `physicalDmgMoves-(score)`   | Encourages physical damage moves by the given score. |
-| `specialDmgMoves-(score)`    | Encourages special damage moves by the given score. |
-| `stealthrock`                | Encourages setting up Stealth Rock. |
-| `spikes`                     | Encourages setting up Spikes; slightly discouraged after each layer. |
-| `toxicspikes`                | Encourages setting up Toxic Spikes; more encouraged after the first layer. |
-| `stickyweb`                  | Encourages setting up Sticky Web. |
-| `rain`, `harshsunlight`, `sandstorm`, `snow`, `darkovercast`, `fog` | Encourages setting up weather; more encouraged if another weather is already active. |
-| `useitems`                   | Uses available items if certain conditions are met. |
-| `statboost`                  | Encourages use of stat-boosting moves on the first turn out. |
+---
 
-## Advanced Behaviors
+## Predefined routine presets
 In addition to the basic Noob, Beginner, Skilled, and Expert behaviors, we also offer several more advanced and specialized behaviors for greater tactical variety.
 
-| Group           | Includes                                                                                      |
-|----------------|-----------------------------------------------------------------------------------------------|
-| `inflictStatus`| `inflictParalysis`, `inflictSleep`, `inflictPoison`, `inflictBurn`, `inflictFreeze`, `inflictConfusion`, `inflictInfatuation` |
-| `sethazards`   | `stealthrock`, `spikes`, `toxicspikes`, `stickyweb`                                           |
-| `setweathers`  | `rain`, `harshsunlight`, `sandstorm`, `snow`, `darkovercast`, `fog`                          |
+| Preset | Expands to                                                                                                                                                                                                       |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `random` | *(no routines at all, picks totally randomly)*                                                                                                                                                                   |
+| `noob` | `damage`, `typing`, `failedmove-1`, `useitems`, `optimisticmultistrike`, `ohko-200`                                                                                                                              |
+| `beginner` | `inflictstatus`, `damage`, `accuracy`, `typing`, `stab`, `failedmove-5`, `useitems`, `cautiousmultistrike`, `ohko-200`                                                                                           |
+| `kamikaze` | `beginner`, `explode-5`                                                                                                                                                                                          |
+| `gambler` | `beginner`, `ohko-1000`                                                                                                                                                                                          |
+| `skilled` | `inflictstatus`, `sethazards`, `setweathers`, `damage`, `accuracy`, `typing`, `stab`, `failedmove-10`, `offensiveswitchout-0.5`, `statboost-15`, `priority`, `useitems`, `smartexplode`, `ohko-200`, `smartohko` |
+| `expert` | same as `skilled`, but `failedmove-20`                                                                                                                                                                           |
+| `inflictstatus` | `inflictparalysis-10-20`, `inflictsleep-10-20`, `inflictpoison-10-20`, `inflicttoxin-10-20`, `inflictburn-10-20`, `inflictfreeze-10-20`, `inflictconfusion-7-20`, `inflictinfatuation-7-20` |
+| `sethazards` | `stealthrock-15`, `toxicspikes-15-3`, `spikes-15-3`, `stickyweb-15` |
+| `setweathers` | `rain-10-20`, `harshsunlight-10-20`, `sandstorm-10-20`, `snow-10-20`, `darkovercast-10-20`, `fog-10-20` |
+
+---
 
 ## Customizing default Battle AI:
 That’s not to say you have to stick strictly to the default behaviors — you can absolutely customize them for greater adaptability.
 
 For example, say you have a Youngster who’s obsessed with rain and always tries to set it up in battle. You can tweak their routine like so:
-`;routines noob,rain;`
+`;routines noob,rain-10-20;`
 
-This line is added to the trigger that initiates the battle via jcoad.
+This line is added to the trigger that initiates the battle via jCoad.
 This keeps the base “Noob” behavior but adds rain-setting as a priority - perfect for giving even early trainers some personality.
 
-!!! Warning
+---
 
-    You must explicitly include the default behavior (e.g. noob), even if the trainer class already has it by default. If no routine is provided, the system falls back to the routine set on the specific trainer used (as defined on the website). If that doesn’t exist either, the AI will default to using random moves. 
+## All Routines
 
-## Wild Pokemon AI:
-It’s not just Trainers that can use battle AI - Wild Pokémon can too!
+Numbers in brackets are required. A routine that needs a number does nothing without it.
 
-By default, wild Pokémon don’t have skill levels, so they’ll simply choose moves at random. However, you can assign routines to them manually in static encounters (such as alpha / totem / boss battles).
+### Flags and controls
 
-To do this, just add `;routines noob,rain;` at the end of the jcoad that’s generating the battle, like you would do for its level for example with `;l 50;`
+These change how other routines behave. They don't score moves on their own.
 
-For routines that follow a routine-value format, only the **last instance** of that routine type in the list will be used when scoring.
+| Routine | Description |
+|---|---|
+| `no-(routine)` | Removes a routine, including ones that come from a skill level. Example: `no-useitems`. |
+| `typing` | Takes type matchups into account when scoring damage and status moves. Without it, every move is treated as neutral. |
+| `stab` | Boosts damaging moves that match the user's type. Only does something alongside `damage`. |
+| `cautiousmultistrike` | Values multi-hit moves as if they only hit their minimum number of times. |
+| `optimisticmultistrike` | Values multi-hit moves as if they hit their maximum number of times. |
+| `highestscore` | The AI always picks one of its top-scoring options, instead of choosing randomly in favor of higher scores. |
 
-For example:
- `routines = "failedMove-3, failedMove-5, failedMove-1"` → only `failedMove-1` is counted.
+### Damage
 
-This also applies when routines are defined through **personas (behaviors)**:
+| Routine | Description |
+|---|---|
+| `damage` | Scores moves by their power. Hitting teammates counts against a move. |
+| `random-(max)` | Adds a random score from 1 to max to each move and target. Never targets allies unless the move requires it. |
+| `failedmove-(penalty)` | Discourages moves that have already failed against a target. The penalty is applied once per failure, so bigger numbers are harsher. Misses don't count. |
+| `explode-(multiplier)` | Multiplies the score of self-destructing moves. Bigger numbers make explosions far more likely. |
+| `smartexplode` | Discourages self-destructing moves, more so when the user is healthy. |
+| `ohko-(score)` | Adds the given score to one-hit-KO moves. |
+| `smartohko` | Rules out one-hit-KO moves that would fail, such as against a higher-level or immune target. |
+| `priority-(strength)` | Encourages priority moves, especially against targets with low HP. |
+| `accuracy` | Discourages less accurate moves. The lower the accuracy, the bigger the penalty. |
 
- routines = "beginner, failedMove-5, noob" → the failedMove-3 from noob will override failedMove-5, since noob comes later and also includes failedMove.
- 
-!!! Important
-    This override behavior does not apply to routines written as "no-[routine]". These exclusions are always respected, regardless of their position in the list.
- 
-For example: `routines = "failedMove-3,failedMove-5,failedMove-1",` only failedMove-1 will be counted when scoring
+### Status infliction
 
-This also applies for behaviors:
-`for example: routines = "beginner,failedMove-5,noob", only failedMove-3` (and other values from 'noob' that also existed in the list) will be counted when scoring
-THIS DOESN'T HAPPEN IF THE ROUTINE IS `"=no-(routine)"`
+Each of these encourages moves that inflict the status on a target that doesn't have it, and discourages them on a target that already has it, or on an allied target. The first number is the bonus, the second is the penalty for hitting an ally. The `inflictstatus` group sets all of these with sensible defaults.
+
+| Routine | Status |
+|---|---|
+| `inflictparalysis-(score)-(allyPenalty)` | Paralysis |
+| `inflictsleep-(score)-(allyPenalty)` | Sleep |
+| `inflictpoison-(score)-(allyPenalty)` | Poison |
+| `inflicttoxin-(score)-(allyPenalty)` | Bad poison |
+| `inflictburn-(score)-(allyPenalty)` | Burn |
+| `inflictfreeze-(score)-(allyPenalty)` | Freeze |
+| `inflictconfusion-(score)-(allyPenalty)` | Confusion |
+| `inflictinfatuation-(score)-(allyPenalty)` | Infatuation |
+
+### Category boosts
+
+| Routine | Description |
+|---|---|
+| `statusmoves-(score)` | Adds the given score to all status moves. |
+| `damagemoves-(score)` | Adds the given score to all damaging moves. |
+| `physicalmoves-(score)` | Adds the given score to all physical moves. |
+| `specialmoves-(score)` | Adds the given score to all special moves. |
+
+### Field setup
+
+The `sethazards` and `setweathers` groups set all of these with sensible defaults.
+
+| Routine | Description |
+|---|---|
+| `stealthrock-(score)` | Encourages setting up Stealth Rock. |
+| `stickyweb-(score)` | Encourages setting up Sticky Web. |
+| `spikes-(score)-(layerPenalty)` | Encourages setting up Spikes. Each extra layer is worth a little less. |
+| `toxicspikes-(score)-(layerBonus)` | Encourages setting up Toxic Spikes. Each extra layer is worth a little more. |
+| `rain-(score)-(overwriteScore)`<br>`harshsunlight-(score)-(overwriteScore)`<br>`sandstorm-(score)-(overwriteScore)`<br>`snow-(score)-(overwriteScore)`<br>`darkovercast-(score)-(overwriteScore)`<br>`fog-(score)-(overwriteScore)` | Encourages setting up that weather. The first score applies when the sky is clear, the second when replacing a different weather. Never re-sets weather that is already active. |
+| `statboost-(score)` | Encourages stat-boosting moves, but only on the first turn after being sent out. |
+
+### Switching and items
+
+These only apply to trainers. Switching out and using an item compete with the mon's moves as possible actions.
+
+| Routine | Description |
+|---|---|
+| `offensiveswitchout-(multiplier)` | Compares the current mon with the rest of the party, and may switch if a teammate has a better move. Lower multipliers mean less switching. Also helps pick the best mon to send out after a faint. |
+| `savelastmon` | Tries to keep the last mon in the party in reserve for as long as possible. |
+| `useitems` | Uses healing items when a mon is low on HP. |
+
+---
+
+## Warnings
+
+Code not working like you expect? Remember the following:
+- Parameters are required. A routine like `rain` or `ohko` without a dash and number does nothing.
+- Listed values win over presets. For example, `beginner,failedmove-10` has `failedmove-5` inside `beginner`. Because `failedmove-10` was specified last, the result is `failedmove-10`.
+- Wild Mons default to `random-5` and trainers default to `beginner`.

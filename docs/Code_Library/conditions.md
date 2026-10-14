@@ -78,25 +78,52 @@ direction
 The direction the player is currently facing. Works with `msg()` and `execute()`.
 
 ### Ontouch
-Condition for if the Player is standing on the tile.
+Condition for if the target is standing on the tile.
 ```json
 ontouch
 ```
-True when the player is touching the tile.  Works with `msg()` and `execute()`.
+True when the target is touching the tile.  Works with `msg()` and `execute()`.
 
 ### Ontile
-Condition for if the Player is standing on the tile.
+Condition for if an object is standing on the tile.
 ```json
 ontile
 ```
-True when the player is standing on the tile. Works with `msg()` and `execute()`.
+True when the object is standing on the tile. Checked when the map first loads or the target moves. Works with `msg()` and `execute()`.
 
 ### Offtile
-Binary controller for is the Player is standing on the tile.
+Binary controller for is the target is standing on the tile.
 ```json
 offtile
 ```
-True when the player is not standing on the tile. Works with `msg()` and `execute()`.
+True when the target is not standing on the tile. Works with `msg()` and `execute()`.
+
+### Target Examples
+
+`ontouch`, `ontile`, and `offtile` can target specific entities or groups of entities.
+
+```json
+// Works only for the player
+if ontile
+  execute(icon=1)
+
+// Also just the player
+if ontile=player
+  execute(icon=1)
+
+// Works for any object on the tile, including sprites, animations, npcs, the player, other players, and players' followers
+if ontile=any
+  execute(with=any&icon=1)
+
+// Works for npcs, the player, and other players
+if ontile=character
+  execute(with=character&icon=1)
+
+// Works only for the npc named "Jerry"
+if ontile=Jerry
+  execute(with=Jerry&icon=1)
+
+```
 
 ## Time Conditions
 
