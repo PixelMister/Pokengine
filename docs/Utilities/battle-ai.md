@@ -42,18 +42,18 @@ The main exception to this might be custom rival characters, where you'll likely
 ## Predefined routine presets
 In addition to the basic Noob, Beginner, Skilled, and Expert behaviors, we also offer several more advanced and specialized behaviors for greater tactical variety.
 
-| Preset | Expands to                                                                                                                                                                                                       |
-|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `random` | *(no routines at all, picks totally randomly)*                                                                                                                                                                   |
-| `noob` | `damage`, `typing`, `failedmove-1`, `useitems`, `optimisticmultistrike`, `ohko-200`                                                                                                                              |
-| `beginner` | `inflictstatus`, `damage`, `accuracy`, `typing`, `stab`, `failedmove-5`, `useitems`, `cautiousmultistrike`, `ohko-200`                                                                                           |
-| `kamikaze` | `beginner`, `explode-5`                                                                                                                                                                                          |
-| `gambler` | `beginner`, `ohko-1000`                                                                                                                                                                                          |
-| `skilled` | `inflictstatus`, `sethazards`, `setweathers`, `damage`, `accuracy`, `typing`, `stab`, `failedmove-10`, `offensiveswitchout-0.5`, `statboost-15`, `priority`, `useitems`, `smartexplode`, `ohko-200`, `smartohko` |
-| `expert` | same as `skilled`, but `failedmove-20`                                                                                                                                                                           |
-| `inflictstatus` | `inflictparalysis-10-20`, `inflictsleep-10-20`, `inflictpoison-10-20`, `inflicttoxin-10-20`, `inflictburn-10-20`, `inflictfreeze-10-20`, `inflictconfusion-7-20`, `inflictinfatuation-7-20` |
-| `sethazards` | `stealthrock-15`, `toxicspikes-15-3`, `spikes-15-3`, `stickyweb-15` |
-| `setweathers` | `rain-10-20`, `harshsunlight-10-20`, `sandstorm-10-20`, `snow-10-20`, `darkovercast-10-20`, `fog-10-20` |
+| Preset | Expands to                                                                                                                                                                                                           |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `random` | *(no routines at all, picks totally randomly)*                                                                                                                                                                       |
+| `noob` | `damage`, `typing`, `failedmove-1`, `useitems`, `optimisticmultistrike`, `ohko-200`                                                                                                                                  |
+| `beginner` | `inflictstatus`, `damage`, `accuracy`, `typing`, `stab`, `failedmove-5`, `useitems`, `cautiousmultistrike`, `ohko-200`                                                                                               |
+| `kamikaze` | `beginner`, `explode-5`                                                                                                                                                                                              |
+| `gambler` | `beginner`, `ohko-1000`                                                                                                                                                                                              |
+| `skilled` | `inflictstatus`, `sethazards`, `setweathers`, `damage`, `accuracy`, `typing`, `stab`, `failedmove-10`, `offensiveswitchout-0.5`, `statboost-15`, `priority-3-3`, `useitems`, `smartexplode`, `ohko-200`, `smartohko` |
+| `expert` | same as `skilled`, but `failedmove-20`                                                                                                                                                                               |
+| `inflictstatus` | `inflictparalysis-10-20`, `inflictsleep-10-20`, `inflictpoison-10-20`, `inflicttoxin-10-20`, `inflictburn-10-20`, `inflictfreeze-10-20`, `inflictconfusion-7-20`, `inflictinfatuation-7-20`                          |
+| `sethazards` | `stealthrock-15`, `toxicspikes-15-3`, `spikes-15-3`, `stickyweb-15`                                                                                                                                                  |
+| `setweathers` | `rain-10-20`, `harshsunlight-10-20`, `sandstorm-10-20`, `snow-10-20`, `darkovercast-10-20`, `fog-10-20`                                                                                                              |
 
 ---
 
@@ -87,17 +87,17 @@ These change how other routines behave. They don't score moves on their own.
 
 ### Damage
 
-| Routine | Description |
-|---|---|
-| `damage` | Scores moves by their power. Hitting teammates counts against a move. |
-| `random-(max)` | Adds a random score from 1 to max to each move and target. Never targets allies unless the move requires it. |
-| `failedmove-(penalty)` | Discourages moves that have already failed against a target. The penalty is applied once per failure, so bigger numbers are harsher. Misses don't count. |
-| `explode-(multiplier)` | Multiplies the score of self-destructing moves. Bigger numbers make explosions far more likely. |
-| `smartexplode` | Discourages self-destructing moves, more so when the user is healthy. |
-| `ohko-(score)` | Adds the given score to one-hit-KO moves. |
-| `smartohko` | Rules out one-hit-KO moves that would fail, such as against a higher-level or immune target. |
-| `priority-(strength)` | Encourages priority moves, especially against targets with low HP. |
-| `accuracy` | Discourages less accurate moves. The lower the accuracy, the bigger the penalty. |
+| Routine                       | Description                                                                                                                                              |
+|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `damage`                      | Scores moves by their power. Hitting teammates counts against a move.                                                                                    |
+| `random-(max)`                | Adds a random score from 1 to max to each move and target. Never targets allies unless the move requires it.                                             |
+| `failedmove-(penalty)`        | Discourages moves that have already failed against a target. The penalty is applied once per failure, so bigger numbers are harsher. Misses don't count. |
+| `explode-(multiplier)`        | Multiplies the score of self-destructing moves. Bigger numbers make explosions far more likely.                                                          |
+| `smartexplode`                | Discourages self-destructing moves, more so when the user is healthy.                                                                                    |
+| `ohko-(score)`                | Adds the given score to one-hit-KO moves.                                                                                                                |
+| `smartohko`                   | Rules out one-hit-KO moves that would fail, such as against a higher-level or immune target.                                                             |
+| `priority-(bonus)-(exponent)` | Encourages priority moves, especially against targets with low HP. Actual score is `1 + bonus * (1 - hpFraction) ** exponent`.                           |
+| `accuracy`                    | Discourages less accurate moves. The lower the accuracy, the bigger the penalty.                                                                         |
 
 ### Status infliction
 
