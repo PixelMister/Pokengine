@@ -48,7 +48,7 @@ The species of horde battles can also be intermixed. To do so, use `mixed`
 
 - **One intruder at most** (but it could also be zero intruders).
 
-- **Species-specific:** The format is intruder [uid of the species it can intrude in]. For example, intruder 00hbx8rg allows the specified Mon to intrude into Tauros hordes, but not hordes of other species.
+- **Species-specific:** The format is `intruder [uid of the species it can intrude in]`. For example, `intruder 00hbx8rg` allows the specified Mon to intrude into Tauros (00hbx8rg) hordes, but not hordes of other species.
 
 - **Appearance chance:** The percentage (25% in the given example) is the odds of appearing within that horde of Mons.
 
