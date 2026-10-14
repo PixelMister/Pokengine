@@ -151,6 +151,7 @@ These only apply to trainers. Switching out and using an item compete with the m
 ## Warnings
 
 Code not working like you expect? Remember the following:
+
  - Parameters are required. A routine like `rain` or `ohko` without a dash and number does nothing.
  - Listed values win over presets. For example, `beginner,failedmove-10` has `failedmove-5` inside `beginner`. Because `failedmove-10` was specified last, the result is `failedmove-10`.
  - Wild Mons default to `random-5` and trainers default to `beginner`.
