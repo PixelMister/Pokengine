@@ -40,7 +40,7 @@ The species of horde battles can also be intermixed. To do so, use `mixed`
     
     Keep horde sizes to a maximum of **3 Pokémon** during the main game.
 
-# Intruder Horde Battles
+## Intruder Horde Battles
 
 "Intruders" are Mons of a different species that have a chance to appear alongside a horde of another species.
 
