@@ -58,6 +58,7 @@ You can also search for these items using the search term:
 ## Customizing Odds
 
 The canonical rods have the following odds to hook:
+
  - Old Rod: 25%
  - Good Rod: 50%
  - Super Rod: 75%
@@ -81,10 +82,12 @@ onCalcHookChance: (ogChance) => { return 2*ogChance; }
 
 ### Variables
 The following `ev`, `var`, or `mapvar` may be set to alter the odds (for example, during a fishing tournament or a specific map):
+
  - `mapvar[fishing_hook_multiplier]`
  - `mapvar[fishing_item_multiplier]`
 
 For example, using the Old Rod has a 25% chance to hook anything, and a 1/6 chance for that hook to be an item.
+
  - If `mapvar[fishing_item_multiplier]=6`, the player will get an item 25% of the time (and never get a Mon).
  - If `mapvar[fishing_hook_multiplier]=4`, the player will get a hook 100% of the time split between Mons (5/6) and items (1/6).
  - If both `mapvar[fishing_item_multiplier]=6` and `mapvar[fishing_hook_multiplier]=4`, the player will hook an item on every cast.
