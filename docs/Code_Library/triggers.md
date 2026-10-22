@@ -1193,6 +1193,7 @@ There are four modes:
 &lookat
 ```
 The default mode makes the camera look at the player. 
+
  - The speed is 1/10 of the distance to the player per frame.
  - The movement happens every tick, so this method is fps-dependent.
 
