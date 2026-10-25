@@ -843,6 +843,42 @@ Heals the target’s party.
 &heal
 ```
 
+### Damage
+Damages the target's party. See [Overworld Damage & Status Effects](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/overworld-damage-status-effects/>) for full documentation.
+
+### Happinesss
+Changes the Pokémon's [happiness](<https://pokengine.readthedocs.io/en/latest/HowTo_Guides/happiness/>).
+```json
+&happiness[identifier][=boost1[,boost2[,boost3]]]
+```
+**identifier***(number or string))*
+Either the party slot number (1--6) or the species UID to affect.
+
+**boost***(number))*
+- If nothing is specified,
+    - Pokémon with <100 happiness get +30 happiness
+    - Pokémon with <200 happiness get +15 happiness
+    - All others get +5 happiness
+- If one number is given, increase the happiness by this amount.
+- If two numbers are given:
+    - Pokémon with <100 happiness get `boost1` happiness
+    - All others get `boost2` happiness
+- If three numbers are given:
+    - Pokémon with <100 happiness get `boost1` happiness
+    - Pokémon with <200 happiness get `boost2` happiness
+    - All others get `boost3` happiness
+
+For example:
+
+| Command | Affects                                                                                                | Happiness < 100 | Happiness 100-199 | Happiness 200+ |
+|---|--------------------------------------------------------------------------------------------------------|---|---|---|
+| `&happiness[1]` | Party slot 1                                                                                           | +30 | +15 | +5 |
+| `&happiness[3]=10` | Party slot 3                                                                                           | +10 | +10 | +10 |
+| `&happiness[3]=10,5` | Party slot 3                                                                                           | +10 | +5 | +5 |
+| `&happiness[3]=10,5,1` | Party slot 3                                                                                           | +10 | +5 | +1 |
+| `&happiness[3]=-20` | Party slot 3                                                                                           | -20 | -20 | -20 |
+| `&happiness[00ygwxnf]=10,5` | First party Pokémon with species UID `00ygwxnf` ([Eevee](<https://pokengine.org/mons/00ygwxnf/Eevee>)) | +10 | +5 | +5 |
+
 ### Badge
 Gives the user a gym badge.
 ```json
