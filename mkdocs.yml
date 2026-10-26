@@ -62,6 +62,7 @@ nav:
         - Variable Library: Utilities/variables.md
       - Region & World Setup:
         - Region Map Setup: Utilities/region-map-setup.md
+        - Evolution Methods: Utilities/evolution-methods.md
         - Region Vars: Utilities/region-variables.md
         - Publishing a Region: Utilities/publishing-a-region.md
       - Gameplay Systems:
