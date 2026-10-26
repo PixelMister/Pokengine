@@ -1,4 +1,4 @@
-# Publishing your Region
+# Publishing Your Region
 
 It’s been a real labour of love, but you’ve finally reached the point where you’re ready to release your Region.
 
