@@ -65,6 +65,7 @@ Encounter lists are optional per tree:
 
 !!! note
     Rare honey is completely optional, you do not need to cater for it if you don't want. The honey trees will work fine without it.
+    
 ---
 
 ## Multi-Tile Footprint
