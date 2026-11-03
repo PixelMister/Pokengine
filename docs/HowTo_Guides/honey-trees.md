@@ -2,7 +2,7 @@
 
 Adds Honey Trees as a new interactable map object, following the Gen 4 mechanic: slather honey, wait, tree shakes, guaranteed encounter.
 
-![Honey tree animated](‎docs/HowTo_Guides/assets/honey-tree-shake.gif‎)
+![Honey tree animated](assets/honey-tree-shake.gif‎)
 
 The code is simply - `honeytree(encounter-list-name)` 
 You can make this a root object if you want.
@@ -19,7 +19,7 @@ It also introduces a second tier, **Rare Honey**, and a new general-purpose comp
 
 ## Core Mechanic
 
-![Honey tree in battle](‎docs/HowTo_Guides/assets/honey-battle.png‎)
+![Honey tree in battle](assets/honey-battle.png‎)
 
 Interact with an idle tree:
 
@@ -56,6 +56,13 @@ Checking a waiting tree displays which honey is currently applied, using the rea
 - `findEncounter`'s existing pity-timer mechanic is reused by setting `player.encountered = 30`, forcing its internal chance gate to pass.
 - Pokémon selection itself is therefore still handled by the existing encounter system.
 
+Visual feedback:
+
+- When honey is slathered, the tree receives a visual overlay showing honey on its trunk.
+- This lets players immediately identify which trees they've already slathered, without having to interact with each one.
+- This is a quality-of-life improvement over the original Gen 4 games.
+- Checking a tree that is still waiting will also tell the player whether regular Honey or Rare Honey was used, displaying the actual item name.
+
 !!! note
     As mentioned, please note that encounters will always persist. They won't go away over time. Also note that the time for honey tree encounters will continue counting even while offline - neat!
 
@@ -85,6 +92,10 @@ Encounter lists are optional per tree:
 ## Multi-Tile Footprint
 
 ![Honey tree set up in mapbuilder](assets/honey-tree-code.PNG)
+
+**Important: Base tree trunk tile is separate.**
+
+The honey tree code does not generate or place the base tree trunk sprite.** You must manually add the trunk tile to your tilemap.**
 
 Honey Trees occupy a **2×2 area** from a single `honeytree(list)` placement:
 
