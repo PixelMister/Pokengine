@@ -15,6 +15,8 @@ There are a few Pokengine-specific changes:
 
 It also introduces a second tier, **Rare Honey**, and a new general-purpose compiler mechanism for multi-tile objects that share one interactive instance.
 
+---
+
 ## Core Mechanic
 
 Interact with an idle tree:
@@ -43,6 +45,11 @@ Checking a waiting tree displays which honey is currently applied, using the rea
   - `findEncounter`'s existing pity-timer mechanic is reused by setting `player.encountered = 30`, forcing its internal chance gate to pass.
   - Pokémon selection itself is therefore still handled by the existing encounter system.
 
+!!! note
+    As mentioned, please note that encounters will always persist. They won't go away over time. Also note that the time for honey tree encounters will continue counting even while offline - neat!
+
+---
+
 ## Rare Honey
 
 Introduces **Rare Honey** as a separate honey tier.
@@ -55,6 +62,10 @@ This follows the existing philosophy of better rod tiers: better access and odds
 Encounter lists are optional per tree:
   - `honeytree(list)` → Rare Honey falls back to the regular encounter list.
   - `honeytree(list,rare-list)` → Rare Honey uses its own distinct encounter pool.
+
+!!! note
+    Rare honey is completely optional, you do not need to cater for it if you don't want. The honey trees will work fine without it.
+---
 
 ## Multi-Tile Footprint
 
@@ -90,6 +101,8 @@ The compiler automatically generates the three additional tiles from a single `h
 !!! note
     It might look a bit confusing, as only one object is required. The other 3 wont be visible, but they're essentially solid objects. Please take note to place the honey tree object always on the bottom left!
 
+---
+
 ## Persistence
 
 Honey Tree state is packed into a single `eventVars` key:
@@ -109,6 +122,8 @@ The tree's current state is derived from **real elapsed time** whenever it is ch
 Nothing is proactively cleared.
 
 A dud simply reverts to the idle state once its wait time has elapsed, without requiring any additional write.
+
+---
 
 ## Achievements
 
