@@ -87,6 +87,9 @@ This introduces a new reusable JCOAD pattern:
 
 The compiler automatically generates the three additional tiles from a single `honeytree()` call. The functionality is therefore not honey-tree-specific and can be reused by other multi-tile objects.
 
+!!! note
+    It might look a bit confusing, as only one object is required. The other 3 wont be visible, but they're essentially solid objects. Please take note to place the honey tree object always on the bottom left!
+
 ## Persistence
 
 Honey Tree state is packed into a single `eventVars` key:
