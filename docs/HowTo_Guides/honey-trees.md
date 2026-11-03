@@ -1,6 +1,6 @@
 ## Summary
 
-Adds Honey Trees as a new interactable map object, following the Gen 4 mechanic: slather honey, wait, tree shakes, guaranteed encounter.
+Adds Honey Trees as a new interactable map object, following the Gen 4 mechanic: slather honey, wait, tree shakes,  encounter.
 
 ![Honey tree animated](assets/honey-tree-shake.gif)
 
