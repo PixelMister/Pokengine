@@ -5,7 +5,7 @@ Adds Honey Trees as a new interactable map object, following the Gen 4 mechanic:
 ![Honey tree animated](assets/honey-tree-shake.gif)
 
 The code is simply - `honeytree(encounter-list-name)` 
-You can make this a root object if you want.
+You can make this a root object if you want. **Do not make it a root object** if you want to have different encounters for different trees.
 
 There are a few Pokengine-specific changes:
 
