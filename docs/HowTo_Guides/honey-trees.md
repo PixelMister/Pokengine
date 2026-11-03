@@ -64,7 +64,7 @@ Encounter lists are optional per tree:
   - `honeytree(list,rare-list)` → Rare Honey uses its own distinct encounter pool.
 
 !!! note
-    Rare honey is completely optional, you do not need to cater for it if you don't want. The honey trees will work fine without it.
+    Rare honey is **completely optional**, you do not need to cater for it if you don't want. The honey trees will work fine without it.
     
 ---
 
@@ -137,4 +137,4 @@ This follows the existing `Battle.CRITICAL_CAPTURE_ACHIEVEMENTS` pattern.
 The site tracks the player's actual slather count and determines which achievement threshold has been crossed. There is therefore no client-side counter or threshold logic that could become out of sync.
 
 !!! note
-    The honey slather achievements are Global, so it will count towards them regardless of region. But, it will also apply a `honey_slathered` incremental ev that is regional and will wipe on reset. So you can use this for gameplay if you wish. (Maybe be refactored in future).
+    The honey slather achievements are Global, so it will count towards them regardless of Region. But, it will also apply a `honey_slathered` incremental ev that is regional and will wipe on reset. So you can use this for gameplay if you wish. (Maybe be refactored in future).
