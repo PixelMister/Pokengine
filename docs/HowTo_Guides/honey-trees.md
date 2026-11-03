@@ -2,7 +2,7 @@
 
 Adds Honey Trees as a new interactable map object, following the Gen 4 mechanic: slather honey, wait, tree shakes, guaranteed encounter.
 
-![Honey tree animated](assets/honey-tree-shake.gif‎)
+![Honey tree animated](assets/honey-tree-shake.gif)
 
 The code is simply - `honeytree(encounter-list-name)` 
 You can make this a root object if you want.
@@ -19,7 +19,7 @@ It also introduces a second tier, **Rare Honey**, and a new general-purpose comp
 
 ## Core Mechanic
 
-![Honey tree in battle](assets/honey-battle.png‎)
+![Honey tree in battle](assets/honey-battle.png)
 
 Interact with an idle tree:
 
