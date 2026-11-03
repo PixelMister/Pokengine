@@ -36,7 +36,8 @@ void | Depth offest is relatvive to the void, or the map background.
 back | Depth offset is relative to just above the background, or always behind the player.
 bottom | Depth offset is relative to the map but behind the shadows.
 map | Depth offset is relative to the base position on the map. `n` is the number of pixels in front of the object the player needs to be to appear in front of it.
-fore | Depth offset is relative to just abouve the foreground or always above the player.
+fore | Depth offset is relative to just above the foreground or always above the player.
+lm | Depth offset is relative to just above `fore` but underneath `hud`.
 hud | Depth offset is relative to above the weather. The hud canvas is actually separate from the game canvas: game < weather < hud < fadeout.
 
 The pixel offsets (`+n` or `-n`)especially when working with a depth other than `map`, are primarily used to place objects relative to one another.
