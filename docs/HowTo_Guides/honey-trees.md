@@ -20,19 +20,19 @@ It also introduces a second tier, **Rare Honey**, and a new general-purpose comp
 ## Core Mechanic
 
 Interact with an idle tree:
-  - If the player has Honey and/or Rare Honey, they are offered the option to slather.
-  - If they have both, they are asked which one to use.
-  - If they have no honey, the tree only displays flavor text with no dead-end prompt.
+- If the player has Honey and/or Rare Honey, they are offered the option to slather.
+- If they have both, they are asked which one to use.
+- If they have no honey, the tree only displays flavor text with no dead-end prompt.
 
 Slathering immediately rolls two things:
-  1. Whether the tree will produce an encounter.
-  2. How long the tree will take to become active.
+1. Whether the tree will produce an encounter.
+2. How long the tree will take to become active.
 
 There is a **90% chance of producing an encounter** when using regular Honey.
-  - The remaining 10% is a "dud".
-  - Rare Honey will not produce a dud, always a hit.
-  - A dud is indistinguishable from an idle tree once its wait elapses.
-  - No message is shown and the honey is simply consumed, matching the behavior of the real games.
+- The remaining 10% is a "dud".
+- Rare Honey will not produce a dud, always a hit.
+- A dud is indistinguishable from an idle tree once its wait elapses.
+- No message is shown and the honey is simply consumed, matching the behavior of the real games.
 
 Wait time is randomized in **30-minute in-game increments**, weighted toward the middle using a sum-of-two-dice roll rather than a flat uniform distribution.
   - **Regular Honey:** 3–9 in-game hours, peaking at 6 hours.
@@ -41,9 +41,9 @@ Wait time is randomized in **30-minute in-game increments**, weighted toward the
 Rare Honey uses its own native range rather than halving the regular range, since halving an odd 30-minute step would produce 15-minute offsets and break the intended increment.
 Checking a waiting tree displays which honey is currently applied, using the real item name from `ITEMS[uid].name` rather than hardcoded text.
 - Checking a shaking tree gives a **guaranteed encounter**.
-  - This does not use the normal Rock Smash/Cut-style chance of finding nothing.
-  - `findEncounter`'s existing pity-timer mechanic is reused by setting `player.encountered = 30`, forcing its internal chance gate to pass.
-  - Pokémon selection itself is therefore still handled by the existing encounter system.
+- This does not use the normal Rock Smash/Cut-style chance of finding nothing.
+- `findEncounter`'s existing pity-timer mechanic is reused by setting `player.encountered = 30`, forcing its internal chance gate to pass.
+- Pokémon selection itself is therefore still handled by the existing encounter system.
 
 !!! note
     As mentioned, please note that encounters will always persist. They won't go away over time. Also note that the time for honey tree encounters will continue counting even while offline - neat!
