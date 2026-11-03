@@ -2,7 +2,7 @@
 
 Adds Honey Trees as a new interactable map object, following the Gen 4 mechanic: slather honey, wait, tree shakes, guaranteed encounter.
 
-(assets/honey-tree-code.png)
+![Honey tree set up in mapbuilder](assets/honey-tree-code.PNG)
 
 The code is simply - `honeytree(encounter-list-name)` 
 You can make this a root object if you want.
