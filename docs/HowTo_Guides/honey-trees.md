@@ -25,10 +25,12 @@ Interact with an idle tree:
 - If they have both, they are asked which one to use.
 - If they have no honey, the tree only displays flavor text with no dead-end prompt.
 
+
 Slathering immediately rolls two things:
 
 1. Whether the tree will produce an encounter.
 2. How long the tree will take to become active.
+
 
 There is a **90% chance of producing an encounter** when using regular Honey.
 
@@ -37,10 +39,12 @@ There is a **90% chance of producing an encounter** when using regular Honey.
 - A dud is indistinguishable from an idle tree once its wait elapses.
 - No message is shown and the honey is simply consumed, matching the behavior of the real games.
 
+
 Wait time is randomized in **30-minute in-game increments**, weighted toward the middle using a sum-of-two-dice roll rather than a flat uniform distribution.
 
   - **Regular Honey:** 3–9 in-game hours, peaking at 6 hours.
   - **Rare Honey:** 1.5–4.5 in-game hours, peaking at 3 hours.
+  
 
 Rare Honey uses its own native range rather than halving the regular range, since halving an odd 30-minute step would produce 15-minute offsets and break the intended increment.
 Checking a waiting tree displays which honey is currently applied, using the real item name from `ITEMS[uid].name` rather than hardcoded text.
@@ -63,6 +67,7 @@ Introduces **Rare Honey** as a separate honey tier.
 - Always produces an encounter, unlike regular Honey’s 90% chance.
 - Provides a shorter effective wait time.
 - The wait range is rolled natively as **1.5–4.5 in-game hours**, with a peak at 3 hours.
+
 
 This follows the existing philosophy of better rod tiers: better access and odds are balanced by scarcity rather than making the regular tier obsolete.
 Encounter lists are optional per tree:
