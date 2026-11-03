@@ -9,8 +9,8 @@ You can make this a root object if you want. **Do not make it a root object** if
 
 There are a few Pokengine-specific changes:
 
-- A single encounter list instead of A/B/C groups.
-- No Munchlax-tree distinction.
+- A single encounter list instead of A/B/C groups. (Not natively built in, but could be done via jcoad.)
+- No Munchlax-tree distinction. (Not natively built in, but could be done via jcoad.)
 - A significant departure from Gen 4: **encounters never expire**. Once a tree starts shaking, it continues shaking until the encounter is fought, whether that’s 10 minutes or 10 hours later.
 
 It also introduces a second tier, **Rare Honey**, and a new general-purpose compiler mechanism for multi-tile objects that share one interactive instance.
